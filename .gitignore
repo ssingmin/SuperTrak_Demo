@@ -1,0 +1,13 @@
+# ignore all .isopen and .set files
+*.isopen
+*.set
+
+# ignore all files in the Temp/Binaries subfolders
+Binaries/
+Diagnosis/
+*.set/
+*.isopen/
+
+Temp/             # ignore whole Temp folder
+!Temp/add/        # trace add folder
+!Temp/add/**      # trace file in add folder
