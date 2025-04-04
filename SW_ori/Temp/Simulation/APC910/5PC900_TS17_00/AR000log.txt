@@ -1,0 +1,21 @@
+Fri Apr  4 09:35:56 2025
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Fri Apr  4 09:35:56 2025
+No ARsim registration found!
+
+Fri Apr  4 09:35:56 2025
+InstanceName: 0000014f6c014da9
+
+Fri Apr  4 09:35:56 2025
+WorkingDirectory: C:\projects\SuperTrak_Demo\SW_ori\Temp\Simulation\APC910\5PC900_TS17_00\
+
+Fri Apr  4 09:35:56 2025
+COMMAND_COLDSTART
+
+Fri Apr  4 09:35:59 2025
+Version: I4.93
+
+Fri Apr  4 09:36:01 2025
+COMMAND_TERMINATE
+

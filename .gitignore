@@ -9,5 +9,9 @@ Diagnosis/
 *.isopen/
 
 Temp/             # ignore whole Temp folder
-!Temp/add/        # trace add folder
-!Temp/add/**      # trace file in add folder
+!Temp/        # trace add folder
+!Temp/Simulation/        # trace add folder
+!Temp/Simulation/APC910//        # trace add folder
+!Temp/Simulation/APC910/5PC900_TS17_00/        # trace add folder
+!Temp/Simulation/APC910/5PC900_TS17_00/SuperTrakuserfile/        # trace add folder
+!Temp/Simulation/APC910/5PC900_TS17_00/SuperTrakuserfile/**      # trace file in add folder

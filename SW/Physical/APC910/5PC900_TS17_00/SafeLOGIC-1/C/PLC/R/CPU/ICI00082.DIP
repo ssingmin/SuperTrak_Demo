@@ -1,0 +1,18 @@
+(*
+T: FUNCTION_BLOCK GuardLocks
+FW: NO
+CI#: 82
+QSL: 17
+QVE: 17
+QVPC: 17
+QPar: 8
+QFBI: 6
+*)
+iBlinkClk	@IV 1	@TYP:43	VAR_INPUT
+iGuardClosed	@IV 4	@TYP:43	VAR_INPUT
+iReqGuardUnlock	@IV 2	@TYP:43	VAR_INPUT
+iReset	@IV 3	@TYP:43	VAR_INPUT
+iSafetyForUnlockOk	@IV 5	@TYP:43	VAR_INPUT
+oGuardLocked	@IV 7	@TYP:43	VAR_OUTPUT
+oLamp	@IV 8	@TYP:43	VAR_OUTPUT
+oReqUnlock	@IV 6	@TYP:43	VAR_OUTPUT

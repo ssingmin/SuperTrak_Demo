@@ -1,0 +1,17 @@
+iParDiv,POE\CheckAnalogSensor\CheckAnalogSensor.GB,2,IN,15,0,Read,,SAFEINT,,,VAR_INPUT,LOCAL,,Messwert-Skalierung von [bin] auf [E]: Divisor
+iParMult,POE\CheckAnalogSensor\CheckAnalogSensor.GB,2,IN,14,0,Read,,SAFEINT,,,VAR_INPUT,LOCAL,,Messwert-Skalierung von [bin] auf [E]: Multiplikator
+iParPreOffset,POE\CheckAnalogSensor\CheckAnalogSensor.GB,1,IN,13,66,Read,,SAFEINT,,,VAR_INPUT,LOCAL,,Messwert-Offset in [bin] vor der Skalierung
+iParPreOffset,POE\CheckAnalogSensor\CheckAnalogSensor.GB,1,IN,43,13,Read,,SAFEINT,,,VAR_INPUT,LOCAL,,Messwert-Offset in [bin] vor der Skalierung
+iReset,POE\CheckAnalogSensor\CheckAnalogSensor.GB,1,IN,18,69,Read,,SAFEBOOL,,,VAR_INPUT,LOCAL,,Reset (SAFETRUE bewirkt AutoReset)
+iSensorMute,POE\CheckAnalogSensor\CheckAnalogSensor.GB,1,IN,62,19,Read,,SAFEBOOL,,,VAR_INPUT,LOCAL,,TRUE == Sensor-Fehler ignorieren und oValue auf 0
+iSensorOk,POE\CheckAnalogSensor\CheckAnalogSensor.GB,1,IN,19,16,Read,,SAFEBOOL,,,VAR_INPUT,LOCAL,,TRUE == Sensor meldet keinen Fehler
+iSensorValue,POE\CheckAnalogSensor\CheckAnalogSensor.GB,1,IN,12,13,Read,,SAFEINT,,,VAR_INPUT,LOCAL,,[bin]  Aktueller Messwert vom Sensor
+mScaleSAFEINT,POE\CheckAnalogSensor\CheckAnalogSensor.GB,0,,10,9,,,,,,VAR,FB,,
+mSensorActive,POE\CheckAnalogSensor\CheckAnalogSensor.GB,1,IN,66,11,Read,,SAFEBOOL,,,VAR,LOCAL,,TRUE == Sensor ist aktiv
+mSensorActive,POE\CheckAnalogSensor\CheckAnalogSensor.GB,1,IN,70,11,Read,,SAFEBOOL,,,VAR,LOCAL,,TRUE == Sensor ist aktiv
+mSensorActive,POE\CheckAnalogSensor\CheckAnalogSensor.GB,1,OUT,61,35,Write,,SAFEBOOL,,,VAR,LOCAL,,TRUE == Sensor ist aktiv
+oError,POE\CheckAnalogSensor\CheckAnalogSensor.GB,2,OUT,32,52,Write,,SAFEBOOL,,,VAR_OUTPUT,LOCAL,,TRUE == Sensor-Fehler gespeichert, iReset erforderlich
+oSensorOk,POE\CheckAnalogSensor\CheckAnalogSensor.GB,1,IN,46,15,Read,,SAFEBOOL,,,VAR_OUTPUT,LOCAL,,TRUE == Sensor Ok
+oSensorOk,POE\CheckAnalogSensor\CheckAnalogSensor.GB,2,OUT,20,47,Write,,SAFEBOOL,,,VAR_OUTPUT,LOCAL,,TRUE == Sensor Ok
+oValue,POE\CheckAnalogSensor\CheckAnalogSensor.GB,2,OUT,36,52,Write,,SAFEINT,,,VAR_OUTPUT,LOCAL,,[E] Aktueller Messwert (0 solange oSensorOk fehlt)
+SR_S_SensorError,POE\CheckAnalogSensor\CheckAnalogSensor.GB,0,,28,82,,,,,,VAR,FB,,

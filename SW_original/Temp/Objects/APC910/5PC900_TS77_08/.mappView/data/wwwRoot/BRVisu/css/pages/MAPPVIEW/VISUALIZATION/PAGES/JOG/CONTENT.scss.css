@@ -1,0 +1,457 @@
+#ContentJog_btnStart {
+  top: 180px;
+  position: absolute;
+}
+
+#ContentJog_btnStart {
+  left: 380px;
+  position: absolute;
+}
+
+#ContentJog_btnStart {
+  width: 200px;
+}
+
+#ContentJog_btnStart {
+  height: 40px;
+}
+
+#ContentJog_btnStart {
+  z-index: 0;
+}
+
+#ContentJog_btnStart:not(.disabled) {
+  background-color: lime;
+}
+
+#ContentJog_btnStart.disabled {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentJog_btnStart.disabled.active {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentJog_btnStart.disabled.checked {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentJog_btnStop {
+  top: 180px;
+  position: absolute;
+}
+
+#ContentJog_btnStop {
+  left: 720px;
+  position: absolute;
+}
+
+#ContentJog_btnStop {
+  width: 200px;
+}
+
+#ContentJog_btnStop {
+  height: 40px;
+}
+
+#ContentJog_btnStop {
+  z-index: 1;
+}
+
+#ContentJog_btnStop:not(.disabled) {
+  background-color: red;
+}
+
+#ContentJog_btnStop.disabled {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentJog_btnStop.disabled.active {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentJog_btnStop.disabled.checked {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentJog_BasicSlider1 {
+  top: 380px;
+  position: absolute;
+}
+
+#ContentJog_BasicSlider1 {
+  left: 380px;
+  position: absolute;
+}
+
+#ContentJog_BasicSlider1 {
+  width: 520px;
+}
+
+#ContentJog_BasicSlider1 {
+  height: 80px;
+}
+
+#ContentJog_BasicSlider1 {
+  z-index: 2;
+}
+
+#ContentJog_BasicSlider2 {
+  top: 495px;
+  position: absolute;
+}
+
+#ContentJog_BasicSlider2 {
+  left: 380px;
+  position: absolute;
+}
+
+#ContentJog_BasicSlider2 {
+  width: 520px;
+}
+
+#ContentJog_BasicSlider2 {
+  height: 60px;
+}
+
+#ContentJog_BasicSlider2 {
+  z-index: 3;
+}
+
+#ContentJog_Label1 {
+  top: 415px;
+  position: absolute;
+}
+
+#ContentJog_Label1 {
+  left: 219px;
+  position: absolute;
+}
+
+#ContentJog_Label1 {
+  width: 140px;
+}
+
+#ContentJog_Label1 {
+  height: 30px;
+}
+
+#ContentJog_Label1 {
+  z-index: 4;
+}
+
+#ContentJog_Label2 {
+  top: 508px;
+  position: absolute;
+}
+
+#ContentJog_Label2 {
+  left: 219px;
+  position: absolute;
+}
+
+#ContentJog_Label2 {
+  width: 140px;
+}
+
+#ContentJog_Label2 {
+  height: 55px;
+}
+
+#ContentJog_Label2 {
+  z-index: 5;
+}
+
+#ContentJog_NumericOutput1 {
+  top: 415px;
+  position: absolute;
+}
+
+#ContentJog_NumericOutput1 {
+  left: 939px;
+  position: absolute;
+}
+
+#ContentJog_NumericOutput1 {
+  width: 120px;
+}
+
+#ContentJog_NumericOutput1 {
+  height: 30px;
+}
+
+#ContentJog_NumericOutput1 {
+  z-index: 6;
+}
+
+#ContentJog_NumericOutput2 {
+  top: 520px;
+  position: absolute;
+}
+
+#ContentJog_NumericOutput2 {
+  left: 940px;
+  position: absolute;
+}
+
+#ContentJog_NumericOutput2 {
+  width: 120px;
+}
+
+#ContentJog_NumericOutput2 {
+  height: 30px;
+}
+
+#ContentJog_NumericOutput2 {
+  z-index: 7;
+}
+
+#ContentJog_Label3 {
+  top: 60px;
+  position: absolute;
+}
+
+#ContentJog_Label3 {
+  left: 620px;
+  position: absolute;
+}
+
+#ContentJog_Label3 {
+  width: 100px;
+}
+
+#ContentJog_Label3 {
+  height: 60px;
+}
+
+#ContentJog_Label3 {
+  z-index: 8;
+}
+
+#ContentJog_Label3 {
+  color: #ff8000;
+}
+
+#ContentJog_Label3 {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#ContentJog_Label3 {
+  font-size: 32px;
+}
+
+#ContentJog_Label3 {
+  font-weight: bold;
+}
+
+#ContentJog_MomentaryPushButton1 {
+  top: 280px;
+  position: absolute;
+}
+
+#ContentJog_MomentaryPushButton1 {
+  left: 760px;
+  position: absolute;
+}
+
+#ContentJog_MomentaryPushButton1 {
+  width: 180px;
+}
+
+#ContentJog_MomentaryPushButton1 {
+  height: 60px;
+}
+
+#ContentJog_MomentaryPushButton1 {
+  z-index: 9;
+}
+
+#ContentJog_MomentaryPushButton1 img {
+  height: 65px;
+}
+
+#ContentJog_MomentaryPushButton1 svg {
+  height: 65px;
+}
+
+#ContentJog_MomentaryPushButton1 img {
+  width: 250px;
+}
+
+#ContentJog_MomentaryPushButton1 svg {
+  width: 250px;
+}
+
+#ContentJog_MomentaryPushButton1 {
+  border-radius: 0px;
+}
+
+#ContentJog_MomentaryPushButton2 {
+  top: 280px;
+  position: absolute;
+}
+
+#ContentJog_MomentaryPushButton2 {
+  left: 380px;
+  position: absolute;
+}
+
+#ContentJog_MomentaryPushButton2 {
+  width: 180px;
+}
+
+#ContentJog_MomentaryPushButton2 {
+  height: 60px;
+}
+
+#ContentJog_MomentaryPushButton2 {
+  z-index: 10;
+}
+
+#ContentJog_MomentaryPushButton2 img {
+  height: 65px;
+}
+
+#ContentJog_MomentaryPushButton2 svg {
+  height: 65px;
+}
+
+#ContentJog_MomentaryPushButton2 img {
+  width: 250px;
+}
+
+#ContentJog_MomentaryPushButton2 svg {
+  width: 250px;
+}
+
+#ContentJog_MomentaryPushButton2 {
+  border-radius: 0px;
+}
+
+#ContentJog_GroupBox2 {
+  top: 259px;
+  position: absolute;
+}
+
+#ContentJog_GroupBox2 {
+  left: 300px;
+  position: absolute;
+}
+
+#ContentJog_GroupBox2 {
+  width: 680px;
+}
+
+#ContentJog_GroupBox2 {
+  height: 160px;
+}
+
+#ContentJog_GroupBox2 {
+  z-index: 11;
+}
+
+#ContentJog_btnOkHome {
+  top: 83px;
+  position: absolute;
+}
+
+#ContentJog_btnOkHome {
+  left: 299px;
+  position: absolute;
+}
+
+#ContentJog_btnOkHome {
+  width: 100px;
+}
+
+#ContentJog_btnOkHome {
+  height: 30px;
+}
+
+#ContentJog_btnOkHome {
+  z-index: 0;
+}
+
+#ContentJog_Label5 {
+  top: 23px;
+  position: absolute;
+}
+
+#ContentJog_Label5 {
+  left: 19px;
+  position: absolute;
+}
+
+#ContentJog_Label5 {
+  width: 621px;
+}
+
+#ContentJog_Label5 {
+  height: 40px;
+}
+
+#ContentJog_Label5 {
+  z-index: 1;
+}
+
+#ContentJog_Label5 {
+  color: red;
+}
+
+#ContentJog_TextOutput1 {
+  top: 600px;
+  position: absolute;
+}
+
+#ContentJog_TextOutput1 {
+  left: 370px;
+  position: absolute;
+}
+
+#ContentJog_TextOutput1 {
+  width: 540px;
+}
+
+#ContentJog_TextOutput1 {
+  height: 30px;
+}
+
+#ContentJog_TextOutput1 {
+  z-index: 12;
+}
+
+#ContentJog_TextOutput1 {
+  border-width: 1px;
+}
+
+#ContentJog_TextOutput1 {
+  border-style: solid;
+}
+
+#ContentJog_TextOutput1:before {
+  border-style: solid;
+}
+
+#ContentJog_TextOutput1:after {
+  border-style: solid;
+}
+
+#ContentJog_TextOutput1 {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}

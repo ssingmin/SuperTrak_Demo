@@ -1,0 +1,8 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAxis/MpAxis.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAxis/MpAxis.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAxis/MpAxisError.typ
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10man/Acp10man.typ
+$(AS_PROJECT_PATH)/Physical/APC910/5PC900_TS77_08/Motion/AxisConfig.mpaxisbasic
+$(AS_PROJECT_PATH)/Logical/Source/Axis/AxisCtrl/Variables.var

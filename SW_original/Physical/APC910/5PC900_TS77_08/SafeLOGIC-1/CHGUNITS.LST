@@ -1,0 +1,9 @@
+(*
+NPOU: 6
+*)
+PG	Main
+FB	CheckAnalogSensor
+FB	ScaleSAFEDINT
+FB	ScaleSAFEINT
+FB	SafetyRun
+FB	GuardLocks

@@ -1,0 +1,10 @@
+@import '../../../../css/libs/variables.scss';
+@import '../../../../css/libs/mixins.scss';
+
+.breasePDFViewer {
+    display: inline-block;
+    vertical-align: middle;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}

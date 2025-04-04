@@ -1,0 +1,45 @@
+@import "mixins.scss";
+#ContentVideo_VideoPlayer1 {	@include elemTop(40);
+}
+#ContentVideo_VideoPlayer1 {	@include elemLeft(239);
+}
+#ContentVideo_VideoPlayer1 {	@include elemWidth(807);
+}
+#ContentVideo_VideoPlayer1 {	@include elemHeight(570);
+}
+#ContentVideo_VideoPlayer1 {	z-index: 0;
+}
+#ContentVideo_GroupBox1 {	@include elemTop(260);
+}
+#ContentVideo_GroupBox1 {	@include elemLeft(300);
+}
+#ContentVideo_GroupBox1 {	@include elemWidth(680);
+}
+#ContentVideo_GroupBox1 {	@include elemHeight(160);
+}
+#ContentVideo_GroupBox1 {	z-index: 1;
+}
+#ContentVideo_btnOk {	@include elemTop(83);
+}
+#ContentVideo_btnOk {	@include elemLeft(299);
+}
+#ContentVideo_btnOk {	@include elemAutoWidth(100);
+}
+#ContentVideo_btnOk {	@include elemAutoHeight(30);
+}
+#ContentVideo_btnOk {	z-index: 0;
+}
+#ContentVideo_Label3 {	@include elemTop(23);
+}
+#ContentVideo_Label3 {	@include elemLeft(19);
+}
+#ContentVideo_Label3 {	@include elemAutoWidth(621);
+}
+#ContentVideo_Label3 {	@include elemAutoHeight(40);
+}
+#ContentVideo_Label3 {	z-index: 1;
+}
+#ContentVideo_Label3 {	& span {
+		color: rgba(255, 0, 0, 1);
+	}
+}

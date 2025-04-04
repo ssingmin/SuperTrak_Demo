@@ -1,0 +1,43 @@
+#LogoHeader_Image1 {
+  top: 0px;
+  position: absolute;
+}
+
+#LogoHeader_Image1 {
+  left: 1160px;
+  position: absolute;
+}
+
+#LogoHeader_Image1 {
+  width: 110px;
+}
+
+#LogoHeader_Image1 {
+  height: 60px;
+}
+
+#LogoHeader_Image1 {
+  z-index: 0;
+}
+
+#LogoHeader_LanguageSelector1 {
+  top: 8px;
+  position: absolute;
+}
+
+#LogoHeader_LanguageSelector1 {
+  left: 15px;
+  position: absolute;
+}
+
+#LogoHeader_LanguageSelector1 {
+  width: 110px;
+}
+
+#LogoHeader_LanguageSelector1 {
+  height: 30px;
+}
+
+#LogoHeader_LanguageSelector1 {
+  z-index: 1;
+}

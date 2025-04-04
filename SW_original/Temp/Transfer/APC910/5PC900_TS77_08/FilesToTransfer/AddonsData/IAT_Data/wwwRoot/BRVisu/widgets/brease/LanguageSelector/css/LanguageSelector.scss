@@ -1,0 +1,25 @@
+.breaseLanguageSelector {
+
+    .breaseList {
+        &.icon-left li {
+            padding-left: 52px;
+            img {
+                height:18px; top:10px;
+            }
+        }
+
+        &.icon-right li {
+            padding-right: 52px;
+            img {
+                height:18px; top:10px;
+            }
+        }
+    }
+    .breaseToggleButton {
+        img {
+            height:18px;
+            width:auto;
+            top:auto;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+VAR_CONFIG
+	::ST_Logic:doExpertModeVisual AT %QX."X20DO8322".DigitalOutput01;
+	::ST_Logic:doExpertModeSound AT %QX."X20DO8322".DigitalOutput02;
+	::ST_Logic:doSafetyLampGuard AT %QX."X20DO8322".DigitalOutput03;
+	::ST_Logic:doSafetyLampSiReset AT %QX."X20DO8322".DigitalOutput04;
+	::ST_Logic:SafetyRun AT %IX."X20SLX842".BOOL001; (*?*)
+	::ST_Logic:SafetyEmStopSS1Ok AT %IX."X20SLX842".BOOL002; (*?*)
+	::ST_Logic:SafetyReqGuardUnlock AT %IX."X20SLX842".BOOL003; (*Safety Logic*)
+	::ST_Logic:SafetyErrGuardLock AT %IX."X20SLX842".BOOL004; (*?*)
+	::ST_Logic:SafetyErrFBPowerOn AT %IX."X20SLX842".BOOL005; (*?*)
+	::ST_Logic:SafetyGuardLocked AT %IX."X20SLX842".BOOL006; (*?*)
+	::ST_Logic:SafetyOk AT %IX."X20SLX842".BOOL008; (*?*)
+	::ST_Logic:SafetyLampGuard AT %IX."X20SLX842".BOOL009; (*Safety Logic*)
+	::ST_Logic:SafetyLampSiReset AT %IX."X20SLX842".BOOL010; (*Safety Logic*)
+	::ST_Logic:Acknowledge AT %IX."X20SLX842".BOOL011; (*Safety Logic*)
+	::ST_Logic:SafetyForUnlockActive AT %QX."X20SLX842".BOOL101; (*Output This Signal When Shuttles Stoped and Servo OFF*)
+END_VAR

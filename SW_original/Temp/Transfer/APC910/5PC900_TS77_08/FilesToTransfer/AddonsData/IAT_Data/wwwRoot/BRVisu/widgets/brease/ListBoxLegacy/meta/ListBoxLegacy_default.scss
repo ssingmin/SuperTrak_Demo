@@ -1,0 +1,52 @@
+@import "mixins.scss";
+@mixin widgets_brease_ListBoxLegacy_base {
+	@include elemWidth(150);
+	@include elemHeight(150);
+ul div {
+	background: #000;
+}
+	border-width: 2px;
+	border-style: solid;
+	@include border-radius(0px);
+ul li {
+	background-color: #FFF;
+}
+ul li {
+	background-image: none;
+}
+	border-color: #535353;
+li span {
+	color: #535353;
+}
+ul li.selected {
+	background-color: #ff8800;
+}
+ul li.selected {
+	background-image: none;
+}
+ul li.selected span {
+	color: #ffffff;
+}
+ul li {
+	@include text-alignment(center);
+}
+	opacity: 1;
+ul li span {
+	font-size: 12px;
+}
+ul li span {
+	font-family: Arial;
+}
+ul li span {
+	@include font-weight-bold(true);
+}
+ul li span {
+	@include font-style-italic(false);
+}
+	margin: 0px;
+
+}
+
+.widgets_brease_ListBoxLegacy_style_default {
+@include widgets_brease_ListBoxLegacy_base 
+}

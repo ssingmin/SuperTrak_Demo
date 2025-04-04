@@ -1,0 +1,91 @@
+#ContentVideo_VideoPlayer1 {
+  top: 40px;
+  position: absolute;
+}
+
+#ContentVideo_VideoPlayer1 {
+  left: 239px;
+  position: absolute;
+}
+
+#ContentVideo_VideoPlayer1 {
+  width: 807px;
+}
+
+#ContentVideo_VideoPlayer1 {
+  height: 570px;
+}
+
+#ContentVideo_VideoPlayer1 {
+  z-index: 0;
+}
+
+#ContentVideo_GroupBox1 {
+  top: 260px;
+  position: absolute;
+}
+
+#ContentVideo_GroupBox1 {
+  left: 300px;
+  position: absolute;
+}
+
+#ContentVideo_GroupBox1 {
+  width: 680px;
+}
+
+#ContentVideo_GroupBox1 {
+  height: 160px;
+}
+
+#ContentVideo_GroupBox1 {
+  z-index: 1;
+}
+
+#ContentVideo_btnOk {
+  top: 83px;
+  position: absolute;
+}
+
+#ContentVideo_btnOk {
+  left: 299px;
+  position: absolute;
+}
+
+#ContentVideo_btnOk {
+  width: 100px;
+}
+
+#ContentVideo_btnOk {
+  height: 30px;
+}
+
+#ContentVideo_btnOk {
+  z-index: 0;
+}
+
+#ContentVideo_Label3 {
+  top: 23px;
+  position: absolute;
+}
+
+#ContentVideo_Label3 {
+  left: 19px;
+  position: absolute;
+}
+
+#ContentVideo_Label3 {
+  width: 621px;
+}
+
+#ContentVideo_Label3 {
+  height: 40px;
+}
+
+#ContentVideo_Label3 {
+  z-index: 1;
+}
+
+#ContentVideo_Label3 {
+  color: red;
+}

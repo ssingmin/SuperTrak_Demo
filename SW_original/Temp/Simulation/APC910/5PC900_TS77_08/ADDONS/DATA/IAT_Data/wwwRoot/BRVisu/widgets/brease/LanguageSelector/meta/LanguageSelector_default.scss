@@ -1,0 +1,172 @@
+@import "mixins.scss";
+@mixin widgets_brease_LanguageSelector_base {
+	@include elemWidth(100);
+	@include elemHeight(30);
+.breaseListBoxLegacy ul div {
+	background: #000;
+}
+.breaseButton {
+	border-width: 2px;
+}
+.breaseButton {
+	border-style: solid;
+}
+.breaseListBoxLegacy {
+	border-width: 2px;
+}
+.breaseButton {
+	@include border-radius(0px);
+}
+.breaseListBoxLegacy {
+	@include border-radius(0px);
+}
+.breaseButton:not(.disabled) {
+	background-color: #DBDBDB;
+}
+&.disabled .breaseButton.disabled {
+	background-color: #F1F1F1;
+}
+&.disabled:active .breaseButton.disabled {
+	background-color: #F1F1F1;
+}
+&.disabled.checked .breaseButton.disabled {
+	background-color: #F1F1F1;
+}
+.breaseButton:not(.disabled) {
+	background-image: none;
+}
+&.disabled .breaseButton.disabled {
+	background-image: none;
+}
+&.disabled:active .breaseButton.disabled {
+	background-image: none;
+}
+&.disabled.checked .breaseButton.disabled {
+	background-image: none;
+}
+.breaseListBoxLegacy ul li {
+	background-color: #FFFFFF;
+}
+.breaseListBoxLegacy ul li {
+	background-image: none;
+}
+.breaseButton:not(.disabled) {
+	border-color: #5B7C70;
+}
+.breaseListBoxLegacy {
+	border-color: #5B7C70;
+}
+&.list-right .arrow {
+	border-right-color: #5B7C70;
+}
+&.list-left .arrow {
+	border-left-color: #5B7C70;
+}
+&.list-top .arrow {
+	border-top-color: #5B7C70;
+}
+&.list-bottom .arrow {
+	border-bottom-color: #5B7C70;
+}
+&.disabled .breaseButton.disabled {
+	border-color: #FFFFFF #C8C8C8 #C8C8C8 #FFFFFF;
+}
+&.disabled .breaseButton.disabled:active {
+	border-color: #FFFFFF #C8C8C8 #C8C8C8 #FFFFFF;
+}
+&.disabled .breaseButton.disabled.checked {
+	border-color: #FFFFFF #C8C8C8 #C8C8C8 #FFFFFF;
+}
+.breaseButton:not(.disabled) span {
+	color: #000000;
+}
+.breaseListBoxLegacy ul li span {
+	color: #000000;
+}
+&.disabled .breaseButton.disabled span {
+	color: #989898;
+}
+.breaseListBoxLegacy ul li.selected {
+	background-color: #ff8800;
+}
+.breaseListBoxLegacy ul li.selected {
+	background-image: none;
+}
+.breaseListBoxLegacy ul li.selected span {
+	color: #ffffff;
+}
+.breaseButton {
+	@include text-alignment(center);
+}
+.breaseListBoxLegacy ul li {
+	@include text-alignment(center);
+}
+	opacity: 1;
+	opacity: 1;
+.breaseButton span {
+	font-size: 12px;
+}
+.breaseListBoxLegacy ul li span  {
+	font-size: 12px;
+}
+.breaseButton span {
+	font-family: Arial;
+}
+.breaseListBoxLegacy ul li span {
+	font-family: Arial;
+}
+.breaseButton span {
+	@include font-weight-bold(true);
+}
+.breaseListBoxLegacy ul li span {
+	@include font-weight-bold(true);
+}
+.breaseButton span {
+	@include font-style-italic(false);
+}
+.breaseListBoxLegacy ul li span {
+	@include font-style-italic(false);
+}
+.breaseButton {
+	padding: 0 10px;
+}
+	margin: 0px;
+.breaseButton {
+	@include box-shadow(none);
+}
+.breaseButton.checked:not(.disabled) {
+	border-color: #FD7B01;
+}
+.breaseButton:active:not(.disabled) {
+	border-color: #FD7B01;
+}
+.breaseButton.checked:not(.disabled) {
+	border-width: 2px;
+}
+.breaseButton:active:not(.disabled) {
+	border-width: 2px;
+}
+.breaseButton.checked:not(.disabled) {
+	background-color: #DBDBDB;
+}
+.breaseButton:active:not(.disabled) {
+	background-color: #DBDBDB;
+}
+.breaseButton.checked:not(.disabled) span {
+	color: #000000;
+}
+.breaseButton:active:not(.disabled) span {
+	color: #000000;
+}
+.breaseButton.checked:not(.disabled) {
+	background-image: none;
+}
+.breaseButton.active:not(.disabled) {
+	background-image: none;
+}
+
+}
+
+.widgets_brease_LanguageSelector_style_default {
+@include widgets_brease_LanguageSelector_base 
+}

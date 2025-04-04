@@ -1,0 +1,19 @@
+F_TRIG_S_1,POE\SafetyRun\SafetyRun.GB,0,,33,77,,,,,,VAR,FB,,
+iMaxTimeSetup,POE\SafetyRun\SafetyRun.GB,3,IN,70,39,Read,,SAFETIME,,,VAR_INPUT,LOCAL,,Maximale Dauer des Setup-Mode zur Unterbindung von Missbrau
+iReset,POE\SafetyRun\SafetyRun.GB,1,IN,21,19,Read,,BOOL,,,VAR_INPUT,LOCAL,,
+iResetSafe,POE\SafetyRun\SafetyRun.GB,1,IN,72,46,Read,,SAFEBOOL,,,VAR_INPUT,LOCAL,,
+iSetup,POE\SafetyRun\SafetyRun.GB,3,IN,61,14,Read,,SAFEBOOL,,,VAR_INPUT,LOCAL,,Bügle zur Deaktivierung von Sicherheitsfunktionen bei der I
+iSetupNotHalt,POE\SafetyRun\SafetyRun.GB,3,IN,68,6,Read,,SAFEBOOL,,,VAR_INPUT,LOCAL,,Dieser NotHalt wirkt auch im SetupMode
+mRun,POE\SafetyRun\SafetyRun.GB,1,IN,0,18,Read,,SAFEBOOL,,,VAR,LOCAL,,
+mRun,POE\SafetyRun\SafetyRun.GB,2,OUT,17,97,Write,,SAFEBOOL,,,VAR,LOCAL,,
+oFirstCycle,POE\SafetyRun\SafetyRun.GB,2,OUT,2,97,Write,,SAFEBOOL,,,VAR_OUTPUT,LOCAL,,
+oReset,POE\SafetyRun\SafetyRun.GB,2,OUT,22,97,Write,,SAFEBOOL,,,VAR_OUTPUT,LOCAL,,
+oResetNegEdge,POE\SafetyRun\SafetyRun.GB,2,OUT,35,97,Write,,SAFEBOOL,,,VAR_OUTPUT,LOCAL,,
+oResetPosEdge,POE\SafetyRun\SafetyRun.GB,2,OUT,20,97,Write,,SAFEBOOL,,,VAR_OUTPUT,LOCAL,,
+oRun,POE\SafetyRun\SafetyRun.GB,2,OUT,12,97,Write,,BOOL,,,VAR_OUTPUT,LOCAL,,
+oSafetyRun,POE\SafetyRun\SafetyRun.GB,1,IN,8,18,Read,,SAFEBOOL,,,VAR_OUTPUT,LOCAL,,
+oSafetyRun,POE\SafetyRun\SafetyRun.GB,2,OUT,6,97,Write,,SAFEBOOL,,,VAR_OUTPUT,LOCAL,,
+oSetupModeActive,POE\SafetyRun\SafetyRun.GB,4,OUT,60,75,Write,,SAFEBOOL,,,VAR_OUTPUT,LOCAL,,TRUE == Setup-Mode ist gesetzt und Dauer ist noch nicht abg
+R_TRIG_S_1,POE\SafetyRun\SafetyRun.GB,0,,30,78,,,,,,VAR,FB,,
+R_TRIG_S_SetupMode,POE\SafetyRun\SafetyRun.GB,2,,44,34,,,,,,VAR,FB,,
+TOF_S_SetupMode,POE\SafetyRun\SafetyRun.GB,2,,50,59,,,,,,VAR,FB,,

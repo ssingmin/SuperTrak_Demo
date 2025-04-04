@@ -1,0 +1,34 @@
+giEmStopSS1,POE\Main\Code.GB,3,IN,118,21,Read,,SAFEBOOL,SIX17.0,,VAR_GLOBAL,GLOBAL,,Nothalt von Steuerschrank 1
+giFBPowerOn,POE\Main\Code.GB,7,IN,95,21,Read,,SAFEBOOL,SIX16.3,,VAR_GLOBAL,GLOBAL,,Rückführung Leistung Ein
+giGuardLock1Closed,POE\Main\Code.GB,3,IN,130,65,Read,,SAFEBOOL,SIX17.3,,VAR_GLOBAL,GLOBAL,,Zuhaltung 1 geschlossen
+giGuardLock1Closed,POE\Main\Code.GB,7,IN,42,57,Read,,SAFEBOOL,SIX17.3,,VAR_GLOBAL,GLOBAL,,Zuhaltung 1 geschlossen
+giGuardLock1Closed,POE\Main\Code.GB,9,IN,211,36,Read,,SAFEBOOL,SIX17.3,,VAR_GLOBAL,GLOBAL,,Zuhaltung 1 geschlossen
+giReqGuardUnlock1,POE\Main\Code.GB,3,IN,129,66,Read,,SAFEBOOL,SIX16.2,,VAR_GLOBAL,GLOBAL,,Anforderung Zuhaltung öffnen
+giReqGuardUnlock1,POE\Main\Code.GB,5,IN,179,15,Read,,SAFEBOOL,SIX16.2,,VAR_GLOBAL,GLOBAL,,Anforderung Zuhaltung öffnen
+giSafetyForUnlockActive,POE\Main\Code.GB,5,IN,174,2,Read,,BOOL,NSIX0.0,,VAR_GLOBAL,GLOBAL,,Sps meldet Stillstand
+giSafetyQuit,POE\Main\Code.GB,1,IN,68,46,Read,,SAFEBOOL,SIX16.4,,VAR_GLOBAL,GLOBAL,,Quittierung der Sicherheitstechnik (LDT blau)
+giSafetyQuit,POE\Main\Code.GB,3,IN,184,73,Read,,SAFEBOOL,SIX16.4,,VAR_GLOBAL,GLOBAL,,Quittierung der Sicherheitstechnik (LDT blau)
+giSafetyQuit,POE\Main\Code.GB,9,IN,169,15,Read,,SAFEBOOL,SIX16.4,,VAR_GLOBAL,GLOBAL,,Quittierung der Sicherheitstechnik (LDT blau)
+goCloseGuardLock1,POE\Main\Code.GB,6,OUT,134,67,Write,,SAFEBOOL,SQX12.4,,VAR_GLOBAL,GLOBAL,,Tür Zuhaltung Schliessen Kanal 1
+goCloseGuardLock1R,POE\Main\Code.GB,6,OUT,144,67,Write,,BOOL,NSQX2.4,,VAR_GLOBAL,GLOBAL,,
+goCloseGuardLock2,POE\Main\Code.GB,6,OUT,154,67,Write,,SAFEBOOL,SQX12.5,,VAR_GLOBAL,GLOBAL,,Tür Zuhaltung Schliessen Kanal 2
+goCloseGuardLock2R,POE\Main\Code.GB,6,OUT,157,67,Write,,BOOL,NSQX2.5,,VAR_GLOBAL,GLOBAL,,
+goEmStopSS1Ok,POE\Main\Code.GB,4,OUT,147,72,Write,,SAFEBOOL,NSQX0.1,,VAR_GLOBAL,GLOBAL,,Nothalt SS1 Ok
+goErrFBPowerOn,POE\Main\Code.GB,7,IN,204,15,Read,,BOOL,NSQX0.4,,VAR_GLOBAL,GLOBAL,,Error Rückführung Leistung Ein
+goErrFBPowerOn,POE\Main\Code.GB,7,OUT,145,2,Write,,BOOL,NSQX0.4,,VAR_GLOBAL,GLOBAL,,Error Rückführung Leistung Ein
+goGuardLocked,POE\Main\Code.GB,4,OUT,151,50,Write,,SAFEBOOL,NSQX0.5,,VAR_GLOBAL,GLOBAL,,Zuhaltung Geschlossen und versperrt
+goGuardLocked,POE\Main\Code.GB,7,IN,152,78,Read,,SAFEBOOL,NSQX0.5,,VAR_GLOBAL,GLOBAL,,Zuhaltung Geschlossen und versperrt
+goGuardLocked,POE\Main\Code.GB,7,IN,201,15,Read,,SAFEBOOL,NSQX0.5,,VAR_GLOBAL,GLOBAL,,Zuhaltung Geschlossen und versperrt
+goLampGuard,POE\Main\Code.GB,4,OUT,131,51,Write,,BOOL,NSQX1.0,,VAR_GLOBAL,GLOBAL,,LT Geld Anmeldung uittierung Zuhaltung
+goLampSiReset,POE\Main\Code.GB,8,OUT,161,67,Write,,BOOL,NSQX1.1,,VAR_GLOBAL,GLOBAL,,LT Blau Reset Sicherheit
+goPowerOn1,POE\Main\Code.GB,8,OUT,3,67,Write,,SAFEBOOL,SQX12.0,,VAR_GLOBAL,GLOBAL,,Leistung Ein Kanal 1
+goPowerOn1,POE\Main\Code.GB,9,IN,207,15,Read,,SAFEBOOL,SQX12.0,,VAR_GLOBAL,GLOBAL,,Leistung Ein Kanal 1
+goPowerOn1R,POE\Main\Code.GB,8,OUT,49,67,Write,,BOOL,NSQX2.0,,VAR_GLOBAL,GLOBAL,,
+goPowerOn2,POE\Main\Code.GB,8,OUT,72,67,Write,,SAFEBOOL,SQX12.1,,VAR_GLOBAL,GLOBAL,,Leistung Ein Kanal 2
+goPowerOn2,POE\Main\Code.GB,9,IN,209,15,Read,,SAFEBOOL,SQX12.1,,VAR_GLOBAL,GLOBAL,,Leistung Ein Kanal 2
+goPowerOn2R,POE\Main\Code.GB,8,OUT,75,67,Write,,BOOL,NSQX2.1,,VAR_GLOBAL,GLOBAL,,
+goReqGuardUnlock,POE\Main\Code.GB,6,OUT,180,67,Write,,SAFEBOOL,NSQX0.2,,VAR_GLOBAL,GLOBAL,,Anforderung Zuhaltung Öffnen
+goSafeLogicRun,POE\Main\Code.GB,2,OUT,65,81,Write,,SAFEBOOL,NSQX0.0,,VAR_GLOBAL,GLOBAL,,Safelogic läuft
+goSafetyOk,POE\Main\Code.GB,7,IN,2,15,Read,,SAFEBOOL,NSQX0.7,,VAR_GLOBAL,GLOBAL,,Sicherheit OK
+goSafetyOk,POE\Main\Code.GB,8,OUT,150,67,Write,,SAFEBOOL,NSQX0.7,,VAR_GLOBAL,GLOBAL,,Sicherheit OK
+goSiReset,POE\Main\Code.GB,10,OUT,170,67,Write,,BOOL,NSQX1.2,,VAR_GLOBAL,GLOBAL,,Taste SiReset

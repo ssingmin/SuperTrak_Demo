@@ -1,0 +1,91 @@
+#ContentDocumentation_PDFViewer1 {
+  top: 30px;
+  position: absolute;
+}
+
+#ContentDocumentation_PDFViewer1 {
+  left: 200px;
+  position: absolute;
+}
+
+#ContentDocumentation_PDFViewer1 {
+  width: 860px;
+}
+
+#ContentDocumentation_PDFViewer1 {
+  height: 610px;
+}
+
+#ContentDocumentation_PDFViewer1 {
+  z-index: 0;
+}
+
+#ContentDocumentation_GroupBox1 {
+  top: 260px;
+  position: absolute;
+}
+
+#ContentDocumentation_GroupBox1 {
+  left: 300px;
+  position: absolute;
+}
+
+#ContentDocumentation_GroupBox1 {
+  width: 680px;
+}
+
+#ContentDocumentation_GroupBox1 {
+  height: 160px;
+}
+
+#ContentDocumentation_GroupBox1 {
+  z-index: 1;
+}
+
+#ContentDocumentation_btnOk {
+  top: 83px;
+  position: absolute;
+}
+
+#ContentDocumentation_btnOk {
+  left: 299px;
+  position: absolute;
+}
+
+#ContentDocumentation_btnOk {
+  width: 100px;
+}
+
+#ContentDocumentation_btnOk {
+  height: 30px;
+}
+
+#ContentDocumentation_btnOk {
+  z-index: 0;
+}
+
+#ContentDocumentation_Label3 {
+  top: 23px;
+  position: absolute;
+}
+
+#ContentDocumentation_Label3 {
+  left: 19px;
+  position: absolute;
+}
+
+#ContentDocumentation_Label3 {
+  width: 621px;
+}
+
+#ContentDocumentation_Label3 {
+  height: 40px;
+}
+
+#ContentDocumentation_Label3 {
+  z-index: 1;
+}
+
+#ContentDocumentation_Label3 {
+  color: red;
+}

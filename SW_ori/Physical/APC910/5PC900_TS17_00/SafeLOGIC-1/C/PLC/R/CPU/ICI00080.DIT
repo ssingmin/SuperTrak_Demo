@@ -1,0 +1,100 @@
+(*
+T: PROGRAM Main
+FW: NO
+CI#: 80
+QSL: 15
+QVE: 15
+QVPC: 15
+QPar: 0
+QFBI: 9
+*)
+@V 1 2 0
+mBlinkingClock	1	VAR	@TYP:43
+		     
+
+;
+
+@V 1 3 0
+mSafetyRun	2	VAR	@FB:81
+		     
+
+;
+
+@V 1 4 0
+mResetPosEdge	3	VAR	@TYP:43
+		     
+
+;
+
+@V 1 5 0
+mResetNegEdge	4	VAR	@TYP:43
+		     
+
+;
+
+@V 1 7 0
+mEmStopSSOk	5	VAR	@TYP:43
+		     
+
+;
+
+@V 1 8 0
+mEmStopOk	6	VAR	@TYP:43
+		     
+
+;
+
+@V 1 10 0
+mUnlockGuard	7	VAR	@TYP:43
+		     
+
+;
+
+@V 1 12 0
+TON_S_BlinkingClock	8	VAR	@FB:44
+		     
+
+;
+
+@V 1 13 0
+RS_S_BlinkingClock	9	VAR	@FB:41
+		     
+
+;
+
+@V 1 14 0
+TON_S_BlinkingClockRst	10	VAR	@FB:44
+		     
+
+;
+
+@V 1 15 0
+TON_S_PowerOnR	11	VAR	@FB:44
+		     
+
+;
+
+@V 1 16 0
+TON_S_CloseGuardR	12	VAR	@FB:44
+		     
+
+;
+
+@V 1 17 0
+GuardLock	13	VAR	@FB:82
+		     
+
+;
+
+@V 1 18 0
+SF_EDM_V1_00_LeistEin	14	VAR	@FB:83
+		     
+
+;
+
+@V 1 19 0
+SF_EmergencyStop_Main	15	VAR	@FB:84
+		     
+
+;
+

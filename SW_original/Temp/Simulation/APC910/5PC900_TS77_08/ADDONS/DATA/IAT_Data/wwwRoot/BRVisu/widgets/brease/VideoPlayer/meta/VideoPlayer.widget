@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WidgetLibrary xmlns="http://www.br-automation.com/iat2014/widget">
+	<Widget name="widgets.brease.VideoPlayer">
+		<ASEngineeringInfo>
+			<IsProjectable>true</IsProjectable>
+		</ASEngineeringInfo>
+		<Dependencies>
+			<Files>
+				<File>brease/core/BaseWidget.js</File>
+				<File>brease/core/Types.js</File>
+				<File>brease/decorators/LanguageDependency.js</File>
+			</Files>
+			<Widgets>
+				<Widget>widgets/brease/VideoPlayer/VideoPlayer.js</Widget>
+			</Widgets>
+		</Dependencies>
+		<Categories>
+			<Category name="Category">Media</Category>
+			<Category name="IO">Output</Category>
+			<Category name="Appliance">Graphic</Category>
+			<Category name="Performance">Medium</Category>
+			<Category name="Performance">High</Category>
+		</Categories>
+		<Descriptions>
+			<Description name="short">Video/audio player widget</Description>
+			<Description name="de">Zeigt einen Film und erlaubt dem Benutzer eine Interaktion mit dem Player</Description>
+			<Description name="en">Plays video files, allowing user interaction with the player</Description>
+		</Descriptions>
+		<Inheritance>
+			<Class level="0">widgets.brease.VideoPlayer</Class>
+			<Class level="1">brease.core.BaseWidget</Class>
+		</Inheritance>
+		<Parents>
+			<Parent>*</Parent>
+		</Parents>
+		<Children>
+		</Children>
+		<Methods>
+			<Method name="SetEnable">
+				<Description>setter for binding of &apos;enable&apos;</Description>
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0">
+						<Description>State of &apos;enable&apos; (false = disabled, true = enabled)&lt;/p&gt;
+
+
+
+						</Description>
+					</Argument>
+				</Arguments>
+			</Method>
+			<Method name="SetSrc">
+				<Description>Sets source location of the video file, e.g. &quot;/Media/help_video.mp4&quot;</Description>
+				<Arguments>
+					<Argument name="value" type="String" index="0">
+						<Description>Path of the video file, e.g. &quot;/Media/help_video.mp4&quot;</Description>
+					</Argument>
+				</Arguments>
+			</Method>
+			<Method name="SetStyle">
+				<Arguments>
+					<Argument name="value" type="StyleReference" index="0">
+					</Argument>
+				</Arguments>
+			</Method>
+			<Method name="SetVisible">
+				<Description>Sets the visibility of the widget.</Description>
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0">
+						<Description>State of visibility (false = hide, true = show)&lt;/p&gt;
+
+
+
+						</Description>
+					</Argument>
+				</Arguments>
+			</Method>
+			<Method name="StartVideo">
+				<Description>Starts the video.</Description>
+			</Method>
+			<Method name="StopVideo">
+				<Description>Stops the video.</Description>
+			</Method>
+		</Methods>
+		<Events>
+			<Event name="Click">
+				<Description>Fired when element is clicked on.</Description>
+				<Arguments>
+					<Argument name="origin" type="String" index="0">
+						<Description>id of widget that triggered this event&lt;/p&gt;
+
+
+
+						</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="EnableChanged">
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0">
+						<Description>value reflects state of property &apos;enable&apos;.&lt;br/&gt;
+Fired when enabled state changes.&lt;/p&gt;
+
+
+
+						</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="VideoPaused">
+				<Description>Fired when the video has been paused.</Description>
+			</Event>
+			<Event name="VideoStarted">
+				<Description>Fired when the video has been started.</Description>
+			</Event>
+			<Event name="VisibleChanged">
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0">
+						<Description>value reflects state of property &apos;visible&apos;.&lt;br/&gt;
+Fired when visible state changes.&lt;/p&gt;
+
+
+
+						</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+		</Events>
+		<Properties>
+			<Property name="autoplay" type="Boolean" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="false">
+				<Description>Enables the autoplay functionality, that the video starts as soon as the widget is ready.
+				</Description>
+			</Property>
+			<Property name="controls" type="Boolean" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+				<Description>If this attribute is true, VideoPlayer will offer controls to allow the user to control video playback, including volume, seeking, and pause/resume playback.
+				</Description>
+			</Property>
+			<Property name="enable" type="Boolean" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+				<Description>Initial option to enable widget.
+				</Description>
+			</Property>
+			<Property name="loop" type="Boolean" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="false">
+				<Description>If this attribute is true, the videoplayer will, upon reaching the end of the video, automatically seek back to the start.
+				</Description>
+			</Property>
+			<Property name="muted" type="Boolean" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="false">
+				<Description>Mute the audio of the video.
+				</Description>
+			</Property>
+			<Property name="permissionOperate" type="RoleCollection" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Accessibility">
+				<Description>restricts operability to users, which have given roles
+				</Description>
+			</Property>
+			<Property name="permissionView" type="RoleCollection" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Accessibility">
+				<Description>restricts visibility to users, which have given roles
+				</Description>
+			</Property>
+			<Property name="poster" type="ImagePath" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="">
+				<Description>Specifies an image to be shown while the video is downloading, or until the user hits the play button
+				</Description>
+			</Property>
+			<Property name="preload" type="brease.enum.VideoPlayerPreload" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="none">
+				<Description>Defines if and how the video contents should start loading as the page loads.
+Possible values: &apos;none&apos;, &apos;auto&apos;, &apos;metadata&apos;
+				</Description>
+			</Property>
+			<Property name="src" type="String" initOnly="false" localizable="true" editableBinding="false" readOnly="false" required="false" projectable="true" category="Data" defaultValue="">
+				<Description>Path to a video file (e.g. Media/Video.mp4).
+There are generally 3 supported video formats: MP4, WebM and Ogg.
+Notice: iOS devices can only play MP4 files with H.264 video encoding.
+A text key can be used.
+				</Description>
+			</Property>
+			<Property name="style" type="StyleReference" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="default">
+				<Description>reference to a style for this widget type
+				</Description>
+			</Property>
+			<Property name="visible" type="Boolean" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+				<Description>change visibility
+				</Description>
+			</Property>
+		</Properties>
+	<BindingTemplates>
+  
+</BindingTemplates>
+<PropertyGroups>
+  <PropertyGroup name="Size" type="String" category="Layout">
+    <Description>outer height and width of widget</Description>
+  </PropertyGroup>
+  <PropertyGroup name="Position" type="String" category="Layout">
+    <Description>top and left of widget</Description>
+  </PropertyGroup>
+</PropertyGroups>
+<StyleProperties defaultStyle="default">
+  <StyleProperty name="width" type="Size" not_styleable="true" owner="widgets.brease.VideoPlayer" category="Layout" groupRefId="Size" groupOrder="1" default="640">
+    <StyleElement attribute="@include elemWidth($value)"/>
+    <Description>outer width of widget</Description>
+  </StyleProperty>
+  <StyleProperty name="height" type="Size" not_styleable="true" owner="widgets.brease.VideoPlayer" category="Layout" groupRefId="Size" groupOrder="2" default="480">
+    <StyleElement attribute="@include elemHeight($value)"/>
+    <Description>outer height of widget</Description>
+  </StyleProperty>
+  <StyleProperty name="top" type="Integer" not_styleable="true" owner="brease.core.BaseWidget" category="Layout" groupRefId="Position" groupOrder="1">
+    <StyleElement attribute="@include elemTop($value)"/>
+    <Description>absolute position measured from top boundary of parent container</Description>
+  </StyleProperty>
+  <StyleProperty name="left" type="Integer" not_styleable="true" owner="brease.core.BaseWidget" category="Layout" groupRefId="Position" groupOrder="2">
+    <StyleElement attribute="@include elemLeft($value)"/>
+    <Description>absolute position measured from left boundary of parent container</Description>
+  </StyleProperty>
+  <StyleProperty name="zIndex" type="UInteger" not_styleable="true" owner="brease.core.BaseWidget" category="Layout" required="true">
+    <StyleElement attribute="z-index"/>
+    <Description>The zIndex property specifies the z-order of a widget and its childs.&lt;br/&gt;&#xD;
+        When widgets overlap, z-order determines which one covers the other. A widget with a larger zIndex generally covers a widget with a lower one.&lt;br/&gt;&#xD;
+        The zIndex must be unique within a content.&lt;br/&gt;</Description>
+  </StyleProperty>
+  <StyleProperty name="backColor" category="Appearance" type="Color" default="transparent">
+    <StyleElement attribute="background-color"/>
+    <Description>Sets the background color</Description>
+  </StyleProperty>
+  <StyleProperty name="backGroundGradient" category="Appearance" type="Gradient" default="none">
+    <StyleElement attribute="background-image"/>
+    <Description>Background as a gradient</Description>
+  </StyleProperty>
+  <StyleProperty name="borderWidth" category="Appearance" type="PixelValCollection" default="2px">
+    <StyleElement attribute="border-width"/>
+    <Description>Sets the width of the border</Description>
+  </StyleProperty>
+  <StyleProperty name="borderColor" category="Appearance" type="ColorCollection" default="#FFF">
+    <StyleElement attribute="border-color"/>
+    <Description>Sets the border color</Description>
+  </StyleProperty>
+  <StyleProperty name="borderStyle" category="Appearance" type="BorderStyle" default="none">
+    <StyleElement attribute="border-style"/>
+    <Description>Style of the Border of the widget</Description>
+  </StyleProperty>
+  <StyleProperty name="cornerRadius" type="PixelValCollection" category="Appearance" default="0px">
+    <StyleElement attribute="@include border-radius($value)"/>
+    <Description>Sets the radius of the widget rounded corners</Description>
+  </StyleProperty>
+  <StyleProperty name="shadow" type="Shadow" category="Appearance" default="none">
+    <StyleElement attribute="@include box-shadow($value)"/>
+    <Description>Shadow of the Widget</Description>
+  </StyleProperty>
+  <StyleProperty name="margin" category="Layout" type="Margin" default="0px">
+    <StyleElement attribute="margin"/>
+    <Description>Margin of the Widget</Description>
+  </StyleProperty>
+  <StyleProperty name="opacity" category="Appearance" type="Opacity" default="1">
+    <StyleElement attribute="opacity"/>
+    <Description>Opacity of the widget</Description>
+  </StyleProperty>
+  <StyleProperty name="rotation" category="Appearance" type="Rotation" default="0deg">
+    <StyleElement attribute="@include rotate($value)"/>
+    <Description>Rotation of widget.</Description>
+  </StyleProperty>
+</StyleProperties>
+</Widget>
+</WidgetLibrary>

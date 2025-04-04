@@ -1,0 +1,169 @@
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Configuration*)
+VAR CONSTANT
+	CONFIG_ST_MAX_COMMANDS : USINT := 48; (*Maximum number of commands*)
+	CONFIG_ST_MAX_PALLETS : USINT := 24; (*Maximum number of shuttles*)
+	CONFIG_ST_MAX_SECTIONS : USINT := 4; (*Maximum number of sections*)
+	CONFIG_ST_MAX_SECTIONS_MINUS_ONE : USINT := CONFIG_ST_MAX_SECTIONS-1; (*Maximum number of sections minus one*)
+	CONFIG_ST_MAX_TARGETS : USINT := 48; (*Maximum number of targets*)
+	CONFIG_USED_TARGETS : USINT := 20; (*Used targets on the system*)
+	CONFIG_USED_TARGETS_MINUS_ONE : USINT := CONFIG_USED_TARGETS-1; (*Used targets on the system minus one*)
+	CONFIG_USED_SHUTTLES : USINT := 4; (*Used shuttles on the system*)
+	CONFIG_USED_SHUTTLES_MINUS_ONE : USINT := CONFIG_USED_SHUTTLES-1; (*Used shuttles on the system minus one*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Command variable*)
+VAR
+	SuperTrakControl : {REDUND_UNREPLICABLE} SuperTrakCtrlType := (0); (*Variable to control the SuperTrak system*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Function blocks*)
+VAR
+	StControl_0 : {REDUND_UNREPLICABLE} StControl; (*Function block to communicate to SuperTrak*)
+	StSection_ : {REDUND_UNREPLICABLE} ARRAY[0..CONFIG_ST_MAX_SECTIONS_MINUS_ONE] OF StSection; (*Function blocks to control SuperTrak sections*)
+	StPallet_ : {REDUND_UNREPLICABLE} ARRAY[0..CONFIG_USED_SHUTTLES_MINUS_ONE] OF StPallet; (*Function block to control shuttles*)
+	StTargetExt_ : {REDUND_UNREPLICABLE} ARRAY[0..CONFIG_USED_TARGETS_MINUS_ONE] OF StTargetExt; (*Function blocks to control SuperTrak targets*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Function block parameters*)
+VAR
+	SuperTrakControlParameters : {REDUND_UNREPLICABLE} StControlParType; (*Parameters for StControl*)
+	SuperTrakSectionParameters : {REDUND_UNREPLICABLE} StSectionParType; (*Parameters for StSection*)
+	PalletControlParameters : {REDUND_UNREPLICABLE} ARRAY[0..CONFIG_USED_SHUTTLES_MINUS_ONE] OF StPalletParType; (*Parameters for StPallet*)
+	TargetControlParameters : {REDUND_UNREPLICABLE} ARRAY[0..CONFIG_USED_TARGETS_MINUS_ONE] OF StTargetExtParType; (*Parameters for each StTargetExt*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Pallet-Control*)
+VAR
+	cmd_StartMode1 : BOOL; (*Execute the ShuttleControl*)
+	cmd_StopMode1 : BOOL; (*Stop the ShuttleControl*)
+	cmd_StartMode2 : BOOL; (*Execute the ShuttleControl*)
+	cmd_StopMode2 : BOOL; (*Stop the ShuttleControl*)
+	cmd_StartMode3 : BOOL; (*Execute the ShuttleControl*)
+	cmd_StopMode3 : BOOL; (*Stop the ShuttleControl*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Tracking*)
+VAR
+	cmd_StartTracking : BOOL; (*Start the Tracking fuciton*)
+	cmd_StopTracking : BOOL; (*Stop the Tracking fuction*)
+	StateCnc : USINT; (*State of the Tracking*)
+END_VAR
+VAR CONSTANT
+	EXPERT_MODE_START : USINT := 0; (*Start the Expert mode*)
+	EXPERT_MODE_EXECUTE : USINT := 1; (*Execute the Expert mode*)
+	EXPERT_MODE_STOP : USINT := 10; (*Stop the Expert mode*)
+END_VAR
+VAR
+	SuperTrakBeginExtCtrlStatus : BOOL; (*Status for entering the expert mode*)
+	Position : DINT; (*Position of the axis to calculate shuttle position*)
+END_VAR
+VAR CONSTANT
+	SectionLength : ARRAY[1..CONFIG_ST_MAX_SECTIONS] OF DINT := [1000000,1030000,1000000,1030000]; (*Length of every section*)
+END_VAR
+VAR
+	CncUpdatePosition : DINT; (*Position of the shuttle on the section*)
+	CncUpdateSection : USINT; (*Section where the shuttle is located*)
+	CncUpdateAccel : REAL; (*Acceleration of the shuttle*)
+	CncUpdateVelocity : REAL; (*Velocity of the coupled axis*)
+	OldVelocity : REAL; (*Velocity to calculate the acceleration*)
+	SuperTrakPalletControlStatus : BOOL; (*Tracking status*)
+	CncStartTarget : USINT; (*Start Target for Cnc control*)
+	ControlledShuttle : USINT; (*ID of the controlled shuttle*)
+	CycleTime : REAL; (*Actual cycle time to calculate the acceleration*)
+	RTInfo_0 : RTInfo; (*FUB to read the actual cycle time*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Dongle*)
+VAR
+	GuardGetLicenses : guardGetLicenses;
+	Licenses : ARRAY[0..99] OF licenseInfo_t;
+	ExpertModeAvailable : BOOL;
+END_VAR
+VAR CONSTANT
+	ExpertModeOrderNumber : STRING[80] := '1TG8ST00000.02-00';
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Movement velocity and acceleration*)
+VAR CONSTANT
+	MAX_VELOCITY_PARID : UINT := 1250;
+	MAX_ACCELERATION_PARID : UINT := 1251;
+END_VAR
+VAR
+	Max_Acceleration_Converted : UINT;
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Mode*)
+VAR
+	ActualMode : USINT;
+	StartMode : BOOL;
+	StopMode : BOOL;
+	MaxSpeed_Calc : REAL;
+	Timer_0 : TON;
+	JogAvailable : BOOL;
+	LockButtons : BOOL;
+	ShowPopUp : BOOL;
+	StateMode2 : StateMode2Type;
+	CounterMode2 : CounterMode2Type;
+	ShuttlePosition : ARRAY[0..CONFIG_USED_SHUTTLES_MINUS_ONE] OF SuperTrakPalletInfo_t;
+	ShuttleReady : BOOL;
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Safety*)
+VAR
+	SafetyRun : BOOL;
+	SafetyEmStopSS1Ok : BOOL;
+	SafetyReqGuardUnlock : BOOL;
+	SafetyErrGuardLock : BOOL;
+	SafetyErrFBPowerOn : BOOL;
+	SafetyGuardLocked : BOOL;
+	SafetyOk : BOOL;
+	SafetyLampGuard : BOOL;
+	SafetyLampSiReset : BOOL;
+	SafetyShutDownShuttles : BOOL;
+	SafetyForUnlockActive : BOOL;
+	ExpertModeWarningTimer : TON;
+	Acknowledge : BOOL;
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Standstill*)
+VAR
+	ShuttleStandstill : BOOL;
+	PositionDelta : ARRAY[0..127] OF ShuttlePositionType; (*Actual, previous position and actual section*)
+END_VAR
+VAR CONSTANT
+	PositionOffset : USINT := 100; (*Range where shuttle can be to be in standstill*)
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Visu*)
+VAR
+	ShowPopUpHome : BOOL;
+	JogPopUp : BOOL;
+	ParameterSet : BOOL;
+	RecoveringFinished : BOOL;
+	Error : BOOL;
+	Recovering : BOOL;
+	Counter : USINT;
+	SelectedLanguage : USINT;
+	Status : STRING[80];
+	Document : STRING[80];
+END_VAR
+(************************************************************************************************************************************)
+(************************************************************************************************************************************)
+(*Other variables*)
+VAR
+	Index : {REDUND_UNREPLICABLE} USINT; (*Counter*)
+	ActualState : State_enum;
+END_VAR

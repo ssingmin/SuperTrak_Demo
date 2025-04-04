@@ -1,0 +1,91 @@
+(*
+Copyright ATS Automation Tooling Systems, Inc. 2015-2018
+All rights reserved.
+*)
+(*
+=== begin SuperTrak standard items ===
+*)
+(*General*)
+VAR CONSTANT
+	stMAX_CONTROL_IF_COUNT : USINT := 4; (*maximum allowed cyclic control/status interfaces*)
+	stMAX_CONTROL_IF_INDEX : USINT := stMAX_CONTROL_IF_COUNT - 1;
+END_VAR
+(*Target Status bits for SuperTrakTargetStatus_t.status*)
+VAR CONSTANT
+	stTARGET_PALLET_PRESENT : UINT := 16#0001; (*Target status bit 0*)
+	stTARGET_PALLET_IN_POSITION : UINT := 16#0002; (*Target status bit 1*)
+	stTARGET_PALLET_PRE_ARRIVAL : UINT := 16#0004; (*Target status bit 2*)
+	stTARGET_PALLET_OVER_TARGET : UINT := 16#0008; (*Target status bit 3*)
+	stTARGET_RELEASE_ERROR : UINT := 16#0080; (*Target status bit 7*)
+END_VAR
+(*Service Channel task codes*)
+VAR CONSTANT
+	scTASK_ARRAY_READ : USINT := 5; (*Read values from the conveyor*)
+	scTASK_ARRAY_WRITE : USINT := 6; (*Write values to the conveyor*)
+END_VAR
+(*Service Channel error codes*)
+VAR CONSTANT
+	scERR_SUCCESS : UINT := 0; (*The operation completed successfully.*)
+	scERR_INVALID_SECTION : UINT := 1; (*An invalid section number was specified.*)
+	scERR_INVALID_PARAM : UINT := 2; (*The specified parameter number was not recognized.*)
+	scERR_INVALID_TASK : UINT := 3; (*The specified task code was not recognized.*)
+	scERR_TASK_UNAVAILABLE : UINT := 4; (*The requested operation is currently unavailable.*)
+	scERR_INVALID_INDEX : UINT := 6; (*The specified starting index is invalid.*)
+	scERR_INVALID_VALUE : UINT := 7; (*The value to be written was outside of the valid range.*)
+	scERR_INVALID_COUNT : UINT := 8; (*The requested number of elements is invalid.*)
+	scERR_COMMAND_TIMEOUT : UINT := 10; (*The command did not complete in a timely manner.*)
+	scERR_UNAUTHORIZED : UINT := 11; (*The request was denied due to a lack of permissions.*)
+	scERR_INVALID_PACKET : UINT := 14; (*The packet is malformed, or its length is incorrect.*)
+	scERR_INTERNAL_ERROR : UINT := 15; (*An internal error occurred while processing the request.*)
+END_VAR
+(*Service Channel state codes*)
+VAR CONSTANT
+	scSTATE_RECV : USINT := 0; (*The service channel is idle and awaiting a request.*)
+	scSTATE_EXEC : USINT := 1; (*The service channel has received a request, and must begin processing it.*)
+	scSTATE_WAIT : USINT := 2; (*The service channel is processing a request.*)
+	scSTATE_SEND : USINT := 3; (*The service channel must transmit a response.*)
+	scSTATE_ERROR : USINT := 9; (*The service channel has encountered an unrecoverable error.*)
+END_VAR
+(*Service Channel timer control*)
+VAR CONSTANT
+	scTIMER_ABORT : UINT := 16#ffff;
+END_VAR
+(*IPv4 Configuration*)
+VAR CONSTANT
+	stIP_ADDR_MODE_NONE : USINT := 0; (*No configuration is specified.*)
+	stIP_ADDR_MODE_MANUAL : USINT := 1; (*The configuration is manually assigned.*)
+	stIP_ADDR_MODE_DHCP : USINT := 2; (*The configuration is automatically obtained via DHCP.*)
+	stIP_ADDR_MODE_BOOTP : USINT := 3; (*The configuration is automatically obtained via BOOTP.*)
+END_VAR
+(*Pallet status bits for SuperTrakPalletInfo_t.status*)
+VAR CONSTANT
+	stPALLET_ALLOCATED : USINT := 16#0001; (*Pallet status bit 0*)
+	stPALLET_RECOVERING : USINT := 16#0002; (*Pallet status bit 1: pallet is returning to its last controlled position*)
+	stPALLET_AT_TARGET : USINT := 16#0004; (*Pallet status bit 2: pallet is at its destination target (latching)*)
+	stPALLET_IN_POSITION : USINT := 16#0008; (*Pallet status bit 3: pallet is within the in-position window (real-time)*)
+	stPALLET_SERVO_ENABLED : USINT := 16#0010; (*Pallet status bit 4*)
+	stPALLET_INITIALIZING : USINT := 16#0020; (*Pallet status bit 5: pallet is moving to the Load Target*)
+	stPALLET_LOST : USINT := 16#0040; (*Pallet status bit 6: position feedback lost*)
+	stPALLET_RESERVED_7 : USINT := 16#0080; (*Pallet status bit 7*)
+END_VAR
+(*Pallet control modes for SuperTrakPalletInfo_t.controlMode*)
+VAR CONSTANT
+	stPALLET_MODE_TRAJECTORY : USINT := 0; (*SuperTrak is controlling the pallet normally*)
+	stPALLET_MODE_CNC : USINT := 1; (*Pallet is controlled by CNC*)
+	stPALLET_MODE_CAM : USINT := 2; (*Pallet is controlled by Sync*)
+	stPALLET_MODE_EXTERNAL : USINT := 3; (*Pallet is controlled externally*)
+END_VAR
+(*Application Warning detail0 codes*)
+VAR CONSTANT
+	stWARN_EPL_NOT_OK : UDINT := 16#00000001; (*Application Warning detail 0 bit 0 *)
+	stWARN_EPL_LINK_DOWN : UDINT := 16#00000002; (*Application Warning detail 0 bit 1 *)
+	stWARN_BC_NOT_OK : UDINT := 16#00000004; (*Application Warning detail 0 bit 2 *)
+	stWARN_PS_NOT_OK : UDINT := 16#00000008; (*Application Warning detail 0 bit 3 *)
+	stWARN_PLC_LINK_DOWN : UDINT := 16#00000010; (*Application Warning detail 0 bit 4 *)
+	stWARN_PLC_IF_ERROR : UDINT := 16#00000020; (*Application Warning detail 0 bit 5 *)
+	stWARN_IO_NOT_OK : UDINT := 16#00000100; (*Application Warning detail 0 bit 8 *)
+	stWARN_IO_ERROR : UDINT := 16#00000200; (*Application Warning detail 0 bit 9 *)
+END_VAR
+(*
+=== end SuperTrak standard items ===
+*)

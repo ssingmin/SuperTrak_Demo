@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.4.4.108?>
+<Library Version="0.06.2" Description="ATS SuperTrak G3 Conveyor Controller" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Data types">SuperTrak.typ</File>
+    <File Description="Constants">SuperTrak.var</File>
+    <File Description="Functions and function blocks">SuperTrak.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="ArEventLog" />
+    <Dependency ObjectName="AsArLog" />
+    <Dependency ObjectName="AsGuard" />
+    <Dependency ObjectName="AsIODiag" />
+    <Dependency ObjectName="AsIOTime" />
+    <Dependency ObjectName="AsPciExt" />
+    <Dependency ObjectName="AsTCP" />
+    <Dependency ObjectName="astime" />
+    <Dependency ObjectName="brsystem" />
+    <Dependency ObjectName="FileIO" />
+    <Dependency ObjectName="sys_lib" />
+  </Dependencies>
+</Library>

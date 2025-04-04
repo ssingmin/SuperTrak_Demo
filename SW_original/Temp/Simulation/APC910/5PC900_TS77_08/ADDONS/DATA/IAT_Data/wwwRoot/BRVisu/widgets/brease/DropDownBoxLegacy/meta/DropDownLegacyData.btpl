@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<BindingTemplates>
+
+  <BindingTemplate id="DropDownData" widgetType="widgets/brease/DropDownBoxLegacy" >
+    <BindingMember mode="twoWay">
+      <SourceMember refId="$Source.selectedIndex" attribute="value" />
+      <TargetMember refId="$Target" attribute="selectedIndex" />
+    </BindingMember>
+    <BindingMember mode="oneWay">
+      <SourceMember refId="$Source.entryList" attribute="value" />
+      <TargetMember refId="$Target" attribute="dataProvider" />
+    </BindingMember>
+  </BindingTemplate>
+
+</BindingTemplates>

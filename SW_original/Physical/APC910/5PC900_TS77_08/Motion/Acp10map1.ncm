@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.3.3.195?>
+<NcMapping NcSwId="ACP10" DisabledNodesAreHidden="False">
+  <NcObject Name="gAxisSDC" ModuleAddress="SDC_IF1.ST1" InterfaceType="SDC" Type="ncAXIS" Channel="1" AcoposSimulation="Standard" InitParameter="AxInit" AcoposParameter="AcpParTab" Disabled="FALSE" ModuleDisabled="FALSE" />
+</NcMapping>

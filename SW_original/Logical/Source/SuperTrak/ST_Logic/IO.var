@@ -1,0 +1,6 @@
+VAR
+	doExpertModeVisual : BOOL;
+	doExpertModeSound : BOOL;
+	doSafetyLampGuard : BOOL;
+	doSafetyLampSiReset : BOOL;
+END_VAR

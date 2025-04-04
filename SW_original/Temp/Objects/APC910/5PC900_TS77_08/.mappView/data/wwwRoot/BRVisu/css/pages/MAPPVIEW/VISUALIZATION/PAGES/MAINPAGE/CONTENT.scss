@@ -1,0 +1,478 @@
+﻿@import "mixins.scss";
+#ContentMainPage_btnEnableSystem {
+	@include elemTop(40);
+}
+#ContentMainPage_btnEnableSystem {
+	@include elemLeft(380);
+}
+#ContentMainPage_btnEnableSystem {
+	@include elemWidth(200);
+}
+#ContentMainPage_btnEnableSystem {
+	@include elemHeight(40);
+}
+#ContentMainPage_btnEnableSystem {
+		z-index: 0;
+}
+#ContentMainPage_btnEnableSystem {
+	&:not(.disabled){
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#ContentMainPage_btnEnableSystem {
+	&.disabled{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnEnableSystem {
+	&.disabled.active{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnEnableSystem {
+	&.disabled.checked{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnEnableSystem {
+	@include backGroundImage('../');
+}
+#ContentMainPage_btnDisableSystem {
+	@include elemTop(40);
+}
+#ContentMainPage_btnDisableSystem {
+	@include elemLeft(720);
+}
+#ContentMainPage_btnDisableSystem {
+	@include elemWidth(200);
+}
+#ContentMainPage_btnDisableSystem {
+	@include elemHeight(40);
+}
+#ContentMainPage_btnDisableSystem {
+		z-index: 1;
+}
+#ContentMainPage_btnDisableSystem {
+	&:not(.disabled){
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#ContentMainPage_btnDisableSystem {
+	&.disabled{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnDisableSystem {
+	&.disabled.active{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnDisableSystem {
+	&.disabled.checked{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnDisableSystem {
+	@include backGroundImage('../');
+}
+#ContentMainPage_RadioButtonGroup1 {
+	@include elemTop(140);
+}
+#ContentMainPage_RadioButtonGroup1 {
+	@include elemLeft(120);
+}
+#ContentMainPage_RadioButtonGroup1 {
+	@include elemWidth(1060);
+}
+#ContentMainPage_RadioButtonGroup1 {
+	@include elemHeight(60);
+}
+#ContentMainPage_RadioButtonGroup1 {
+		z-index: 2;
+}
+#ContentMainPage_btnMode1 {
+	@include elemTop(15);
+}
+#ContentMainPage_btnMode1 {
+	@include elemLeft(20);
+}
+#ContentMainPage_btnMode1 {
+	@include elemWidth(150);
+}
+#ContentMainPage_btnMode1 {
+	@include elemHeight(30);
+}
+#ContentMainPage_btnMode1 {
+		z-index: 0;
+}
+#ContentMainPage_btnMode1 {
+	&.disabled{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnMode1 {
+	&.disabled.checked{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnMode1 {
+	&.disabled.active{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnMode2 {
+	@include elemTop(15);
+}
+#ContentMainPage_btnMode2 {
+	@include elemLeft(460);
+}
+#ContentMainPage_btnMode2 {
+	@include elemWidth(150);
+}
+#ContentMainPage_btnMode2 {
+	@include elemHeight(30);
+}
+#ContentMainPage_btnMode2 {
+		z-index: 1;
+}
+#ContentMainPage_btnMode2 {
+	&.disabled{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnMode2 {
+	&.disabled.checked{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnMode2 {
+	&.disabled.active{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnMode3 {
+	@include elemTop(15);
+}
+#ContentMainPage_btnMode3 {
+	@include elemLeft(880);
+}
+#ContentMainPage_btnMode3 {
+	@include elemWidth(150);
+}
+#ContentMainPage_btnMode3 {
+	@include elemHeight(30);
+}
+#ContentMainPage_btnMode3 {
+		z-index: 2;
+}
+#ContentMainPage_btnMode3 {
+	&.disabled{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnMode3 {
+	&.disabled.checked{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnMode3 {
+	&.disabled.active{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnStart {
+	@include elemTop(260);
+}
+#ContentMainPage_btnStart {
+	@include elemLeft(380);
+}
+#ContentMainPage_btnStart {
+	@include elemWidth(200);
+}
+#ContentMainPage_btnStart {
+	@include elemHeight(40);
+}
+#ContentMainPage_btnStart {
+		z-index: 3;
+}
+#ContentMainPage_btnStart {
+	&:not(.disabled){
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#ContentMainPage_btnStart {
+	&.disabled{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnStart {
+	&.disabled.active{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnStart {
+	&.disabled.checked{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnStart {
+	@include backGroundImage('../');
+}
+#ContentMainPage_btnStop {
+	@include elemTop(260);
+}
+#ContentMainPage_btnStop {
+	@include elemLeft(720);
+}
+#ContentMainPage_btnStop {
+	@include elemWidth(200);
+}
+#ContentMainPage_btnStop {
+	@include elemHeight(40);
+}
+#ContentMainPage_btnStop {
+		z-index: 4;
+}
+#ContentMainPage_btnStop {
+	&:not(.disabled){
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#ContentMainPage_btnStop {
+	&.disabled{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnStop {
+	&.disabled.active{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnStop {
+	&.disabled.checked{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentMainPage_btnStop {
+	@include backGroundImage('../');
+}
+#ContentMainPage_BasicSlider1 {
+	@include elemTop(355);
+}
+#ContentMainPage_BasicSlider1 {
+	@include elemLeft(380);
+}
+#ContentMainPage_BasicSlider1 {
+	@include elemWidth(520);
+}
+#ContentMainPage_BasicSlider1 {
+	@include elemHeight(60);
+}
+#ContentMainPage_BasicSlider1 {
+		z-index: 5;
+}
+#ContentMainPage_BasicSlider2 {
+	@include elemTop(460);
+}
+#ContentMainPage_BasicSlider2 {
+	@include elemLeft(380);
+}
+#ContentMainPage_BasicSlider2 {
+	@include elemWidth(520);
+}
+#ContentMainPage_BasicSlider2 {
+	@include elemHeight(60);
+}
+#ContentMainPage_BasicSlider2 {
+		z-index: 6;
+}
+#ContentMainPage_Label1 {
+	@include elemTop(380);
+}
+#ContentMainPage_Label1 {
+	@include elemLeft(220);
+}
+#ContentMainPage_Label1 {
+	@include elemWidth(140);
+}
+#ContentMainPage_Label1 {
+	@include elemHeight(30);
+}
+#ContentMainPage_Label1 {
+		z-index: 7;
+}
+#ContentMainPage_Label2 {
+	@include elemTop(473);
+}
+#ContentMainPage_Label2 {
+	@include elemLeft(220);
+}
+#ContentMainPage_Label2 {
+	@include elemWidth(140);
+}
+#ContentMainPage_Label2 {
+	@include elemHeight(55);
+}
+#ContentMainPage_Label2 {
+		z-index: 8;
+}
+#ContentMainPage_NumericOutput1 {
+	@include elemTop(380);
+}
+#ContentMainPage_NumericOutput1 {
+	@include elemLeft(940);
+}
+#ContentMainPage_NumericOutput1 {
+	@include elemWidth(120);
+}
+#ContentMainPage_NumericOutput1 {
+	@include elemHeight(30);
+}
+#ContentMainPage_NumericOutput1 {
+		z-index: 9;
+}
+#ContentMainPage_NumericOutput2 {
+	@include elemTop(485);
+}
+#ContentMainPage_NumericOutput2 {
+	@include elemLeft(940);
+}
+#ContentMainPage_NumericOutput2 {
+	@include elemWidth(120);
+}
+#ContentMainPage_NumericOutput2 {
+	@include elemHeight(30);
+}
+#ContentMainPage_NumericOutput2 {
+		z-index: 10;
+}
+#ContentMainPage_GroupBox1 {
+	@include elemTop(240);
+}
+#ContentMainPage_GroupBox1 {
+	@include elemLeft(320);
+}
+#ContentMainPage_GroupBox1 {
+	@include elemWidth(680);
+}
+#ContentMainPage_GroupBox1 {
+	@include elemHeight(160);
+}
+#ContentMainPage_GroupBox1 {
+		z-index: 12;
+}
+#ContentMainPage_btnOk {
+	@include elemTop(83);
+}
+#ContentMainPage_btnOk {
+	@include elemLeft(299);
+}
+#ContentMainPage_btnOk {
+	@include elemWidth(100);
+}
+#ContentMainPage_btnOk {
+	@include elemHeight(30);
+}
+#ContentMainPage_btnOk {
+		z-index: 0;
+}
+#ContentMainPage_Label3 {
+	@include elemTop(23);
+}
+#ContentMainPage_Label3 {
+	@include elemLeft(19);
+}
+#ContentMainPage_Label3 {
+	@include elemWidth(621);
+}
+#ContentMainPage_Label3 {
+	@include elemHeight(40);
+}
+#ContentMainPage_Label3 {
+		z-index: 1;
+}
+#ContentMainPage_Label3 {
+		color: rgba(255, 0, 0, 1);
+}
+#ContentMainPage_GroupBox2 {
+	@include elemTop(240);
+}
+#ContentMainPage_GroupBox2 {
+	@include elemLeft(320);
+}
+#ContentMainPage_GroupBox2 {
+	@include elemWidth(680);
+}
+#ContentMainPage_GroupBox2 {
+	@include elemHeight(160);
+}
+#ContentMainPage_GroupBox2 {
+		z-index: 13;
+}
+#ContentMainPage_btnOkHome {
+	@include elemTop(83);
+}
+#ContentMainPage_btnOkHome {
+	@include elemLeft(299);
+}
+#ContentMainPage_btnOkHome {
+	@include elemWidth(100);
+}
+#ContentMainPage_btnOkHome {
+	@include elemHeight(30);
+}
+#ContentMainPage_btnOkHome {
+		z-index: 0;
+}
+#ContentMainPage_Label5 {
+	@include elemTop(23);
+}
+#ContentMainPage_Label5 {
+	@include elemLeft(19);
+}
+#ContentMainPage_Label5 {
+	@include elemWidth(621);
+}
+#ContentMainPage_Label5 {
+	@include elemHeight(40);
+}
+#ContentMainPage_Label5 {
+		z-index: 1;
+}
+#ContentMainPage_Label5 {
+		color: rgba(255, 0, 0, 1);
+}
+#ContentMainPage_TextOutput1 {
+	@include elemTop(580);
+}
+#ContentMainPage_TextOutput1 {
+	@include elemLeft(380);
+}
+#ContentMainPage_TextOutput1 {
+	@include elemWidth(540);
+}
+#ContentMainPage_TextOutput1 {
+	@include elemHeight(30);
+}
+#ContentMainPage_TextOutput1 {
+		z-index: 11;
+}
+#ContentMainPage_TextOutput1 {
+		border-width: 1px;
+}
+#ContentMainPage_TextOutput1 {
+		border-style: solid;
+}
+#ContentMainPage_TextOutput1 {
+	&:before{
+		border-style: solid;
+	}
+}
+#ContentMainPage_TextOutput1 {
+	&:after{
+		border-style: solid;
+	}
+}
+#ContentMainPage_TextOutput1 {
+	@include text-alignment-all('center');
+}

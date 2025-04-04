@@ -1,0 +1,6 @@
+PROGRAM	Main			PT=1	Main
+FUNCTION_BLOCK	CheckAnalogSensor			PT=1	CheckAnalogSensor
+FUNCTION_BLOCK	ScaleSAFEDINT			PT=1	ScaleSAFEDINT
+FUNCTION_BLOCK	ScaleSAFEINT			PT=1	ScaleSAFEINT
+FUNCTION_BLOCK	SafetyRun			PT=1	SafetyRun
+FUNCTION_BLOCK	GuardLocks			PT=1	GuardLocks

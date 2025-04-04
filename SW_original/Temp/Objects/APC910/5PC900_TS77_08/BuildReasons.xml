@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID=".mappView_Clean_Data">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_Build">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferData">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_Media">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferIatr">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\brease\iatc\brvisu\brease._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\brease\iat\build\build._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\transformations_copy._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\types\area._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\build\node_modules">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\acp10cfg.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\common\css\boxlayout.sass.css._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\media\markerfile._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\media\symbollib\alarm\markerfile._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\media\symbollib\arrow\markerfile._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\media\symbollib\communication\markerfile._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\media\symbollib\datetime\markerfile._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\media\symbollib\diagnostic\markerfile._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\media\symbollib\displayandtouch\markerfile._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\media\symbollib\file\markerfile._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\media\symbollib\edit\markerfile._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\media\symbollib\localize\markerfile._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\media\symbollib\media\markerfile._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\media\symbollib\needle\markerfile._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\media\symbollib\symbols\markerfile._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\media\symbollib\user\markerfile._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\index.html">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\favicon.ico">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\image\meta\image_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\languageselector\meta\languageselector_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\dropdownboxlegacy\meta\dropdownboxlegacy_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\listboxlegacy\meta\listboxlegacy_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\togglebutton\meta\togglebutton_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\button\meta\button_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\pushbutton\meta\pushbutton_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\radiobuttongroup\meta\radiobuttongroup_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\buttonbar\meta\buttonbar_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\radiobutton\meta\radiobutton_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\basicslider\meta\basicslider_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\label\meta\label_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\numericoutput\meta\numericoutput_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\numericinput\meta\numericinput_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\numpad\meta\numpad_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\window\meta\window_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\groupbox\meta\groupbox_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\textoutput\meta\textoutput_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\navigationbutton\meta\navigationbutton_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\pdfviewer\meta\pdfviewer_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\videoplayer\meta\videoplayer_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\momentarypushbutton\meta\momentarypushbutton_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\messagebox\meta\messagebox_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\dialogwindow\meta\dialogwindow_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\fragmentloader\meta\fragmentloader_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\keyboard\meta\keyboard_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\widgets\brease\datetimepicker\meta\datetimepicker_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\server\supertrakdemo.vis">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\duplicatethemesfinder._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\duplicatestylessetsfinder._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\duplicatestylesfinder._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\duplicatebindingslistsetsfinder._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\server\config.mappviewcfg">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\assl1.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\opcuamap.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\arconfig.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_main\main.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_logic\main.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_visu\cyclic.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\axisctrl\main.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\ashwac.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\acp10sys.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\mvloader.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\udbdef.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\tcdata\tcdata.imx">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\operator.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\runtime.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\astime.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\asieccon.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\asbrstr.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\standard.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\areventlog.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\asarlog.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\sys_lib.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\astcp.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\fileio.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\asiotime.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\asudp.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\aseth.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\asarcfg.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\brsystem.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\asiodiag.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\asguard.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\mpbase.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\asbrmath.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\acp10par.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\ncglobal.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\acp10man.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\acp10sdc.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\mpaxis.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\mpcom.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\acp10_mc.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\mpalarmx.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\mpserver.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\stcom.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\assafety.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\dataobj.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\asxml.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\supertrak.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_main\_bur_pvdef.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_logic\_bur_pvdef.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_main\a.out">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_logic\a.out">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_visu\_bur_pvdef.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_visu\a.out">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\axisctrl\_bur_pvdef.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\axisctrl\a.out">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_logic\st_logic.ox">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_main\st_main.ox">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_main.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_visu\st_visu.ox">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\axisctrl\axisctrl.ox">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_logic.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\st_visu.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\axisctrl.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\tcdata\tcdata.s18d">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\acp10map.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\acp10map1.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\tcdata.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\acperrtxt.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\tclang.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\tc.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\role.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\user.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\axisconfig.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\iomap.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\sysconf.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\asfw.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\axinit.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\acppartab.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\ashwd.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\.mappview_prerequisites._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\types\area_default.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\types\body_default.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\types\dialog_default.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\types\messagebox_default.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\types\page_default.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\types\scrollbar_default.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\supertrakdemo.json._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\mylayout.layout._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\contents\mappview\logoheader._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\contents\mappview\navigationcontent._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\transformations\eventbinding\parametertypemapping.xml">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\contents\mappview\contentdocumentation._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\contents\mappview\contentmainpage._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\contents\mappview\contentvideo._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\contents\mappview\contentjog._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\validatebindings._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\validateeventbindings._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\server\myeventbinding.eventbinding">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\burtheme1styleset\burtheme1.stylesset._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\server\__systemvariables.sessionvar">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\pages\documentation\content.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\pages\areacontents\navigation.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\duplicatebindingsfinder._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\server\supertrakbindings.binding._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\burtheme1.theme._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\pages\video\content.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\burtheme1styleset\system.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\burtheme1styleset\default.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\burtheme1styleset\buttons.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\burtheme1styleset\common.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\burtheme1styleset\container.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\burtheme1styleset\labeltexts.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\burtheme1styleset\numeric.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\burtheme1styleset\graphic.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\pages\mainpage\content.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\pages\jog\content.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\mainpage.page._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\documentationpage.page._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\videopage.page._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\jogpage.page._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\pages\areacontents\logo.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\supertrakdemo.json">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\css\brease_core.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts77_08\.mappview\data\wwwroot\grunt.widgets._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Build">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID=".mappView_FullBuild">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\apc910\5pc900_ts77_08\transfer.lst">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+</BuildReasons>

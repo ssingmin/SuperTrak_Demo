@@ -1,0 +1,355 @@
+﻿@import "mixins.scss";
+#NavigationContent_NavigationButton2 {
+	@include elemTop(0);
+}
+#NavigationContent_NavigationButton2 {
+	@include elemLeft(800);
+}
+#NavigationContent_NavigationButton2 {
+	@include elemWidth(80);
+}
+#NavigationContent_NavigationButton2 {
+	@include elemHeight(60);
+}
+#NavigationContent_NavigationButton2 {
+		z-index: 0;
+}
+#NavigationContent_NavigationButton2 {
+	img{
+	@include imageHeight(60);
+	}
+}
+#NavigationContent_NavigationButton2 {
+	svg{
+	@include imageHeight(60);
+	}
+}
+#NavigationContent_NavigationButton2 {
+	img{
+	@include imageWidth(60);
+	}
+}
+#NavigationContent_NavigationButton2 {
+	svg{
+	@include imageWidth(60);
+	}
+}
+#NavigationContent_NavigationButton2 {
+	@include border-radius(0px);
+}
+#NavigationContent_NavigationButton2 {
+	&:not(.disabled){
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_NavigationButton2 {
+	&.disabled:not(.checked){
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_NavigationButton2 {
+	@include backGroundImage('../');
+}
+#NavigationContent_NavigationButton3 {
+	@include elemTop(0);
+}
+#NavigationContent_NavigationButton3 {
+	@include elemLeft(420);
+}
+#NavigationContent_NavigationButton3 {
+	@include elemWidth(80);
+}
+#NavigationContent_NavigationButton3 {
+	@include elemHeight(60);
+}
+#NavigationContent_NavigationButton3 {
+		z-index: 1;
+}
+#NavigationContent_NavigationButton3 {
+	img{
+	@include imageHeight(60);
+	}
+}
+#NavigationContent_NavigationButton3 {
+	svg{
+	@include imageHeight(60);
+	}
+}
+#NavigationContent_NavigationButton3 {
+	img{
+	@include imageWidth(60);
+	}
+}
+#NavigationContent_NavigationButton3 {
+	svg{
+	@include imageWidth(60);
+	}
+}
+#NavigationContent_NavigationButton3 {
+	@include border-radius(0px);
+}
+#NavigationContent_NavigationButton3 {
+	&:not(.disabled){
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_NavigationButton3 {
+	&.disabled:not(.checked){
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_NavigationButton3 {
+	@include backGroundImage('../');
+}
+#NavigationContent_NavigationButton4 {
+	@include elemTop(0);
+}
+#NavigationContent_NavigationButton4 {
+	@include elemLeft(1200);
+}
+#NavigationContent_NavigationButton4 {
+	@include elemWidth(80);
+}
+#NavigationContent_NavigationButton4 {
+	@include elemHeight(60);
+}
+#NavigationContent_NavigationButton4 {
+		z-index: 2;
+}
+#NavigationContent_NavigationButton4 {
+	img{
+	@include imageHeight(60);
+	}
+}
+#NavigationContent_NavigationButton4 {
+	svg{
+	@include imageHeight(60);
+	}
+}
+#NavigationContent_NavigationButton4 {
+	img{
+	@include imageWidth(60);
+	}
+}
+#NavigationContent_NavigationButton4 {
+	svg{
+	@include imageWidth(60);
+	}
+}
+#NavigationContent_NavigationButton4 {
+	@include border-radius(0px);
+}
+#NavigationContent_NavigationButton4 {
+	&:not(.disabled){
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_NavigationButton4 {
+	&.disabled:not(.checked){
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_NavigationButton4 {
+	@include backGroundImage('../');
+}
+#NavigationContent_NavigationButton1 {
+	@include elemTop(0);
+}
+#NavigationContent_NavigationButton1 {
+	@include elemLeft(0);
+}
+#NavigationContent_NavigationButton1 {
+	@include elemWidth(80);
+}
+#NavigationContent_NavigationButton1 {
+	@include elemHeight(60);
+}
+#NavigationContent_NavigationButton1 {
+		z-index: 3;
+}
+#NavigationContent_NavigationButton1 {
+	img{
+	@include imageHeight(60);
+	}
+}
+#NavigationContent_NavigationButton1 {
+	svg{
+	@include imageHeight(60);
+	}
+}
+#NavigationContent_NavigationButton1 {
+	img{
+	@include imageWidth(60);
+	}
+}
+#NavigationContent_NavigationButton1 {
+	svg{
+	@include imageWidth(60);
+	}
+}
+#NavigationContent_NavigationButton1 {
+	&.disabled svg{
+		fill: rgba(0, 0, 0, 1);
+	}
+}
+#NavigationContent_NavigationButton1 {
+	@include border-radius(0px);
+}
+#NavigationContent_NavigationButton1 {
+	&:not(.disabled){
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_NavigationButton1 {
+	&.disabled:not(.checked){
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_NavigationButton1 {
+	@include backGroundImage('../');
+}
+#NavigationContent_NavigationButton1 {
+	&.disabled.checked{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton2 {
+	@include elemTop(0);
+}
+#NavigationContent_PushButton2 {
+	@include elemLeft(0);
+}
+#NavigationContent_PushButton2 {
+	@include elemWidth(80);
+}
+#NavigationContent_PushButton2 {
+	@include elemHeight(60);
+}
+#NavigationContent_PushButton2 {
+		z-index: 4;
+}
+#NavigationContent_PushButton2 {
+	&:not(.disabled){
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton2 {
+	&.disabled{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton2 {
+	&.disabled.active{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton2 {
+	&.disabled.checked{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton3 {
+	@include elemTop(0);
+}
+#NavigationContent_PushButton3 {
+	@include elemLeft(1200);
+}
+#NavigationContent_PushButton3 {
+	@include elemWidth(80);
+}
+#NavigationContent_PushButton3 {
+	@include elemHeight(60);
+}
+#NavigationContent_PushButton3 {
+		z-index: 5;
+}
+#NavigationContent_PushButton3 {
+	&:not(.disabled){
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton3 {
+	&.disabled{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton3 {
+	&.disabled.active{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton3 {
+	&.disabled.checked{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton4 {
+	@include elemTop(0);
+}
+#NavigationContent_PushButton4 {
+	@include elemLeft(420);
+}
+#NavigationContent_PushButton4 {
+	@include elemWidth(80);
+}
+#NavigationContent_PushButton4 {
+	@include elemHeight(60);
+}
+#NavigationContent_PushButton4 {
+		z-index: 6;
+}
+#NavigationContent_PushButton4 {
+	&:not(.disabled){
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton4 {
+	&.disabled{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton4 {
+	&.disabled.active{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton4 {
+	&.disabled.checked{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton5 {
+	@include elemTop(0);
+}
+#NavigationContent_PushButton5 {
+	@include elemLeft(800);
+}
+#NavigationContent_PushButton5 {
+	@include elemWidth(80);
+}
+#NavigationContent_PushButton5 {
+	@include elemHeight(60);
+}
+#NavigationContent_PushButton5 {
+		z-index: 7;
+}
+#NavigationContent_PushButton5 {
+	&:not(.disabled){
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton5 {
+	&.disabled{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton5 {
+	&.disabled.active{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#NavigationContent_PushButton5 {
+	&.disabled.checked{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}

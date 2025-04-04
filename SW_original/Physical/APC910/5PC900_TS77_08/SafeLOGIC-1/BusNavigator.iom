@@ -1,0 +1,29 @@
+<!--xml version= "1.0" encoding="utf-8"-->
+<!--IOMapping Version="4.0"-->
+<IOOffsets SIBytes="2048" SOBytes="2048" NSIBytes="1024" NSOBytes="1024" ConnectionsValidOffset="24" >
+		<Module Name="SL1.SM1" Hardware="X20SLX842" SafeLogicID="1" SafeModuleID="1" SISize="8" SOSize="2" NSISize="20" NSOSize="20" SIOffset="16" SOOffset="12" NSIOffset="0" NSOOffset="0" HWTypeCode="63" >
+			<Channel Name="SafeDigitalInput03" Mapping="SIX16.2" Variable="giReqGuardUnlock1" SODIndex="0x9999" SODSubIndex="0x1" />
+			<Channel Name="SafeDigitalInput04" Mapping="SIX16.3" Variable="giFBPowerOn" SODIndex="0x9999" SODSubIndex="0x1" />
+			<Channel Name="SafeDigitalInput05" Mapping="SIX16.4" Variable="giSafetyQuit" SODIndex="0x9999" SODSubIndex="0x1" />
+			<Channel Name="SafeTwoChannelInput0102" Mapping="SIX17.0" Variable="giEmStopSS1" SODIndex="0x9999" SODSubIndex="0x2" />
+			<Channel Name="SafeTwoChannelInput0708" Mapping="SIX17.3" Variable="giGuardLock1Closed" SODIndex="0x9999" SODSubIndex="0x2" />
+			<Channel Name="SafeDigitalOutput01" Mapping="SQX12.0" Variable="goPowerOn1" SODIndex="0x9999" SODSubIndex="0x4" />
+			<Channel Name="SafeDigitalOutput02" Mapping="SQX12.1" Variable="goPowerOn2" SODIndex="0x9999" SODSubIndex="0x4" />
+			<Channel Name="SafeDigitalOutput05" Mapping="SQX12.4" Variable="goCloseGuardLock1" SODIndex="0x9999" SODSubIndex="0x4" />
+			<Channel Name="SafeDigitalOutput06" Mapping="SQX12.5" Variable="goCloseGuardLock2" SODIndex="0x9999" SODSubIndex="0x4" />
+			<Channel Name="ReleaseOutput01" Mapping="NSQX2.0" Variable="goPowerOn1R" SODIndex="0x9999" SODSubIndex="0x7" />
+			<Channel Name="ReleaseOutput02" Mapping="NSQX2.1" Variable="goPowerOn2R" SODIndex="0x9999" SODSubIndex="0x7" />
+			<Channel Name="ReleaseOutput05" Mapping="NSQX2.4" Variable="goCloseGuardLock1R" SODIndex="0x9999" SODSubIndex="0x7" />
+			<Channel Name="ReleaseOutput06" Mapping="NSQX2.5" Variable="goCloseGuardLock2R" SODIndex="0x9999" SODSubIndex="0x7" />
+			<Channel Name="BOOL001" Mapping="NSQX0.0" Variable="goSafeLogicRun" Address="ST_Logic:SafetyRun" SODIndex="0x2580" SODSubIndex="0x1" />
+			<Channel Name="BOOL002" Mapping="NSQX0.1" Variable="goEmStopSS1Ok" Address="ST_Logic:SafetyEmStopSS1Ok" SODIndex="0x2580" SODSubIndex="0x1" />
+			<Channel Name="BOOL003" Mapping="NSQX0.2" Variable="goReqGuardUnlock" Address="ST_Logic:SafetyReqGuardUnlock" SODIndex="0x2580" SODSubIndex="0x1" />
+			<Channel Name="BOOL005" Mapping="NSQX0.4" Variable="goErrFBPowerOn" Address="ST_Logic:SafetyErrFBPowerOn" SODIndex="0x2580" SODSubIndex="0x1" />
+			<Channel Name="BOOL006" Mapping="NSQX0.5" Variable="goGuardLocked" Address="ST_Logic:SafetyGuardLocked" SODIndex="0x2580" SODSubIndex="0x1" />
+			<Channel Name="BOOL008" Mapping="NSQX0.7" Variable="goSafetyOk" Address="ST_Logic:SafetyOk" SODIndex="0x2580" SODSubIndex="0x1" />
+			<Channel Name="BOOL009" Mapping="NSQX1.0" Variable="goLampGuard" Address="ST_Logic:SafetyLampGuard" SODIndex="0x2580" SODSubIndex="0x2" />
+			<Channel Name="BOOL010" Mapping="NSQX1.1" Variable="goLampSiReset" Address="ST_Logic:SafetyLampSiReset" SODIndex="0x2580" SODSubIndex="0x2" />
+			<Channel Name="BOOL011" Mapping="NSQX1.2" Variable="goSiReset" Address="ST_Logic:Acknowledge" SODIndex="0x2580" SODSubIndex="0x2" />
+			<Channel Name="BOOL101" Mapping="NSIX0.0" Variable="giSafetyForUnlockActive" Address="ST_Logic:SafetyForUnlockActive" SODIndex="0x2500" SODSubIndex="0x2" />
+		</Module>
+</IOOffsets>

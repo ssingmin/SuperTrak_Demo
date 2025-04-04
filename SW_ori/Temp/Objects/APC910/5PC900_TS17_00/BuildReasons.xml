@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID=".mappView_Clean_Data">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferIatr_Client">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_Media">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferIatr_PLC">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_Build">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferData_Client">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferData_PLC">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\brease\iatc\brvisu\brease._markerfile">
+    <BuildReason>Target "brease._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\brease\iat\build\jsbuild._markerfile">
+    <BuildReason>Target "jsbuild._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\index.html">
+    <BuildReason>Target "index.html" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\types\area._markerfile">
+    <BuildReason>Target "area._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\favicon.ico">
+    <BuildReason>Target "favicon.ico" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\transformations_copy._markerfile">
+    <BuildReason>Target "transformations_copy._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\server\serverdiagnostics._markerfile">
+    <BuildReason>Target "serverdiagnostics._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\0_visulist.json">
+    <BuildReason>Target "0_visulist.json" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\acp10cfg.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\apc910\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\duplicatethemesfinder._markerfile">
+    <BuildReason>Target "duplicatethemesfinder._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\duplicatestylessetsfinder._markerfile">
+    <BuildReason>Target "duplicatestylessetsfinder._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\iat_media.job._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\iat_media.job" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\duplicatestylesfinder._markerfile">
+    <BuildReason>Target "duplicatestylesfinder._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\server\supertrakdemo.vis">
+    <BuildReason>Target "supertrakdemo.vis" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\server\config.mappviewcfg">
+    <BuildReason>Target "config.mappviewcfg" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\arconfig.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\apc910\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\ashwac.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\apc910\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\acp10map.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\apc910\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\acp10map1.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\apc910\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\iomap.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\apc910\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\sysconf.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\apc910\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\asfw.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\apc910\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\.mappview_prerequisites._markerfile">
+    <BuildReason>Target ".mappview_prerequisites._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\type_sass._markerfile">
+    <BuildReason>Target "type_sass._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\dialog_sass._markerfile">
+    <BuildReason>Target "dialog_sass._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\common\busyindicatorhandler\libs\busyindicatorhandler.js._markerfile">
+    <BuildReason>Target "busyindicatorhandler.js._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\system\widgets\common\keyboards\autosize.js._markerfile">
+    <BuildReason>Target "autosize.js._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\validate_pages._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\transformations\eventbinding\parametertypemapping.xml">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\bindinglist_trans._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\validate_navs._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\validate_layouts._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\validateeventbindings._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\validate_themes._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\validate_stylessets._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\server\__systemvariables.sessionvar">
+    <BuildReason>Target "__systemvariables.sessionvar" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\system\widgets\changepassworddialog\meta\changepassworddialog_copied.markerfile">
+    <BuildReason>Target "changepassworddialog_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\image\meta\image_copied.markerfile">
+    <BuildReason>Target "image_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\languageselector\meta\languageselector_copied.markerfile">
+    <BuildReason>Target "languageselector_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\pushbutton\meta\pushbutton_copied.markerfile">
+    <BuildReason>Target "pushbutton_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\dropdownbox\meta\dropdownbox_copied.markerfile">
+    <BuildReason>Target "dropdownbox_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\buttonbar\meta\buttonbar_copied.markerfile">
+    <BuildReason>Target "buttonbar_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\radiobutton\meta\radiobutton_copied.markerfile">
+    <BuildReason>Target "radiobutton_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\button\meta\button_copied.markerfile">
+    <BuildReason>Target "button_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\radiobuttongroup\meta\radiobuttongroup_copied.markerfile">
+    <BuildReason>Target "radiobuttongroup_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\togglebutton\meta\togglebutton_copied.markerfile">
+    <BuildReason>Target "togglebutton_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\basicslider\meta\basicslider_copied.markerfile">
+    <BuildReason>Target "basicslider_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\label\meta\label_copied.markerfile">
+    <BuildReason>Target "label_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\numericoutput\meta\numericoutput_copied.markerfile">
+    <BuildReason>Target "numericoutput_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\numericinput\meta\numericinput_copied.markerfile">
+    <BuildReason>Target "numericinput_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\groupbox\meta\groupbox_copied.markerfile">
+    <BuildReason>Target "groupbox_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\textoutput\meta\textoutput_copied.markerfile">
+    <BuildReason>Target "textoutput_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\pdfviewer\meta\pdfviewer_copied.markerfile">
+    <BuildReason>Target "pdfviewer_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\navigationbutton\meta\navigationbutton_copied.markerfile">
+    <BuildReason>Target "navigationbutton_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\videoplayer\meta\videoplayer_copied.markerfile">
+    <BuildReason>Target "videoplayer_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\momentarypushbutton\meta\momentarypushbutton_copied.markerfile">
+    <BuildReason>Target "momentarypushbutton_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\messagebox\meta\messagebox_copied.markerfile">
+    <BuildReason>Target "messagebox_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\window\meta\window_copied.markerfile">
+    <BuildReason>Target "window_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\dialogwindow\meta\dialogwindow_copied.markerfile">
+    <BuildReason>Target "dialogwindow_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\numpad\meta\numpad_copied.markerfile">
+    <BuildReason>Target "numpad_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\keyboard\meta\keyboard_copied.markerfile">
+    <BuildReason>Target "keyboard_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\datetimepicker\meta\datetimepicker_copied.markerfile">
+    <BuildReason>Target "datetimepicker_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\textinput\meta\textinput_copied.markerfile">
+    <BuildReason>Target "textinput_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\widgets\brease\password\meta\password_copied.markerfile">
+    <BuildReason>Target "password_copied.markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\ashwd.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\apc910\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\.mappview_widgetsfinished._markerfile">
+    <BuildReason>Target ".mappview_widgetsfinished._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\content_trans._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\validatebindings._markerfile">
+    <BuildReason>Target "validatebindings._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\binding_trans._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\eventbinding_trans._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\.mappview_prerequisites._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\157945538.scss">
+    <BuildReason>Target "157945538.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1074141008.scss">
+    <BuildReason>Target "1074141008.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\877119071.scss">
+    <BuildReason>Target "877119071.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1800426408.scss">
+    <BuildReason>Target "1800426408.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1354067113.scss">
+    <BuildReason>Target "1354067113.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1398646705.scss">
+    <BuildReason>Target "-1398646705.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\560097432.scss">
+    <BuildReason>Target "560097432.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\118132788.scss">
+    <BuildReason>Target "118132788.scss" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\grunt.breaserelease._markerfile">
+    <BuildReason>Target "grunt.breaserelease._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\duplicatebindingsfinder._markerfile">
+    <BuildReason>Target "duplicatebindingsfinder._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css">
+    <BuildReason>Target "burtheme1.min.css" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
+    <BuildReason>Target "grunt.themescsso._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\supertrakdemo.json">
+    <BuildReason>Target "supertrakdemo.json" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\content_sass._markerfile">
+    <BuildReason>Target "content_sass._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\brvisu\css\brease_core.css">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\br.iat.concatfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\apc910\5pc900_ts17_00\.mappview\data\wwwroot\grunt.breasecsso._markerfile">
+    <BuildReason>Target "grunt.breasecsso._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Build">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_FullBuild">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+</BuildReasons>

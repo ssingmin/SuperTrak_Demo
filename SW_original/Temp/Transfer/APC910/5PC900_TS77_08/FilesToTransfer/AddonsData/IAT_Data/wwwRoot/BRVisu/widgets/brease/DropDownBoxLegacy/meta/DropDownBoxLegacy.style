@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyleInformation name="widgets.brease.DropDownBoxLegacy" xmlns="http://www.br-automation.com/iat2014/widgetStyles"
+									xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<StyleProperties>
+    <StyleProperty name="width" type="Size" not_styleable="true" default="100">
+      <StyleElement attribute="@include elemWidth($value)"></StyleElement>
+      <Description>outer width of widget</Description>
+    </StyleProperty>
+    <StyleProperty name="height" type="Size" not_styleable="true" default="30">
+      <StyleElement attribute="@include elemHeight($value)"></StyleElement>
+      <Description>outer height of widget</Description>
+    </StyleProperty>
+
+
+    <StyleProperty name="listSeparatorColor" category="Appearance" type="Color" default="#000">
+      <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul div" attribute="background"></StyleElement>
+      <Description>
+        Sets the color of the list separator
+      </Description>
+    </StyleProperty>
+    
+    
+    
+    
+    
+		<StyleProperty name="borderWidth" category="Appearance" type="PixelValCollection" default="2px">
+			<StyleElement selector=".breaseButton" attribute="border-width"></StyleElement>
+			<Description>
+        Sets the width of the border of the widget. For further information, please check its type
+      </Description>
+		</StyleProperty>
+    <StyleProperty name="borderStyle" type="BorderStyle" category="Appearance" default="solid">
+      <StyleElement selector=".breaseButton" attribute="border-style"></StyleElement>
+      <Description>
+        Style of the Border of the widget
+      </Description>
+    </StyleProperty>
+		<StyleProperty name="listBorderWidth" category="Appearance"  type="PixelValCollection" default="2px">
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy" attribute="border-width"></StyleElement>
+			<Description>
+        Sets the width of the border around the drop-down list. For further information, please check its type
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="cornerRadius" category="Appearance" type="PixelValCollection" default="0px">
+			<StyleElement selector=".breaseButton" attribute="@include border-radius($value)"></StyleElement>
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy" attribute="@include border-radius($value)"></StyleElement>
+			<Description>
+        Sets the radius of both widget and the drop-down list rounded corners. For further information, please check its type
+      </Description>
+		</StyleProperty>
+		<StyleProperty name="backColor" category="Appearance" type="Color" default="#DBDBDB" >
+			<StyleElement selector=".breaseButton:not(.disabled)" attribute="background-color"></StyleElement>
+			<Description>
+        Sets the background color of the widget
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="disabledBackColor" category="Appearance" type="Color" default="#F1F1F1" >
+			<StyleElement selector="&amp;.disabled .breaseButton.disabled" attribute="background-color"></StyleElement>
+			<StyleElement selector="&amp;.disabled:active .breaseButton.disabled" attribute="background-color"></StyleElement>
+			<StyleElement selector="&amp;.disabled.checked .breaseButton.disabled" attribute="background-color"></StyleElement>
+			<Description>
+        Sets the background color when the widget is disabled
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="backGroundGradient" category="Appearance" type="Gradient" default="none">
+			<StyleElement selector=".breaseButton:not(.disabled)" attribute="background-image"></StyleElement>
+			<Description>
+				Background as a gradient
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="disabledBackGroundGradient" category="Appearance" type="Gradient" default="none">
+			<StyleElement selector="&amp;.disabled .breaseButton.disabled" attribute="background-image"></StyleElement>
+			<StyleElement selector="&amp;.disabled:active .breaseButton.disabled" attribute="background-image"></StyleElement>
+			<StyleElement selector="&amp;.disabled.checked .breaseButton.disabled" attribute="background-image"></StyleElement>
+			<Description>
+				Background as a gradient
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="listBackColor" category="Appearance" type="Color" default="#FFFFFF">
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li" attribute="background-color"></StyleElement>
+			<Description>
+        Sets the background color of the drop-down list
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="listBackGroundGradient" category="Appearance" type="Gradient" default="none">
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li" attribute="background-image"></StyleElement>
+			<Description>
+				Background as a gradient
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="borderColor" category="Appearance" type="ColorCollection" default="#5B7C70" >
+			<StyleElement selector=".breaseButton:not(.disabled)" attribute="border-color"></StyleElement>
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy" attribute="border-color"></StyleElement>
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector="&amp;.list-right .arrow" attribute="border-right-color"></StyleElement>
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector="&amp;.list-left .arrow" attribute="border-left-color"></StyleElement>
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector="&amp;.list-top .arrow" attribute="border-top-color"></StyleElement>
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector="&amp;.list-bottom .arrow" attribute="border-bottom-color"></StyleElement>
+			<Description>
+        Sets the border color of both the widget and the drop-down list
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="disabledBorderColor" category="Appearance" type="ColorCollection" default="#FFFFFF #C8C8C8 #C8C8C8 #FFFFFF">
+			<StyleElement selector="&amp;.disabled .breaseButton.disabled" attribute="border-color"></StyleElement>
+			<StyleElement selector="&amp;.disabled .breaseButton.disabled:active" attribute="border-color"></StyleElement>
+			<StyleElement selector="&amp;.disabled .breaseButton.disabled.checked" attribute="border-color"></StyleElement>
+			<Description>
+        Sets the border color when the widget is disabled
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="textColor" category="Appearance" type="Color" default="#000000">
+			<StyleElement selector=".breaseButton:not(.disabled) span" attribute="color"></StyleElement>
+			<Description>
+        Sets the color of the text displayed by the widget
+			</Description>
+		</StyleProperty>
+    <StyleProperty name="listTextColor" category="Appearance" type="Color" default="#000000">
+      <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li span" attribute="color"></StyleElement>
+      <Description>
+        Sets the color of the text of the drop-down list
+      </Description>
+    </StyleProperty>
+    
+		<StyleProperty name="disabledTextColor" category="Appearance" type="Color" default="#989898" >
+			<StyleElement selector="&amp;.disabled .breaseButton.disabled span" attribute="color"></StyleElement>
+			<Description>
+        Sets the color of the text when the widget is disabled
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="activeBackColor" category="Appearance" type="Color" default="#ff8800">
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li.selected" attribute="background-color"></StyleElement>
+			<Description>
+        Sets the background color of the selected item in the drop-down list
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="activeBackGroundGradient" category="Appearance" type="Gradient" default="none">
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li.selected" attribute="background-image"></StyleElement>
+			<Description>
+				Background as a gradient
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="activeTextColor" category="Appearance" type="Color" default="#ffffff">
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li.selected span" attribute="color"></StyleElement>
+			<Description>
+        Sets the text color of the selected item in the drop-down list
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="textAlign" category="Appearance" type="brease.enum.TextAlign" default="center">
+			<StyleElement selector=".breaseButton" attribute="@include text-alignment($value)"></StyleElement>
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li" attribute="@include text-alignment($value)"></StyleElement>
+			<Description>
+				Alignment of the text
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="opacity" category="Appearance" type="Opacity" default="1" >
+			<StyleElement selector="" attribute="opacity"></StyleElement>
+			<StyleElement  idsuffix="_breaseDropDownListWrapper" attribute="opacity"></StyleElement>
+			<Description>
+				Opacity of the widget
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="fontSize" category="Font" type="PixelVal" default="12px">
+			<StyleElement selector=".breaseButton span" attribute="font-size"></StyleElement>
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li span " attribute="font-size"></StyleElement>
+			<Description>
+				Fontsize of the text in pixel
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="fontName" category="Font" type="FontName" default="Arial">
+			<StyleElement selector=".breaseButton span" attribute="font-family"></StyleElement>
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li span" attribute="font-family"></StyleElement>
+			<Description>
+				Fontname of the text
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="bold" category="Font" type="Boolean" default="true">
+			<StyleElement selector=".breaseButton span" attribute="@include font-weight-bold($value)"></StyleElement>
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li span" attribute="@include font-weight-bold($value)"></StyleElement>
+			<Description>
+				If **true** font style is bold
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="italic" category="Font" type="Boolean" default="false">
+			<StyleElement selector=".breaseButton span" attribute="@include font-style-italic($value)"></StyleElement>
+			<StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li span" attribute="@include font-style-italic($value)"></StyleElement>
+			<Description>
+				If **true** font style is italic
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="padding" category="Layout" type="Padding" default="0 10px">
+			<StyleElement selector=".breaseButton" attribute="padding"></StyleElement>
+			<Description>
+				Padding of the Widget
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="margin" category="Layout" type="Margin" default="0px">
+			<StyleElement attribute="margin"></StyleElement>
+			<Description>
+				Margin of the Widget
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="shadow" category="Appearance" type="Shadow" default="none">
+			<StyleElement selector=".breaseButton" attribute="@include box-shadow($value)"></StyleElement>
+			<Description>
+				Shadow of the Widget
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="mouseDownBorderColor" category="Appearance" type="ColorCollection" default="#FD7B01" >
+			<StyleElement selector=".breaseButton.checked:not(.disabled)" attribute="border-color"></StyleElement>
+			<StyleElement selector=".breaseButton:active:not(.disabled)" attribute="border-color"></StyleElement>
+			<Description>
+        Sets the border color of the widget when it is clicked and the drop-down list is displayed
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="mouseDownBorderWidth" category="Appearance" type="PixelValCollection" default="2px">
+			<StyleElement selector=".breaseButton.checked:not(.disabled)" attribute="border-width"></StyleElement>
+			<StyleElement selector=".breaseButton:active:not(.disabled)" attribute="border-width"></StyleElement>
+			<Description>
+        Sets the border with of the widget when it is clicked and the drop-down list is displayed
+      </Description>
+		</StyleProperty>
+		<StyleProperty name="mouseDownBackColor" category="Appearance" type="Color" default="#DBDBDB" >
+			<StyleElement selector=".breaseButton.checked:not(.disabled)" attribute="background-color"></StyleElement>
+			<StyleElement selector=".breaseButton:active:not(.disabled)" attribute="background-color"></StyleElement>
+			<Description>
+        Sets the background color of the widget when it is clicked and the drop-down list is displayed
+      </Description>
+		</StyleProperty>
+		<StyleProperty name="mouseDownTextColor" category="Appearance" type="Color" default="#000000" >
+			<StyleElement selector=".breaseButton.checked:not(.disabled) span" attribute="color"></StyleElement>
+			<StyleElement selector=".breaseButton:active:not(.disabled) span" attribute="color"></StyleElement>
+			<Description>
+        Sets the text color of the widget when it is clicked and the drop-down list is displayed
+      </Description>
+		</StyleProperty>
+    <StyleProperty name="mouseDownBackGroundGradient" category="Appearance" type="Gradient" default="none" >
+      <StyleElement selector=".breaseButton.checked:not(.disabled)" attribute="background-image"></StyleElement>
+      <StyleElement selector=".breaseButton.active:not(.disabled)" attribute="background-image"></StyleElement>
+      <Description>
+        Sets the text color of the widget when it is clicked and the drop-down list is displayed
+      </Description>
+    </StyleProperty>
+		
+	</StyleProperties>
+</StyleInformation>

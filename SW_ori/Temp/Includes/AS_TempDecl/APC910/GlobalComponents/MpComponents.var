@@ -1,0 +1,3 @@
+VAR
+	gAxisBasic : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\projects\SuperTrak_Demo\SW_ori\Physical\APC910\5PC900_TS17_00\Motion\AxisConfig.mpaxisbasic" #2"1" #3"1"*)
+END_VAR

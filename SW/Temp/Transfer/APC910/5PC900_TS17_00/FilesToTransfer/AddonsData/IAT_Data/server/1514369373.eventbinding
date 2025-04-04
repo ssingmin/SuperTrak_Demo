@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="ContentMainPage">
+    <EventBinding>
+			<Source type="widgets.brease.PushButton.Event" event="Click" refId="ContentMainPage_btnEnableSystem" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::ST_Logic:SuperTrakControl.Command.EnableAllSections">
+						<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="ContentMainPage">
+    <EventBinding>
+			<Source type="widgets.brease.PushButton.Event" event="Click" refId="ContentMainPage_btnDisableSystem" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::ST_Logic:SuperTrakControl.Command.EnableAllSections">
+						<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="ContentMainPage">
+    <EventBinding>
+			<Source type="widgets.brease.PushButton.Event" event="Click" refId="ContentMainPage_btnStop" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::ST_Logic:StartMode">
+						<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="ContentMainPage">
+    <EventBinding>
+			<Source type="widgets.brease.PushButton.Event" event="Click" refId="ContentMainPage_btnStart" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::ST_Logic:StopMode">
+						<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="ContentMainPage">
+    <EventBinding>
+			<Source type="widgets.brease.Button.Event" event="Click" refId="ContentMainPage_btnOk" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::ST_Logic:ShowPopUp">
+						<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="ContentDocumentation">
+    <EventBinding>
+			<Source type="widgets.brease.Button.Event" event="Click" refId="ContentDocumentation_btnOk" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::ST_Logic:ShowPopUp">
+						<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="ContentVideo">
+    <EventBinding>
+			<Source type="widgets.brease.Button.Event" event="Click" refId="ContentVideo_btnOk" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::ST_Logic:ShowPopUp">
+						<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="ContentJog">
+    <EventBinding>
+			<Source type="widgets.brease.Button.Event" event="Click" refId="ContentJog_btnOkHome" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::ST_Logic:ShowPopUpHome">
+						<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="ContentJog">
+    <EventBinding>
+			<Source type="widgets.brease.PushButton.Event" event="Click" refId="ContentJog_btnStop" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::ST_Logic:StartMode">
+						<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="ContentJog">
+    <EventBinding>
+			<Source type="widgets.brease.PushButton.Event" event="Click" refId="ContentJog_btnStart" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::ST_Logic:StopMode">
+						<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="ContentMainPage">
+    <EventBinding>
+			<Source type="widgets.brease.Button.Event" event="Click" refId="ContentMainPage_btnOkHome" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::ST_Logic:ShowPopUpHome">
+						<Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+</EventBindingDefinition>

@@ -1,0 +1,31 @@
+﻿@import "mixins.scss";
+#LogoHeader_Image1 {
+	@include elemTop(0);
+}
+#LogoHeader_Image1 {
+	@include elemLeft(1160);
+}
+#LogoHeader_Image1 {
+	@include elemWidth(110);
+}
+#LogoHeader_Image1 {
+	@include elemHeight(60);
+}
+#LogoHeader_Image1 {
+		z-index: 0;
+}
+#LogoHeader_LanguageSelector1 {
+	@include elemTop(8);
+}
+#LogoHeader_LanguageSelector1 {
+	@include elemLeft(15);
+}
+#LogoHeader_LanguageSelector1 {
+	@include elemWidth(110);
+}
+#LogoHeader_LanguageSelector1 {
+	@include elemHeight(30);
+}
+#LogoHeader_LanguageSelector1 {
+		z-index: 1;
+}

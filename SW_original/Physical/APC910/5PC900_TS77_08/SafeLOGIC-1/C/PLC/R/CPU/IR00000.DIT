@@ -1,0 +1,148 @@
+(*
+T: RESOURCE CPU
+FW: NO
+CI#: 0
+QSL: 23
+QVE: 23
+QVPC: 23
+QPar: 0
+QFBI: 0
+*)
+@V 1 2 0
+giSafetyForUnlockActive	1	VAR_GLOBAL	@TYP:1
+%NSIX 0.0		     
+
+;
+
+@V 1 4 0
+goSafeLogicRun	2	VAR_GLOBAL	@TYP:43
+%NSQX 0.0		     
+
+;
+
+@V 1 5 0
+goEmStopSS1Ok	3	VAR_GLOBAL	@TYP:43
+%NSQX 0.1		     
+
+;
+
+@V 1 6 0
+goReqGuardUnlock	4	VAR_GLOBAL	@TYP:43
+%NSQX 0.2		     
+
+;
+
+@V 1 7 0
+goErrFBPowerOn	5	VAR_GLOBAL	@TYP:1
+%NSQX 0.4		     
+
+;
+
+@V 1 8 0
+goGuardLocked	6	VAR_GLOBAL	@TYP:43
+%NSQX 0.5		     
+
+;
+
+@V 1 9 0
+goSafetyOk	7	VAR_GLOBAL	@TYP:43
+%NSQX 0.7		     
+
+;
+
+@V 1 10 0
+goLampGuard	8	VAR_GLOBAL	@TYP:1
+%NSQX 1.0		     
+
+;
+
+@V 1 11 0
+goLampSiReset	9	VAR_GLOBAL	@TYP:1
+%NSQX 1.1		     
+
+;
+
+@V 1 12 0
+goSiReset	10	VAR_GLOBAL	@TYP:1
+%NSQX 1.2		     
+
+;
+
+@V 1 14 0
+giSafetyQuit	11	VAR_GLOBAL	@TYP:43
+%SIX 16.4		     
+
+;
+
+@V 1 15 0
+giEmStopSS1	12	VAR_GLOBAL	@TYP:43
+%SIX 17.0		     
+
+;
+
+@V 1 16 0
+giReqGuardUnlock1	13	VAR_GLOBAL	@TYP:43
+%SIX 16.2		     
+
+;
+
+@V 1 17 0
+giFBPowerOn	14	VAR_GLOBAL	@TYP:43
+%SIX 16.3		     
+
+;
+
+@V 1 18 0
+giGuardLock1Closed	15	VAR_GLOBAL	@TYP:43
+%SIX 17.3		     
+
+;
+
+@V 1 20 0
+goPowerOn1	16	VAR_GLOBAL	@TYP:43
+%SQX 12.0		     
+
+;
+
+@V 1 21 0
+goPowerOn1R	17	VAR_GLOBAL	@TYP:1
+%NSQX 2.0		     
+
+;
+
+@V 1 22 0
+goPowerOn2	18	VAR_GLOBAL	@TYP:43
+%SQX 12.1		     
+
+;
+
+@V 1 23 0
+goPowerOn2R	19	VAR_GLOBAL	@TYP:1
+%NSQX 2.1		     
+
+;
+
+@V 1 24 0
+goCloseGuardLock1	20	VAR_GLOBAL	@TYP:43
+%SQX 12.4		     
+
+;
+
+@V 1 25 0
+goCloseGuardLock1R	21	VAR_GLOBAL	@TYP:1
+%NSQX 2.4		     
+
+;
+
+@V 1 26 0
+goCloseGuardLock2	22	VAR_GLOBAL	@TYP:43
+%SQX 12.5		     
+
+;
+
+@V 1 27 0
+goCloseGuardLock2R	23	VAR_GLOBAL	@TYP:1
+%NSQX 2.5		     
+
+;
+

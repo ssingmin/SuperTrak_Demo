@@ -1,0 +1,255 @@
+@import "mixins.scss";
+#ContentJog_btnStart {	@include elemTop(180);
+}
+#ContentJog_btnStart {	@include elemLeft(380);
+}
+#ContentJog_btnStart {	@include elemAutoWidth(200);
+}
+#ContentJog_btnStart {	@include elemAutoHeight(40);
+}
+#ContentJog_btnStart {	z-index: 0;
+}
+#ContentJog_btnStart {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#ContentJog_btnStart {	&.disabled {
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentJog_btnStart {	&.disabled.active {
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentJog_btnStart {	&.disabled.checked {
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentJog_btnStart {	&:not(.disabled) {
+		@include pureBackgroundImage('../');
+	}
+}
+#ContentJog_btnStop {	@include elemTop(180);
+}
+#ContentJog_btnStop {	@include elemLeft(720);
+}
+#ContentJog_btnStop {	@include elemAutoWidth(200);
+}
+#ContentJog_btnStop {	@include elemAutoHeight(40);
+}
+#ContentJog_btnStop {	z-index: 1;
+}
+#ContentJog_btnStop {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#ContentJog_btnStop {	&.disabled {
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentJog_btnStop {	&.disabled.active {
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentJog_btnStop {	&.disabled.checked {
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ContentJog_btnStop {	&:not(.disabled) {
+		@include pureBackgroundImage('../');
+	}
+}
+#ContentJog_BasicSlider1 {	@include elemTop(380);
+}
+#ContentJog_BasicSlider1 {	@include elemLeft(380);
+}
+#ContentJog_BasicSlider1 {	@include elemWidth(520);
+}
+#ContentJog_BasicSlider1 {	@include elemHeight(80);
+}
+#ContentJog_BasicSlider1 {	z-index: 2;
+}
+#ContentJog_BasicSlider2 {	@include elemTop(495);
+}
+#ContentJog_BasicSlider2 {	@include elemLeft(380);
+}
+#ContentJog_BasicSlider2 {	@include elemWidth(520);
+}
+#ContentJog_BasicSlider2 {	@include elemHeight(60);
+}
+#ContentJog_BasicSlider2 {	z-index: 3;
+}
+#ContentJog_Label1 {	@include elemTop(415);
+}
+#ContentJog_Label1 {	@include elemLeft(219);
+}
+#ContentJog_Label1 {	@include elemAutoWidth(140);
+}
+#ContentJog_Label1 {	@include elemAutoHeight(30);
+}
+#ContentJog_Label1 {	z-index: 4;
+}
+#ContentJog_Label2 {	@include elemTop(508);
+}
+#ContentJog_Label2 {	@include elemLeft(219);
+}
+#ContentJog_Label2 {	@include elemAutoWidth(140);
+}
+#ContentJog_Label2 {	@include elemAutoHeight(55);
+}
+#ContentJog_Label2 {	z-index: 5;
+}
+#ContentJog_NumericOutput1 {	@include elemTop(415);
+}
+#ContentJog_NumericOutput1 {	@include elemLeft(939);
+}
+#ContentJog_NumericOutput1 {	@include elemAutoWidth(120);
+}
+#ContentJog_NumericOutput1 {	@include elemAutoHeight(30);
+}
+#ContentJog_NumericOutput1 {	z-index: 6;
+}
+#ContentJog_NumericOutput2 {	@include elemTop(520);
+}
+#ContentJog_NumericOutput2 {	@include elemLeft(940);
+}
+#ContentJog_NumericOutput2 {	@include elemAutoWidth(120);
+}
+#ContentJog_NumericOutput2 {	@include elemAutoHeight(30);
+}
+#ContentJog_NumericOutput2 {	z-index: 7;
+}
+#ContentJog_Label3 {	@include elemTop(60);
+}
+#ContentJog_Label3 {	@include elemLeft(620);
+}
+#ContentJog_Label3 {	@include elemAutoWidth(100);
+}
+#ContentJog_Label3 {	@include elemAutoHeight(60);
+}
+#ContentJog_Label3 {	z-index: 8;
+}
+#ContentJog_Label3 {	& span {
+		color: rgba(255, 128, 0, 1);
+	}
+}
+#ContentJog_Label3 {	@include text-alignment-all('center');
+}
+#ContentJog_Label3 {	font-size: 32px;
+}
+#ContentJog_Label3 {	@include font-weight-bold(true);
+}
+#ContentJog_MomentaryPushButton1 {	@include elemTop(280);
+}
+#ContentJog_MomentaryPushButton1 {	@include elemLeft(760);
+}
+#ContentJog_MomentaryPushButton1 {	@include elemAutoWidth(180);
+}
+#ContentJog_MomentaryPushButton1 {	@include elemAutoHeight(60);
+}
+#ContentJog_MomentaryPushButton1 {	z-index: 9;
+}
+#ContentJog_MomentaryPushButton1 {	img {
+		@include imageHeight(65);
+	}
+}
+#ContentJog_MomentaryPushButton1 {	svg {
+		@include imageHeight(65);
+	}
+}
+#ContentJog_MomentaryPushButton1 {	img {
+		@include imageWidth(250);
+	}
+}
+#ContentJog_MomentaryPushButton1 {	svg {
+		@include imageWidth(250);
+	}
+}
+#ContentJog_MomentaryPushButton1 {	@include border-radius(0px);
+}
+#ContentJog_MomentaryPushButton2 {	@include elemTop(280);
+}
+#ContentJog_MomentaryPushButton2 {	@include elemLeft(380);
+}
+#ContentJog_MomentaryPushButton2 {	@include elemAutoWidth(180);
+}
+#ContentJog_MomentaryPushButton2 {	@include elemAutoHeight(60);
+}
+#ContentJog_MomentaryPushButton2 {	z-index: 10;
+}
+#ContentJog_MomentaryPushButton2 {	img {
+		@include imageHeight(65);
+	}
+}
+#ContentJog_MomentaryPushButton2 {	svg {
+		@include imageHeight(65);
+	}
+}
+#ContentJog_MomentaryPushButton2 {	img {
+		@include imageWidth(250);
+	}
+}
+#ContentJog_MomentaryPushButton2 {	svg {
+		@include imageWidth(250);
+	}
+}
+#ContentJog_MomentaryPushButton2 {	@include border-radius(0px);
+}
+#ContentJog_GroupBox2 {	@include elemTop(259);
+}
+#ContentJog_GroupBox2 {	@include elemLeft(300);
+}
+#ContentJog_GroupBox2 {	@include elemWidth(680);
+}
+#ContentJog_GroupBox2 {	@include elemHeight(160);
+}
+#ContentJog_GroupBox2 {	z-index: 11;
+}
+#ContentJog_btnOkHome {	@include elemTop(83);
+}
+#ContentJog_btnOkHome {	@include elemLeft(299);
+}
+#ContentJog_btnOkHome {	@include elemAutoWidth(100);
+}
+#ContentJog_btnOkHome {	@include elemAutoHeight(30);
+}
+#ContentJog_btnOkHome {	z-index: 0;
+}
+#ContentJog_Label5 {	@include elemTop(23);
+}
+#ContentJog_Label5 {	@include elemLeft(19);
+}
+#ContentJog_Label5 {	@include elemAutoWidth(621);
+}
+#ContentJog_Label5 {	@include elemAutoHeight(40);
+}
+#ContentJog_Label5 {	z-index: 1;
+}
+#ContentJog_Label5 {	& span {
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#ContentJog_TextOutput1 {	@include elemTop(600);
+}
+#ContentJog_TextOutput1 {	@include elemLeft(370);
+}
+#ContentJog_TextOutput1 {	@include elemAutoWidth(540);
+}
+#ContentJog_TextOutput1 {	@include elemAutoHeight(30);
+}
+#ContentJog_TextOutput1 {	z-index: 12;
+}
+#ContentJog_TextOutput1 {	border-width: 1px;
+}
+#ContentJog_TextOutput1 {	border-style: solid;
+}
+#ContentJog_TextOutput1 {	&:before {
+		border-style: solid;
+	}
+}
+#ContentJog_TextOutput1 {	&:after {
+		border-style: solid;
+	}
+}
+#ContentJog_TextOutput1 {	@include text-alignment-all('center');
+}

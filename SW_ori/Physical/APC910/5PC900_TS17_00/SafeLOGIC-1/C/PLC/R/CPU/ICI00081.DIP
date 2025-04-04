@@ -1,0 +1,22 @@
+(*
+T: FUNCTION_BLOCK SafetyRun
+FW: NO
+CI#: 81
+QSL: 24
+QVE: 24
+QVPC: 24
+QPar: 12
+QFBI: 4
+*)
+iMaxTimeSetup	@IV 5	@TYP:49	VAR_INPUT
+iReset	@IV 2	@TYP:1	VAR_INPUT
+iResetSafe	@IV 1	@TYP:43	VAR_INPUT
+iSetup	@IV 3	@TYP:43	VAR_INPUT
+iSetupNotHalt	@IV 4	@TYP:43	VAR_INPUT
+oFirstCycle	@IV 6	@TYP:43	VAR_OUTPUT
+oReset	@IV 9	@TYP:43	VAR_OUTPUT
+oResetNegEdge	@IV 11	@TYP:43	VAR_OUTPUT
+oResetPosEdge	@IV 10	@TYP:43	VAR_OUTPUT
+oRun	@IV 8	@TYP:1	VAR_OUTPUT
+oSafetyRun	@IV 7	@TYP:43	VAR_OUTPUT
+oSetupModeActive	@IV 12	@TYP:43	VAR_OUTPUT

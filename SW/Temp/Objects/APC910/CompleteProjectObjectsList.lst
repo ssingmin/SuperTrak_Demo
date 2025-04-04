@@ -1,0 +1,2429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.5.95 SP"?>
+<Objects>
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="131806864900000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Temp\Includes\AS_TempDecl\MpComponents.var"
+    LogicalPath="MpComponents.var"
+    Type="File"
+    LastWriteTime="133881340815957632"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="131806864900000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="131806864900000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="133740533086968082" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\operator\Binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\runtime\Binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsBrStr\Binary.lby"
+    LogicalPath="Libraries.AsBrStr"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsBrStr\AsBrStr.fun"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsBrStr\AsBrStr.typ"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsBrStr\AsBrStr.var"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\standard\Binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\ArEventLog\Binary.lby"
+    LogicalPath="Libraries.ArEventLog"
+    Type="Library"
+    LastWriteTime="131806864900000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\ArEventLog\ArEventLog.fun"
+    LogicalPath="Libraries.ArEventLog.ArEventLog.fun"
+    Type="File"
+    LastWriteTime="131806864900000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\ArEventLog\ArEventLog.typ"
+    LogicalPath="Libraries.ArEventLog.ArEventLog.typ"
+    Type="File"
+    LastWriteTime="131806864900000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\ArEventLog\ArEventLog.var"
+    LogicalPath="Libraries.ArEventLog.ArEventLog.var"
+    Type="File"
+    LastWriteTime="131806864900000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsArLog\Binary.lby"
+    LogicalPath="Libraries.AsArLog"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsArLog\AsArLog.fun"
+    LogicalPath="Libraries.AsArLog.AsArLog.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsArLog\AsArLog.typ"
+    LogicalPath="Libraries.AsArLog.AsArLog.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsArLog\AsArLog.var"
+    LogicalPath="Libraries.AsArLog.AsArLog.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\sys_lib\Binary.lby"
+    LogicalPath="Libraries.sys_lib"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\sys_lib\sys_lib.fun"
+    LogicalPath="Libraries.sys_lib.sys_lib.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\sys_lib\sys_lib.typ"
+    LogicalPath="Libraries.sys_lib.sys_lib.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\sys_lib\sys_lib.var"
+    LogicalPath="Libraries.sys_lib.sys_lib.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsTCP\Binary.lby"
+    LogicalPath="Libraries.AsTCP"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsTCP\AsTCP.fun"
+    LogicalPath="Libraries.AsTCP.AsTCP.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsTCP\AsTCP.typ"
+    LogicalPath="Libraries.AsTCP.AsTCP.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsTCP\AsTCP.var"
+    LogicalPath="Libraries.AsTCP.AsTCP.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\FileIO\Binary.lby"
+    LogicalPath="Libraries.FileIO"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\FileIO\FileIO.fun"
+    LogicalPath="Libraries.FileIO.FileIO.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\FileIO\FileIO.typ"
+    LogicalPath="Libraries.FileIO.FileIO.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\FileIO\FileIO.var"
+    LogicalPath="Libraries.FileIO.FileIO.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsIOTime\Binary.lby"
+    LogicalPath="Libraries.AsIOTime"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsIOTime\AsIOTime.fun"
+    LogicalPath="Libraries.AsIOTime.AsIOTime.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsIOTime\AsIOTime.typ"
+    LogicalPath="Libraries.AsIOTime.AsIOTime.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsIOTime\AsIOTime.var"
+    LogicalPath="Libraries.AsIOTime.AsIOTime.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsUDP\Binary.lby"
+    LogicalPath="Libraries.AsUDP"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsUDP\AsUDP.fun"
+    LogicalPath="Libraries.AsUDP.AsUDP.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsUDP\AsUDP.typ"
+    LogicalPath="Libraries.AsUDP.AsUDP.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsUDP\AsUDP.var"
+    LogicalPath="Libraries.AsUDP.AsUDP.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsETH\Binary.lby"
+    LogicalPath="Libraries.AsETH"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsETH\AsETH.fun"
+    LogicalPath="Libraries.AsETH.AsETH.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsETH\AsETH.typ"
+    LogicalPath="Libraries.AsETH.AsETH.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsETH\AsETH.var"
+    LogicalPath="Libraries.AsETH.AsETH.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsARCfg\Binary.lby"
+    LogicalPath="Libraries.AsARCfg"
+    Type="Library"
+    LastWriteTime="131806864900000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsARCfg\AsARCfg.fun"
+    LogicalPath="Libraries.AsARCfg.AsARCfg.fun"
+    Type="File"
+    LastWriteTime="131806864900000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsARCfg\AsARCfg.typ"
+    LogicalPath="Libraries.AsARCfg.AsARCfg.typ"
+    Type="File"
+    LastWriteTime="131806864900000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsARCfg\AsARCfg.var"
+    LogicalPath="Libraries.AsARCfg.AsARCfg.var"
+    Type="File"
+    LastWriteTime="131806864900000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\brsystem\Binary.lby"
+    LogicalPath="Libraries.brsystem"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\brsystem\brsystem.fun"
+    LogicalPath="Libraries.brsystem.brsystem.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\brsystem\brsystem.typ"
+    LogicalPath="Libraries.brsystem.brsystem.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\brsystem\brsystem.var"
+    LogicalPath="Libraries.brsystem.brsystem.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsIODiag\Binary.lby"
+    LogicalPath="Libraries.AsIODiag"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsIODiag\AsIODiag.fun"
+    LogicalPath="Libraries.AsIODiag.AsIODiag.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsIODiag\AsIODiag.typ"
+    LogicalPath="Libraries.AsIODiag.AsIODiag.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsIODiag\AsIODiag.var"
+    LogicalPath="Libraries.AsIODiag.AsIODiag.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsGuard\Binary.lby"
+    LogicalPath="Libraries.AsGuard"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsGuard\AsGuard.fun"
+    LogicalPath="Libraries.AsGuard.AsGuard.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsGuard\AsGuard.typ"
+    LogicalPath="Libraries.AsGuard.AsGuard.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsGuard\AsGuard.var"
+    LogicalPath="Libraries.AsGuard.AsGuard.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsBrMath\Binary.lby"
+    LogicalPath="Libraries.AsBrMath"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsBrMath\AsBrMath.fun"
+    LogicalPath="Libraries.AsBrMath.AsBrMath.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsBrMath\AsBrMath.typ"
+    LogicalPath="Libraries.AsBrMath.AsBrMath.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsBrMath\AsBrMath.var"
+    LogicalPath="Libraries.AsBrMath.AsBrMath.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\asstring\Binary.lby"
+    LogicalPath="Libraries.asstring"
+    Type="Library"
+    LastWriteTime="131806864920000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\asstring\asstring.fun"
+    LogicalPath="Libraries.asstring.asstring.fun"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\asstring\asstring.typ"
+    LogicalPath="Libraries.asstring.asstring.typ"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\asstring\asstring.var"
+    LogicalPath="Libraries.asstring.asstring.var"
+    Type="File"
+    LastWriteTime="131806864920000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\StCom\Binary.lby"
+    LogicalPath="Libraries.StCom"
+    Type="Library"
+    LastWriteTime="131793974760000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\StCom\StCom.typ"
+    LogicalPath="Libraries.StCom.StCom.typ"
+    Type="File"
+    LastWriteTime="131793974760000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\StCom\StCom.var"
+    LogicalPath="Libraries.StCom.StCom.var"
+    Type="File"
+    LastWriteTime="131793974760000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\StCom\StCom.fun"
+    LogicalPath="Libraries.StCom.StCom.fun"
+    Type="File"
+    LastWriteTime="131793974760000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\StCom\StComTexts.br"
+    LogicalPath="Libraries.StCom.StComTexts.br"
+    Type="File"
+    LastWriteTime="131793974760000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsSafety\Binary.lby"
+    LogicalPath="Libraries.AsSafety"
+    Type="Library"
+    LastWriteTime="131801104480000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsSafety\AsSafety.fun"
+    LogicalPath="Libraries.AsSafety.AsSafety.fun"
+    Type="File"
+    LastWriteTime="131801104480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsSafety\AsSafety.typ"
+    LogicalPath="Libraries.AsSafety.AsSafety.typ"
+    Type="File"
+    LastWriteTime="131801104480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsSafety\AsSafety.var"
+    LogicalPath="Libraries.AsSafety.AsSafety.var"
+    Type="File"
+    LastWriteTime="131801104480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\DataObj\Binary.lby"
+    LogicalPath="Libraries.DataObj"
+    Type="Library"
+    LastWriteTime="131801104480000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\DataObj\DataObj.fun"
+    LogicalPath="Libraries.DataObj.DataObj.fun"
+    Type="File"
+    LastWriteTime="131801104480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\DataObj\DataObj.typ"
+    LogicalPath="Libraries.DataObj.DataObj.typ"
+    Type="File"
+    LastWriteTime="131801104480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\DataObj\DataObj.var"
+    LogicalPath="Libraries.DataObj.DataObj.var"
+    Type="File"
+    LastWriteTime="131801104480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsXml\Binary.lby"
+    LogicalPath="Libraries.AsXml"
+    Type="Library"
+    LastWriteTime="131801104480000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsXml\AsXml.fun"
+    LogicalPath="Libraries.AsXml.AsXml.fun"
+    Type="File"
+    LastWriteTime="131801104480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsXml\AsXml.typ"
+    LogicalPath="Libraries.AsXml.AsXml.typ"
+    Type="File"
+    LastWriteTime="131801104480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\AsXml\AsXml.var"
+    LogicalPath="Libraries.AsXml.AsXml.var"
+    Type="File"
+    LastWriteTime="131801104480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\SuperTrak\Binary.lby"
+    LogicalPath="Libraries.SuperTrak"
+    Type="Library"
+    LastWriteTime="131806982040000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\SuperTrak\SuperTrak.typ"
+    LogicalPath="Libraries.SuperTrak.SuperTrak.typ"
+    Type="File"
+    LastWriteTime="131806982040000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\SuperTrak\SuperTrak.var"
+    LogicalPath="Libraries.SuperTrak.SuperTrak.var"
+    Type="File"
+    LastWriteTime="131806982040000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\SuperTrak\SuperTrak.fun"
+    LogicalPath="Libraries.SuperTrak.SuperTrak.fun"
+    Type="File"
+    LastWriteTime="131806982040000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpCom\Binary.lby"
+    LogicalPath="Libraries.MpCom"
+    Type="Library"
+    LastWriteTime="133740532997926188" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpCom\MpCom.var"
+    LogicalPath="Libraries.MpCom.MpCom.var"
+    Type="File"
+    LastWriteTime="133740532997876231"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpCom\MpCom.typ"
+    LogicalPath="Libraries.MpCom.MpCom.typ"
+    Type="File"
+    LastWriteTime="133740532997886232"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpCom\MpComError.typ"
+    LogicalPath="Libraries.MpCom.MpComError.typ"
+    Type="File"
+    LastWriteTime="133740532997906183"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpCom\MpCom.fun"
+    LogicalPath="Libraries.MpCom.MpCom.fun"
+    Type="File"
+    LastWriteTime="133740532997916186"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpBase\Binary.lby"
+    LogicalPath="Libraries.MpBase"
+    Type="Library"
+    LastWriteTime="133740532998266190" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpBase\MpBase.var"
+    LogicalPath="Libraries.MpBase.MpBase.var"
+    Type="File"
+    LastWriteTime="133740532998226181"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpBase\MpBase.typ"
+    LogicalPath="Libraries.MpBase.MpBase.typ"
+    Type="File"
+    LastWriteTime="133740532998236187"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpBase\MpBase.fun"
+    LogicalPath="Libraries.MpBase.MpBase.fun"
+    Type="File"
+    LastWriteTime="133740532998246188"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpBase\Common_EventLog.tmx"
+    LogicalPath="Libraries.MpBase.Common_EventLog.tmx"
+    Type="File"
+    LastWriteTime="133740532998256184"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpAxis\Binary.lby"
+    LogicalPath="Libraries.MpAxis"
+    Type="Library"
+    LastWriteTime="133740532998586175" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpAxis\MpAxis.typ"
+    LogicalPath="Libraries.MpAxis.MpAxis.typ"
+    Type="File"
+    LastWriteTime="133740532998536284"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpAxis\MpAxisError.typ"
+    LogicalPath="Libraries.MpAxis.MpAxisError.typ"
+    Type="File"
+    LastWriteTime="133740532998546300"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpAxis\MpAxisAlarm.typ"
+    LogicalPath="Libraries.MpAxis.MpAxisAlarm.typ"
+    Type="File"
+    LastWriteTime="133740532998566286"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpAxis\MpAxis.fun"
+    LogicalPath="Libraries.MpAxis.MpAxis.fun"
+    Type="File"
+    LastWriteTime="133740532998576285"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpAlarmX\Binary.lby"
+    LogicalPath="Libraries.MpAlarmX"
+    Type="Library"
+    LastWriteTime="133740532998836176" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpAlarmX\MpAlarmX.typ"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmX.typ"
+    Type="File"
+    LastWriteTime="133740532998806184"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpAlarmX\MpAlarmXError.typ"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmXError.typ"
+    Type="File"
+    LastWriteTime="133740532998816177"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpAlarmX\MpAlarmX.fun"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmX.fun"
+    Type="File"
+    LastWriteTime="133740532998836176"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\Acp10_MC\binary.lby"
+    LogicalPath="Libraries.Acp10_MC"
+    Type="Library"
+    LastWriteTime="133740532999106185" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\Acp10_MC\acp10_mc.fun"
+    LogicalPath="Libraries.Acp10_MC.acp10_mc.fun"
+    Type="File"
+    LastWriteTime="133740532999076967"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\Acp10_MC\acp10_mc.typ"
+    LogicalPath="Libraries.Acp10_MC.acp10_mc.typ"
+    Type="File"
+    LastWriteTime="133740532999086251"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\Acp10_MC\acp10_mc.var"
+    LogicalPath="Libraries.Acp10_MC.acp10_mc.var"
+    Type="File"
+    LastWriteTime="133740532999106185"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\NcGlobal\Binary.lby"
+    LogicalPath="Libraries.NcGlobal"
+    Type="Library"
+    LastWriteTime="133740532999326177" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\NcGlobal\NcGlobal.fun"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.fun"
+    Type="File"
+    LastWriteTime="133740532999296180"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\NcGlobal\NcGlobal.typ"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.typ"
+    Type="File"
+    LastWriteTime="133740532999306179"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\NcGlobal\NcGlobal.var"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.var"
+    Type="File"
+    LastWriteTime="133740532999316179"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\Acp10man\Binary.lby"
+    LogicalPath="Libraries.Acp10man"
+    Type="Library"
+    LastWriteTime="133740532999546189" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\Acp10man\Acp10man.typ"
+    LogicalPath="Libraries.Acp10man.Acp10man.typ"
+    Type="File"
+    LastWriteTime="133740532999536186"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\Acp10par\Binary.lby"
+    LogicalPath="Libraries.Acp10par"
+    Type="Library"
+    LastWriteTime="133740532999826187" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\Acp10par\Acp10par.var"
+    LogicalPath="Libraries.Acp10par.Acp10par.var"
+    Type="File"
+    LastWriteTime="133740532999826187"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\Acp10sdc\binary.lby"
+    LogicalPath="Libraries.Acp10sdc"
+    Type="Library"
+    LastWriteTime="133740533000066887" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\Acp10sdc\acp10sdc.var"
+    LogicalPath="Libraries.Acp10sdc.acp10sdc.var"
+    Type="File"
+    LastWriteTime="133740533000046180"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\Acp10sdc\acp10sdc.typ"
+    LogicalPath="Libraries.Acp10sdc.acp10sdc.typ"
+    Type="File"
+    LastWriteTime="133740533000056560"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpServer\Binary.lby"
+    LogicalPath="Libraries.MpServer"
+    Type="Library"
+    LastWriteTime="133740533086917316" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpServer\Constants.var"
+    LogicalPath="Libraries.MpServer.Constants.var"
+    Type="File"
+    LastWriteTime="133740533086868003"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpServer\Types.typ"
+    LogicalPath="Libraries.MpServer.Types.typ"
+    Type="File"
+    LastWriteTime="133740533086878000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpServer\MpServer.fun"
+    LogicalPath="Libraries.MpServer.MpServer.fun"
+    Type="File"
+    LastWriteTime="133740533086887861"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Libraries\MpServer\MpServer_EventLog.tmx"
+    LogicalPath="Libraries.MpServer.MpServer_EventLog.tmx"
+    Type="File"
+    LastWriteTime="133740533086917316"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\Package.pkg"
+    LogicalPath="Source"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SOURCE.var"
+    LogicalPath="Source.SOURCE.var"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\Package.pkg"
+    LogicalPath="Source.SuperTrak"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Logic\IEC.prg"
+    LogicalPath="Source.SuperTrak.ST_Logic"
+    Type="Program"
+    LastWriteTime="131836353980000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Logic\Main.st"
+    LogicalPath="Source.SuperTrak.ST_Logic.Main.st"
+    Type="File"
+    LastWriteTime="131836502760000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Logic\Types.typ"
+    LogicalPath="Source.SuperTrak.ST_Logic.Types.typ"
+    Type="File"
+    LastWriteTime="131806993800000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Logic\Variables.var"
+    LogicalPath="Source.SuperTrak.ST_Logic.Variables.var"
+    Type="File"
+    LastWriteTime="131836472380000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Logic\IO.var"
+    LogicalPath="Source.SuperTrak.ST_Logic.IO.var"
+    Type="File"
+    LastWriteTime="131836362520000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Logic\Mode1.st"
+    LogicalPath="Source.SuperTrak.ST_Logic.Mode1.st"
+    Type="File"
+    LastWriteTime="131807007620000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Logic\Mode2.st"
+    LogicalPath="Source.SuperTrak.ST_Logic.Mode2.st"
+    Type="File"
+    LastWriteTime="131807053440000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Logic\Mode3.st"
+    LogicalPath="Source.SuperTrak.ST_Logic.Mode3.st"
+    Type="File"
+    LastWriteTime="131807007840000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Logic\ExpertMode.st"
+    LogicalPath="Source.SuperTrak.ST_Logic.ExpertMode.st"
+    Type="File"
+    LastWriteTime="131836503860000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Logic\CheckStandstill.st"
+    LogicalPath="Source.SuperTrak.ST_Logic.CheckStandstill.st"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Main\IEC.prg"
+    LogicalPath="Source.SuperTrak.ST_Main"
+    Type="Program"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Main\Main.st"
+    LogicalPath="Source.SuperTrak.ST_Main.Main.st"
+    Type="File"
+    LastWriteTime="131945119730575740"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Main\Types.typ"
+    LogicalPath="Source.SuperTrak.ST_Main.Types.typ"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Main\Variables.var"
+    LogicalPath="Source.SuperTrak.ST_Main.Variables.var"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Visu\IEC.prg"
+    LogicalPath="Source.SuperTrak.ST_Visu"
+    Type="Program"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Visu\Cyclic.st"
+    LogicalPath="Source.SuperTrak.ST_Visu.Cyclic.st"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Visu\Types.typ"
+    LogicalPath="Source.SuperTrak.ST_Visu.Types.typ"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\SuperTrak\ST_Visu\Variables.var"
+    LogicalPath="Source.SuperTrak.ST_Visu.Variables.var"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\Axis\Package.pkg"
+    LogicalPath="Source.Axis"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\Axis\AcpErrTxt\Ett.dob"
+    LogicalPath="Source.Axis.AcpErrTxt"
+    Type="DataObject"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\Axis\AcpErrTxt\AcpErrTxtEng.ett"
+    LogicalPath="Source.Axis.AcpErrTxt.AcpErrTxtEng.ett"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\Axis\AxInit\Ax.dob"
+    LogicalPath="Source.Axis.AxInit"
+    Type="DataObject"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\Axis\AxInit\AxInitAcp10.ax"
+    LogicalPath="Source.Axis.AxInit.AxInitAcp10.ax"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\Axis\AcpParTab\Apt.dob"
+    LogicalPath="Source.Axis.AcpParTab"
+    Type="DataObject"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\Axis\AcpParTab\AcpParTab.apt"
+    LogicalPath="Source.Axis.AcpParTab.AcpParTab.apt"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\Axis\AxisCtrl\IEC.prg"
+    LogicalPath="Source.Axis.AxisCtrl"
+    Type="Program"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\Axis\AxisCtrl\Main.st"
+    LogicalPath="Source.Axis.AxisCtrl.Main.st"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\Axis\AxisCtrl\Types.typ"
+    LogicalPath="Source.Axis.AxisCtrl.Types.typ"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\Source\Axis\AxisCtrl\Variables.var"
+    LogicalPath="Source.Axis.AxisCtrl.Variables.var"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Package.pkg"
+    LogicalPath="mappView"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Layouts\Package.pkg"
+    LogicalPath="mappView.Layouts"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Widgets\Package.pkg"
+    LogicalPath="mappView.Widgets"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Package.pkg"
+    LogicalPath="mappView.Resources"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Resources.Texts"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Texts\Texts.tmx"
+    LogicalPath="mappView.Resources.Texts.Texts.tmx"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Themes\Package.pkg"
+    LogicalPath="mappView.Resources.Themes"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Themes\BuRTheme1\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Themes\BuRTheme1\brease\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Themes\BuRTheme1\brease\BuRTheme1.stylesset"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.BuRTheme1.stylesset"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Themes\BuRTheme1\brease\Default.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Default.styles"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Themes\BuRTheme1\brease\System.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.System.styles"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Themes\BuRTheme1\brease\Buttons.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Buttons.styles"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Themes\BuRTheme1\brease\Common.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Common.styles"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Themes\BuRTheme1\brease\Container.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Container.styles"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Themes\BuRTheme1\brease\Numeric.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Numeric.styles"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Themes\BuRTheme1\brease\LabelTexts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.LabelTexts.styles"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Themes\BuRTheme1\brease\Graphic.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Graphic.styles"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Themes\BuRTheme1\BuRTheme1.theme"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.BuRTheme1.theme"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\Package.pkg"
+    LogicalPath="mappView.Resources.Media"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\BuR.png"
+    LogicalPath="mappView.Resources.Media.BuR.png"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\media8.mp4"
+    LogicalPath="mappView.Resources.Media.media8.mp4"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\Poster4m.PNG"
+    LogicalPath="mappView.Resources.Media.Poster4m.PNG"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Alarm\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Alarm\Acknowledge.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Acknowledge.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Alarm\Alarm.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Alarm.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Alarm\AlarmHistory.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.AlarmHistory.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Alarm\Error.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Error.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Arrow\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowDown.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowDown.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowLeft.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowLeft.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowRight.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowRight.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowUp.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowUp.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Arrow\Back.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Back.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down2.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down1.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down3.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Arrow\Forward.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Forward.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up1.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up2.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up3.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Communication\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Communication\ConnectionFail.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.ConnectionFail.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Communication\ConnectionOK.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.ConnectionOK.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Communication\Network.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.Network.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\DateTime\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\DateTime\Calendar.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Calendar.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\DateTime\Clock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Clock.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\DateTime\Date.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Date.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Diagnostic\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Diagnostic"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Diagnostic\Diagnostics.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Diagnostic.Diagnostics.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Calibrate.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Calibrate.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Contrast.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Contrast.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Lightness.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Lightness.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Add.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Add.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Character.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Character.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Close.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Close.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Copy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Copy.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Cut.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Cut.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Delete.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Delete.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Edit.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Edit.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Favorite.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Favorite.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Help.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Help.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Information.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Information.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Insert.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Insert.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Maximize.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Maximize.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Minimize.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Minimize.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\New.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.New.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Number.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Number.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Open.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Open.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Pin.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Pin.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Pin2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Pin2.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Redo.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Redo.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Save.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Save.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\Undo.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Undo.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\ZoomIn.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.ZoomIn.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Edit\ZoomOut.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.ZoomOut.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\File\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\File\File.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.File.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\File\Files.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Files.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\File\Package.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Package.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\File\Recipe.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Recipe.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\File\Search.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Search.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Localize\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Localize\Browser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Browser.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Localize\China.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.China.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Localize\Flag.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Flag.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Localize\France.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.France.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Localize\Germany.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Germany.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Localize\GreatBritain.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.GreatBritain.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Localize\Italy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Italy.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Localize\Language.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Language.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Localize\Portugal.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Portugal.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Localize\Russia.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Russia.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Localize\Spain.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Spain.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Localize\UK.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.UK.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Localize\USA.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.USA.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Media\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Media\FastForward.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastForward.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Media\FastForwardStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastForwardStop.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Media\FastRewind.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastRewind.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Media\FastRewindStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastRewindStop.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Media\ForwardStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.ForwardStop.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Media\Pause.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Pause.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Media\Play.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Play.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Media\RewindStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.RewindStop.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Media\Stop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Stop.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Media\Video.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Video.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Needle\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle1long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle1long.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle1short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle1short.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle2long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle2long.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle2short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle2short.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle3long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle3long.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle3short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle3short.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle4long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle4long.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle4short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle4short.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Accept.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Accept.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Button.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Button.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Conveyor.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Conveyor.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Download.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Download.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Energy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Energy.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Engine.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Engine.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\EngineMove.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.EngineMove.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\EngineReference.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.EngineReference.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Graph.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Graph.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Hide.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Hide.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Home.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Home.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\InProgress.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.InProgress.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Mail.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Mail.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Max.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Max.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Min.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Min.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Mode.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Mode.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Off.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Off.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\On.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.On.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\PDF.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.PDF.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote1.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote2.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote3.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote4.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote4.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Reset.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Reset.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Restart.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Restart.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Robot.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Robot.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Safety.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Safety.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Server.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Server.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Service.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Service.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Settings.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Settings.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Slider_Symbol.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Slider_Symbol.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Start.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Start.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Stop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Stop.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\SystemSettings.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.SystemSettings.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Temperature.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Temperature.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Tool.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Tool.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\TouchMe.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.TouchMe.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\UnHide.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.UnHide.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Upload.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Upload.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\USB.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.USB.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Wait.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Wait.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\Symbols\Webcam.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Webcam.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\User\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User"
+    Type="Package"
+    LastWriteTime="131806864940000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\User\AddUser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.AddUser.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\User\DeleteUser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.DeleteUser.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\User\Lock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Lock.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\User\Login.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Login.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\User\Logout.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Logout.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\User\NoAccessRights.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.NoAccessRights.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\User\Unlock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Unlock.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\User\User.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.User.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\SymbolLib\User\UserGroup.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.UserGroup.svg"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\PR_de.pdf"
+    LogicalPath="mappView.Resources.Media.PR_de.pdf"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Resources\Media\PR_en.pdf"
+    LogicalPath="mappView.Resources.Media.PR_en.pdf"
+    Type="File"
+    LastWriteTime="131806864940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Package.pkg"
+    LogicalPath="mappView.Visualization"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.AreaContents"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\AreaContents\Logo.content"
+    LogicalPath="mappView.Visualization.Pages.AreaContents.Logo.content"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\AreaContents\Navigation.content"
+    LogicalPath="mappView.Visualization.Pages.AreaContents.Navigation.content"
+    Type="File"
+    LastWriteTime="131807766520000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\MainPage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.MainPage"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\MainPage\Page.page"
+    LogicalPath="mappView.Visualization.Pages.MainPage.Page.page"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\MainPage\Content.content"
+    LogicalPath="mappView.Visualization.Pages.MainPage.Content.content"
+    Type="File"
+    LastWriteTime="131807141300000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\Documentation\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Documentation"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\Documentation\Page.page"
+    LogicalPath="mappView.Visualization.Pages.Documentation.Page.page"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\Documentation\Content.content"
+    LogicalPath="mappView.Visualization.Pages.Documentation.Content.content"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\Video\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Video"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\Video\Page.page"
+    LogicalPath="mappView.Visualization.Pages.Video.Page.page"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\Video\Content.content"
+    LogicalPath="mappView.Visualization.Pages.Video.Content.content"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\Jog\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Jog"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\Jog\Page.page"
+    LogicalPath="mappView.Visualization.Pages.Jog.Page.page"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Pages\Jog\Content.content"
+    LogicalPath="mappView.Visualization.Pages.Jog.Content.content"
+    Type="File"
+    LastWriteTime="131807141580000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Variables\Package.pkg"
+    LogicalPath="mappView.Visualization.Variables"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Expressions\Package.pkg"
+    LogicalPath="mappView.Visualization.Expressions"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Layouts\Package.pkg"
+    LogicalPath="mappView.Visualization.Layouts"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Layouts\Layout.layout"
+    LogicalPath="mappView.Visualization.Layouts.Layout.layout"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Dialogs\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Dialogs\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs.AreaContents"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Resources\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Texts"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Logical\mappView\Visualization\Project.language"
+    LogicalPath="mappView.Visualization.Project.language"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\Config.pkg"
+    LogicalPath="APC910"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="133740533746030125" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\Hardware.hw"
+    LogicalPath="APC910.Hardware.hw"
+    Type="File"
+    LastWriteTime="133881340658282529"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\Hardware.hwl"
+    LogicalPath="APC910.Hardware.hwl"
+    Type="File"
+    LastWriteTime="133742871228485060"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\Cpu.pkg"
+    LogicalPath="APC910.5PC900_TS17_00"
+    Type="Cpu"
+    LastWriteTime="133745552984395044" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\Cpu.sw"
+    LogicalPath="APC910.5PC900_TS17_00.Cpu.sw"
+    Type="File"
+    LastWriteTime="131806982060000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\Cpu.per"
+    LogicalPath="APC910.5PC900_TS17_00.Cpu.per"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\IoMap.iom"
+    LogicalPath="APC910.5PC900_TS17_00.IoMap.iom"
+    Type="File"
+    LastWriteTime="133741328369776212"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\PvMap.vvm"
+    LogicalPath="APC910.5PC900_TS17_00.PvMap.vvm"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\mappView\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.mappView"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\mappView\Visualizat.vis"
+    LogicalPath="APC910.5PC900_TS17_00.mappView.Visualizat.vis"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\mappView\Config.mappviewcfg"
+    LogicalPath="APC910.5PC900_TS17_00.mappView.Config.mappviewcfg"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\mappView\Binding.binding"
+    LogicalPath="APC910.5PC900_TS17_00.mappView.Binding.binding"
+    Type="File"
+    LastWriteTime="131807762520000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\mappView\EventBinding.eventbinding"
+    LogicalPath="APC910.5PC900_TS17_00.mappView.EventBinding.eventbinding"
+    Type="File"
+    LastWriteTime="131807126620000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\Connectivity\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.Connectivity"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\Connectivity\OpcUA\OpcUaMap.uad"
+    LogicalPath="APC910.5PC900_TS17_00.Connectivity.OpcUA.OpcUaMap.uad"
+    Type="File"
+    LastWriteTime="131836375880000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\TextSystem\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.TextSystem"
+    Type="Package"
+    LastWriteTime="131806865020000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\TextSystem\TC.textconfig"
+    LogicalPath="APC910.5PC900_TS17_00.TextSystem.TC.textconfig"
+    Type="File"
+    LastWriteTime="131806865020000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\UnitSystem\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.UnitSystem"
+    Type="Package"
+    LastWriteTime="131806865020000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\AccessAndSecurity\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="APC910.5PC900_TS17_00.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="APC910.5PC900_TS17_00.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\Motion\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.Motion"
+    Type="Package"
+    LastWriteTime="133740533023406470" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\Motion\AxisConfig.mpaxisbasic"
+    LogicalPath="APC910.5PC900_TS17_00.Motion.AxisConfig.mpaxisbasic"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\Motion\Acp10cfg.ncc"
+    LogicalPath="APC910.5PC900_TS17_00.Motion.Acp10cfg.ncc"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\Motion\Acp10map.ncm"
+    LogicalPath="APC910.5PC900_TS17_00.Motion.Acp10map.ncm"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\Motion\Acp10map1.ncm"
+    LogicalPath="APC910.5PC900_TS17_00.Motion.Acp10map1.ncm"
+    Type="File"
+    LastWriteTime="131806864960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\Motion\Acp10sys.br"
+    LogicalPath="APC910.5PC900_TS17_00.Motion.Acp10sys.br"
+    Type="File"
+    LastWriteTime="133740533029317170"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\mappServices\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.mappServices"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\mappCockpit\Package.pkg"
+    LogicalPath="APC910.5PC900_TS17_00.mappCockpit"
+    Type="Package"
+    LastWriteTime="131806864960000000" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\5PC900_TS17_00\SafeLOGIC-1.swt"
+    LogicalPath="APC910.5PC900_TS17_00.SafeLOGIC-1.swt"
+    Type="File"
+    LastWriteTime="133745557329020000"
+    Private="false" />
+  <Object
+    Path="C:\projects\SuperTrak Demo\SW\Physical\APC910\Hardware.jpg"
+    LogicalPath="APC910.Hardware.jpg"
+    Type="File"
+    LastWriteTime="133742871228976762"
+    Private="false" />
+</Objects>

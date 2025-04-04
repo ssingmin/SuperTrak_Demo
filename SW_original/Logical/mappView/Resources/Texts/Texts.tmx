@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Page.SystemOn">
+      <tuv xml:lang="de">
+        <seg>System einschalten</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Power on system</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.SystemOff">
+      <tuv xml:lang="de">
+        <seg>System ausschalten</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Power off system</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Mod1">
+      <tuv xml:lang="de">
+        <seg>Modus 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Mode 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Mod2">
+      <tuv xml:lang="de">
+        <seg>Modus 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Mode 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Mod3">
+      <tuv xml:lang="de">
+        <seg>Modus 3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Mode 3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Start">
+      <tuv xml:lang="de">
+        <seg>Bewegung starten</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Start movement</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Stop">
+      <tuv xml:lang="de">
+        <seg>Bewegung stoppen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Stop movement</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Speed">
+      <tuv xml:lang="de">
+        <seg>Geschwindigkeit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Velocity</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Acceleration">
+      <tuv xml:lang="de">
+        <seg>Beschleunigung Verzögerung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Acceleration Deceleration</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Video">
+      <tuv xml:lang="de">
+        <seg>Video</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Video</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Documentation">
+      <tuv xml:lang="de">
+        <seg>Dokumentation</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Documentation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Jog">
+      <tuv xml:lang="de">
+        <seg>Jog</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Jog</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.MaxV">
+      <tuv xml:lang="de">
+        <seg>Max. Geschwinigkeit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Max. velocity</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Ok">
+      <tuv xml:lang="de">
+        <seg>OK</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>OK</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.JogFailed">
+      <tuv xml:lang="de">
+        <seg>Um die Jogging Funktion verwenden zu können, muss das aktuelle Program gestoppt, sowie die Lizenz 1TG8ST00000.02-00 verfügbar sein.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>To use the jogging functionality all other running modes must be switched off and the license 1TG8ST00000.02-00 must be available.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Error">
+      <tuv xml:lang="de">
+        <seg>Fehler aufgetreten</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Error occurred</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.HomeFailed">
+      <tuv xml:lang="de">
+        <seg>Um die Seite zu wechseln muss die Funktion deaktiviert werden.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>To change the page the function must be deactivated.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.HomeFailed_1">
+      <tuv xml:lang="de">
+        <seg>Um die Seite zu wechseln muss die aktuelle Bewegung gestoppt werden.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>To change the page current movement must be switched off.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Activate">
+      <tuv xml:lang="de">
+        <seg>Aktivieren</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Activate</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Deactivate">
+      <tuv xml:lang="de">
+        <seg>Deaktivieren</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Deactivate</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.StatusStandstill">
+      <tuv xml:lang="de">
+        <seg>Stillstand</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Standstill</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.StatusSystemOff">
+      <tuv xml:lang="de">
+        <seg>System ausgeschaltet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>System off</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.StatusModeStopping">
+      <tuv xml:lang="de">
+        <seg>Modus wird gestoppt</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Mode stopping</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.StatusRecovering">
+      <tuv xml:lang="de">
+        <seg>Bewegung zur Startposition</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Move to start position</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.StatusError">
+      <tuv xml:lang="de">
+        <seg>Fehler</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.StatusTracking">
+      <tuv xml:lang="de">
+        <seg>Jogging aktiv</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Jog active</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.StatusMode1Active">
+      <tuv xml:lang="de">
+        <seg>Modus 1 aktiv</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Mode 1 active</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.StatusMode2Active">
+      <tuv xml:lang="de">
+        <seg>Modus 2 aktiv</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Mode 2 active</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.StatusMode3Active">
+      <tuv xml:lang="de">
+        <seg>Modus 3 aktiv</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Mode 3 active</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Page.Recovering">
+      <tuv xml:lang="de">
+        <seg>Behebungsfahrt</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Recovering</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

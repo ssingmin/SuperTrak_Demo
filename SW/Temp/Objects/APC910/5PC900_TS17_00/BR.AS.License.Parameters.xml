@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /AM=* /SDT=5 /DAIP=192.168.13.3 /REPO=11159 /ANSL=1 /PT=11169</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\projects\SuperTrak Demo\SW\PRSystem.apj</ApjFullFileName>
+    <ProjectName>PRSystem</ProjectName>
+    <ActiveConfigurationName>APC910</ActiveConfigurationName>
+    <LicenseDataFolder>C:\projects\SuperTrak Demo\SW\Temp\Objects\APC910\5PC900_TS17_00</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

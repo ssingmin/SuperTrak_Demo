@@ -1,0 +1,13 @@
+(********************************************************************
+ * Copyright ATS Automation Tooling Systems, Inc. 2015
+ * All rights reserved.
+ ********************************************************************
+ * Local variables
+ ********************************************************************)
+VAR
+	i : USINT := 0;
+	ServiceChannelData : ServiceChannel_t := (0);
+	pResView : REFERENCE TO ServiceChannelHeader_t;
+	pReqView : REFERENCE TO ServiceChannelHeader_t;
+	SuperTrakControlInterface : ARRAY[0..stMAX_CONTROL_IF_INDEX] OF SuperTrakControlInterface_t := [stMAX_CONTROL_IF_COUNT((0))];
+END_VAR

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WidgetLibrary xmlns="http://www.br-automation.com/iat2014/widget">
+	<Widget name="widgets.brease.DropDownBoxLegacy">
+		<ASEngineeringInfo>
+			<IsProjectable>false</IsProjectable>
+		</ASEngineeringInfo>
+		<Dependencies>
+			<Files>
+				<File>brease/core/BaseWidget.js</File>
+				<File>brease/enum/Enum.js</File>
+				<File>brease/events/BreaseEvent.js</File>
+				<File>brease/core/Utils.js</File>
+				<File>brease/controller/PopUpManager.js</File>
+				<File>widgets/brease/ListBoxLegacy/ListBoxLegacy.js</File>
+				<File>widgets/brease/ToggleButton/ToggleButton.js</File>
+			</Files>
+			<Widgets>
+				<Widget>widgets/brease/DropDownBoxLegacy/DropDownBoxLegacy.js</Widget>
+				<Widget>widgets/brease/ListBoxLegacy/ListBoxLegacy.js</Widget>
+				<Widget>widgets/brease/ToggleButton/ToggleButton.js</Widget>
+			</Widgets>
+		</Dependencies>
+		<Categories>
+			<Category name="Category">Selector</Category>
+			<Category name="Category">Buttons</Category>
+		</Categories>
+		<Descriptions>
+			<Description name="short">Einzeilige Liste von Texten</Description>
+			<Description name="de">Zeigt eine DropDownliste, aus welcher der Benutzer Elemente auswählen kann</Description>
+			<Description name="en">Displays a drop-down list where the user can select items</Description>
+		</Descriptions>
+		<Inheritance>
+			<Class level="0">widgets.brease.DropDownBoxLegacy</Class>
+			<Class level="1">brease.core.BaseWidget</Class>
+		</Inheritance>
+		<Parents>
+			<Parent>*</Parent>
+		</Parents>
+		<Children>
+		</Children>
+		<Methods>
+			<Method name="Close">
+				<Description>Closes the list</Description>
+			</Method>
+			<Method name="Open">
+				<Description>Opens the list</Description>
+			</Method>
+			<Method name="SetDataProvider">
+				<Description>method to set the dataProvider</Description>
+				<Arguments>
+					<Argument name="value" type="ItemCollection" index="0">
+						<Description>ItemCollection (=Array) of objects of type &lt;a href=&quot;#!/api/brease.objects.ListEntry&quot; rel=&quot;brease.objects.ListEntry&quot; class=&quot;docClass&quot;&gt;brease.objects.ListEntry&lt;/a&gt;</Description>
+					</Argument>
+					<Argument name="omitPrompt" type="Boolean" index="1">
+						<Description>(Supported values: true, false)</Description>
+					</Argument>
+				</Arguments>
+			</Method>
+			<Method name="SetEnable">
+				<Description>setter for binding of &apos;enable&apos;</Description>
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0">
+						<Description>State of &apos;enable&apos; (false = disabled, true = enabled)&lt;/p&gt;
+
+
+
+						</Description>
+					</Argument>
+				</Arguments>
+			</Method>
+			<Method name="SetSelectedIndex">
+				<Description>Sets the selected entry based on an index</Description>
+				<Arguments>
+					<Argument name="index" type="Number" index="0">
+					</Argument>
+					<Argument name="omitPrompt" type="Boolean" index="1">
+					</Argument>
+				</Arguments>
+			</Method>
+			<Method name="SetSelectedValue">
+				<Description>sets the selected entry based on a value</Description>
+				<Arguments>
+					<Argument name="value" type="String" index="0">
+					</Argument>
+					<Argument name="omitPrompt" type="Boolean" index="1">
+					</Argument>
+				</Arguments>
+			</Method>
+			<Method name="SetStyle">
+				<Arguments>
+					<Argument name="value" type="StyleReference" index="0">
+					</Argument>
+				</Arguments>
+			</Method>
+			<Method name="SetVisible">
+				<Description>Sets the visibility of the widget.</Description>
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0">
+						<Description>State of visibility (false = hide, true = show)&lt;/p&gt;
+
+
+
+						</Description>
+					</Argument>
+				</Arguments>
+			</Method>
+		</Methods>
+		<Events>
+			<Event name="Click">
+				<Description>Fired when element is clicked on.</Description>
+				<Arguments>
+					<Argument name="origin" type="String" index="0">
+						<Description>id of widget that triggered this event&lt;/p&gt;
+
+
+
+						</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="EnableChanged">
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0">
+						<Description>value reflects state of property &apos;enable&apos;.&lt;br/&gt;
+Fired when enabled state changes.&lt;/p&gt;
+
+
+
+						</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="SelectedIndexChanged">
+				<Arguments>
+					<Argument name="selectedIndex" type="Integer" index="0">
+					</Argument>
+					<Argument name="selectedValue" type="String" index="1">
+						<Description>Fired when index changes.</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="VisibleChanged">
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0">
+						<Description>value reflects state of property &apos;visible&apos;.&lt;br/&gt;
+Fired when visible state changes.&lt;/p&gt;
+
+
+
+						</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+		</Events>
+		<Properties>
+			<Property name="cropToParent" type="brease.enum.CropToParent" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="none">
+				<Description>Crop list to parent element
+				</Description>
+			</Property>
+			<Property name="dataProvider" type="ItemCollection" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="true" projectable="true" category="Data">
+				<Description>ItemCollection
+				</Description>
+			</Property>
+			<Property name="ellipsis" type="Boolean" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="false">
+				<Description>If true, overflow of text is symbolized with an ellipsis. This option has no effect, if wordWrap = true.
+				</Description>
+			</Property>
+			<Property name="enable" type="Boolean" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+				<Description>Initial option to enable widget.
+				</Description>
+			</Property>
+			<Property name="fitHeight2Items" type="Boolean" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+				<Description>If true, the height will fit to the necessary height if the height  oft the list is bigger
+If false, the list uses the configured height
+				</Description>
+			</Property>
+			<Property name="imageAlign" type="brease.enum.ImagePosition" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="left">
+				<Description>Position of images relative to text
+				</Description>
+			</Property>
+			<Property name="imagePath" type="DirectoryPath" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="">
+				<Description>Path to the images location (e.g. &apos;Media/images/&apos;).
+Names of the images must be given like the index in the dataProvider (e.g. 0.png, 1.png, 2.png)
+				</Description>
+			</Property>
+			<Property name="itemHeight" type="Integer" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="40">
+				<Description>Height of every item in the List
+				</Description>
+			</Property>
+			<Property name="listPosition" type="brease.enum.Position" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="right">
+				<Description>Position of opened list relative to ToggleButton.
+				</Description>
+			</Property>
+			<Property name="listWidth" type="Integer" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="150">
+				<Description>Width of list and its items when the widget is pressed.
+				</Description>
+			</Property>
+			<Property name="maxVisibleEntries" type="UInteger" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="4">
+				<Description>An integer to determine max-height of the list
+				</Description>
+			</Property>
+			<Property name="multiLine" type="Boolean" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="false">
+				<Description>If true, more than one line is possible. Text will wrap when necessary (wordWrap=true) or at line breaks (\n).
+If false, text will never wrap to the next line. The text continues on the same line.
+				</Description>
+			</Property>
+			<Property name="permissionOperate" type="RoleCollection" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Accessibility">
+				<Description>restricts operability to users, which have given roles
+				</Description>
+			</Property>
+			<Property name="permissionView" type="RoleCollection" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Accessibility">
+				<Description>restricts visibility to users, which have given roles
+				</Description>
+			</Property>
+			<Property name="selectedIndex" type="Integer" initOnly="false" localizable="false" editableBinding="true" readOnly="false" required="false" projectable="true" category="Data" defaultValue="0">
+				<Description>Index of the selected item. The first item has index=0
+				</Description>
+			</Property>
+			<Property name="selectedValue" type="String" initOnly="false" localizable="false" editableBinding="true" readOnly="false" required="false" projectable="true" category="Data" defaultValue="">
+				<Description>Value of the selected item
+				</Description>
+			</Property>
+			<Property name="style" type="StyleReference" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="default">
+				<Description>reference to a style for this widget type
+				</Description>
+			</Property>
+			<Property name="visible" type="Boolean" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+				<Description>change visibility
+				</Description>
+			</Property>
+			<Property name="wordWrap" type="Boolean" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="false">
+				<Description>If true, text will wrap when necessary.
+				</Description>
+			</Property>
+		</Properties>
+	<BindingTemplates>
+  <BindingTemplate id="DropDownData" widgetType="widgets/brease/DropDownBoxLegacy" >
+    <BindingMember mode="twoWay">
+      <SourceMember refId="$Source.selectedIndex" attribute="value" />
+      <TargetMember refId="$Target" attribute="selectedIndex" />
+    </BindingMember>
+    <BindingMember mode="oneWay">
+      <SourceMember refId="$Source.entryList" attribute="value" />
+      <TargetMember refId="$Target" attribute="dataProvider" />
+    </BindingMember>
+  </BindingTemplate>
+</BindingTemplates>
+<PropertyGroups>
+  <PropertyGroup name="Size" type="String" category="Layout">
+    <Description>outer height and width of widget</Description>
+  </PropertyGroup>
+  <PropertyGroup name="Position" type="String" category="Layout">
+    <Description>top and left of widget</Description>
+  </PropertyGroup>
+</PropertyGroups>
+<StyleProperties defaultStyle="default">
+  <StyleProperty name="width" type="Size" not_styleable="true" owner="widgets.brease.DropDownBoxLegacy" category="Layout" groupRefId="Size" groupOrder="1" default="100">
+    <StyleElement attribute="@include elemWidth($value)"/>
+    <Description>outer width of widget</Description>
+  </StyleProperty>
+  <StyleProperty name="height" type="Size" not_styleable="true" owner="widgets.brease.DropDownBoxLegacy" category="Layout" groupRefId="Size" groupOrder="2" default="30">
+    <StyleElement attribute="@include elemHeight($value)"/>
+    <Description>outer height of widget</Description>
+  </StyleProperty>
+  <StyleProperty name="top" type="Integer" not_styleable="true" owner="brease.core.BaseWidget" category="Layout" groupRefId="Position" groupOrder="1">
+    <StyleElement attribute="@include elemTop($value)"/>
+    <Description>absolute position measured from top boundary of parent container</Description>
+  </StyleProperty>
+  <StyleProperty name="left" type="Integer" not_styleable="true" owner="brease.core.BaseWidget" category="Layout" groupRefId="Position" groupOrder="2">
+    <StyleElement attribute="@include elemLeft($value)"/>
+    <Description>absolute position measured from left boundary of parent container</Description>
+  </StyleProperty>
+  <StyleProperty name="zIndex" type="UInteger" not_styleable="true" owner="brease.core.BaseWidget" category="Layout" required="true">
+    <StyleElement attribute="z-index"/>
+    <Description>The zIndex property specifies the z-order of a widget and its childs.&lt;br/&gt;&#xD;
+        When widgets overlap, z-order determines which one covers the other. A widget with a larger zIndex generally covers a widget with a lower one.&lt;br/&gt;&#xD;
+        The zIndex must be unique within a content.&lt;br/&gt;</Description>
+  </StyleProperty>
+  <StyleProperty name="listSeparatorColor" category="Appearance" type="Color" default="#000">
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul div" attribute="background"/>
+    <Description>Sets the color of the list separator</Description>
+  </StyleProperty>
+  <StyleProperty name="borderWidth" category="Appearance" type="PixelValCollection" default="2px">
+    <StyleElement selector=".breaseButton" attribute="border-width"/>
+    <Description>Sets the width of the border of the widget. For further information, please check its type</Description>
+  </StyleProperty>
+  <StyleProperty name="borderStyle" type="BorderStyle" category="Appearance" default="solid">
+    <StyleElement selector=".breaseButton" attribute="border-style"/>
+    <Description>Style of the Border of the widget</Description>
+  </StyleProperty>
+  <StyleProperty name="listBorderWidth" category="Appearance" type="PixelValCollection" default="2px">
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy" attribute="border-width"/>
+    <Description>Sets the width of the border around the drop-down list. For further information, please check its type</Description>
+  </StyleProperty>
+  <StyleProperty name="cornerRadius" category="Appearance" type="PixelValCollection" default="0px">
+    <StyleElement selector=".breaseButton" attribute="@include border-radius($value)"/>
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy" attribute="@include border-radius($value)"/>
+    <Description>Sets the radius of both widget and the drop-down list rounded corners. For further information, please check its type</Description>
+  </StyleProperty>
+  <StyleProperty name="backColor" category="Appearance" type="Color" default="#DBDBDB">
+    <StyleElement selector=".breaseButton:not(.disabled)" attribute="background-color"/>
+    <Description>Sets the background color of the widget</Description>
+  </StyleProperty>
+  <StyleProperty name="disabledBackColor" category="Appearance" type="Color" default="#F1F1F1">
+    <StyleElement selector="&amp;.disabled .breaseButton.disabled" attribute="background-color"/>
+    <StyleElement selector="&amp;.disabled:active .breaseButton.disabled" attribute="background-color"/>
+    <StyleElement selector="&amp;.disabled.checked .breaseButton.disabled" attribute="background-color"/>
+    <Description>Sets the background color when the widget is disabled</Description>
+  </StyleProperty>
+  <StyleProperty name="backGroundGradient" category="Appearance" type="Gradient" default="none">
+    <StyleElement selector=".breaseButton:not(.disabled)" attribute="background-image"/>
+    <Description>Background as a gradient</Description>
+  </StyleProperty>
+  <StyleProperty name="disabledBackGroundGradient" category="Appearance" type="Gradient" default="none">
+    <StyleElement selector="&amp;.disabled .breaseButton.disabled" attribute="background-image"/>
+    <StyleElement selector="&amp;.disabled:active .breaseButton.disabled" attribute="background-image"/>
+    <StyleElement selector="&amp;.disabled.checked .breaseButton.disabled" attribute="background-image"/>
+    <Description>Background as a gradient</Description>
+  </StyleProperty>
+  <StyleProperty name="listBackColor" category="Appearance" type="Color" default="#FFFFFF">
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li" attribute="background-color"/>
+    <Description>Sets the background color of the drop-down list</Description>
+  </StyleProperty>
+  <StyleProperty name="listBackGroundGradient" category="Appearance" type="Gradient" default="none">
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li" attribute="background-image"/>
+    <Description>Background as a gradient</Description>
+  </StyleProperty>
+  <StyleProperty name="borderColor" category="Appearance" type="ColorCollection" default="#5B7C70">
+    <StyleElement selector=".breaseButton:not(.disabled)" attribute="border-color"/>
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy" attribute="border-color"/>
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector="&amp;.list-right .arrow" attribute="border-right-color"/>
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector="&amp;.list-left .arrow" attribute="border-left-color"/>
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector="&amp;.list-top .arrow" attribute="border-top-color"/>
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector="&amp;.list-bottom .arrow" attribute="border-bottom-color"/>
+    <Description>Sets the border color of both the widget and the drop-down list</Description>
+  </StyleProperty>
+  <StyleProperty name="disabledBorderColor" category="Appearance" type="ColorCollection" default="#FFFFFF #C8C8C8 #C8C8C8 #FFFFFF">
+    <StyleElement selector="&amp;.disabled .breaseButton.disabled" attribute="border-color"/>
+    <StyleElement selector="&amp;.disabled .breaseButton.disabled:active" attribute="border-color"/>
+    <StyleElement selector="&amp;.disabled .breaseButton.disabled.checked" attribute="border-color"/>
+    <Description>Sets the border color when the widget is disabled</Description>
+  </StyleProperty>
+  <StyleProperty name="textColor" category="Appearance" type="Color" default="#000000">
+    <StyleElement selector=".breaseButton:not(.disabled) span" attribute="color"/>
+    <Description>Sets the color of the text displayed by the widget</Description>
+  </StyleProperty>
+  <StyleProperty name="listTextColor" category="Appearance" type="Color" default="#000000">
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li span" attribute="color"/>
+    <Description>Sets the color of the text of the drop-down list</Description>
+  </StyleProperty>
+  <StyleProperty name="disabledTextColor" category="Appearance" type="Color" default="#989898">
+    <StyleElement selector="&amp;.disabled .breaseButton.disabled span" attribute="color"/>
+    <Description>Sets the color of the text when the widget is disabled</Description>
+  </StyleProperty>
+  <StyleProperty name="activeBackColor" category="Appearance" type="Color" default="#ff8800">
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li.selected" attribute="background-color"/>
+    <Description>Sets the background color of the selected item in the drop-down list</Description>
+  </StyleProperty>
+  <StyleProperty name="activeBackGroundGradient" category="Appearance" type="Gradient" default="none">
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li.selected" attribute="background-image"/>
+    <Description>Background as a gradient</Description>
+  </StyleProperty>
+  <StyleProperty name="activeTextColor" category="Appearance" type="Color" default="#ffffff">
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li.selected span" attribute="color"/>
+    <Description>Sets the text color of the selected item in the drop-down list</Description>
+  </StyleProperty>
+  <StyleProperty name="textAlign" category="Appearance" type="brease.enum.TextAlign" default="center">
+    <StyleElement selector=".breaseButton" attribute="@include text-alignment($value)"/>
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li" attribute="@include text-alignment($value)"/>
+    <Description>Alignment of the text</Description>
+  </StyleProperty>
+  <StyleProperty name="opacity" category="Appearance" type="Opacity" default="1">
+    <StyleElement selector="" attribute="opacity"/>
+    <StyleElement idsuffix="_breaseDropDownListWrapper" attribute="opacity"/>
+    <Description>Opacity of the widget</Description>
+  </StyleProperty>
+  <StyleProperty name="fontSize" category="Font" type="PixelVal" default="12px">
+    <StyleElement selector=".breaseButton span" attribute="font-size"/>
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li span " attribute="font-size"/>
+    <Description>Fontsize of the text in pixel</Description>
+  </StyleProperty>
+  <StyleProperty name="fontName" category="Font" type="FontName" default="Arial">
+    <StyleElement selector=".breaseButton span" attribute="font-family"/>
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li span" attribute="font-family"/>
+    <Description>Fontname of the text</Description>
+  </StyleProperty>
+  <StyleProperty name="bold" category="Font" type="Boolean" default="true">
+    <StyleElement selector=".breaseButton span" attribute="@include font-weight-bold($value)"/>
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li span" attribute="@include font-weight-bold($value)"/>
+    <Description>If **true** font style is bold</Description>
+  </StyleProperty>
+  <StyleProperty name="italic" category="Font" type="Boolean" default="false">
+    <StyleElement selector=".breaseButton span" attribute="@include font-style-italic($value)"/>
+    <StyleElement idsuffix="_breaseDropDownListWrapper" selector=".breaseListBoxLegacy ul li span" attribute="@include font-style-italic($value)"/>
+    <Description>If **true** font style is italic</Description>
+  </StyleProperty>
+  <StyleProperty name="padding" category="Layout" type="Padding" default="0 10px">
+    <StyleElement selector=".breaseButton" attribute="padding"/>
+    <Description>Padding of the Widget</Description>
+  </StyleProperty>
+  <StyleProperty name="margin" category="Layout" type="Margin" default="0px">
+    <StyleElement attribute="margin"/>
+    <Description>Margin of the Widget</Description>
+  </StyleProperty>
+  <StyleProperty name="shadow" category="Appearance" type="Shadow" default="none">
+    <StyleElement selector=".breaseButton" attribute="@include box-shadow($value)"/>
+    <Description>Shadow of the Widget</Description>
+  </StyleProperty>
+  <StyleProperty name="mouseDownBorderColor" category="Appearance" type="ColorCollection" default="#FD7B01">
+    <StyleElement selector=".breaseButton.checked:not(.disabled)" attribute="border-color"/>
+    <StyleElement selector=".breaseButton:active:not(.disabled)" attribute="border-color"/>
+    <Description>Sets the border color of the widget when it is clicked and the drop-down list is displayed</Description>
+  </StyleProperty>
+  <StyleProperty name="mouseDownBorderWidth" category="Appearance" type="PixelValCollection" default="2px">
+    <StyleElement selector=".breaseButton.checked:not(.disabled)" attribute="border-width"/>
+    <StyleElement selector=".breaseButton:active:not(.disabled)" attribute="border-width"/>
+    <Description>Sets the border with of the widget when it is clicked and the drop-down list is displayed</Description>
+  </StyleProperty>
+  <StyleProperty name="mouseDownBackColor" category="Appearance" type="Color" default="#DBDBDB">
+    <StyleElement selector=".breaseButton.checked:not(.disabled)" attribute="background-color"/>
+    <StyleElement selector=".breaseButton:active:not(.disabled)" attribute="background-color"/>
+    <Description>Sets the background color of the widget when it is clicked and the drop-down list is displayed</Description>
+  </StyleProperty>
+  <StyleProperty name="mouseDownTextColor" category="Appearance" type="Color" default="#000000">
+    <StyleElement selector=".breaseButton.checked:not(.disabled) span" attribute="color"/>
+    <StyleElement selector=".breaseButton:active:not(.disabled) span" attribute="color"/>
+    <Description>Sets the text color of the widget when it is clicked and the drop-down list is displayed</Description>
+  </StyleProperty>
+  <StyleProperty name="mouseDownBackGroundGradient" category="Appearance" type="Gradient" default="none">
+    <StyleElement selector=".breaseButton.checked:not(.disabled)" attribute="background-image"/>
+    <StyleElement selector=".breaseButton.active:not(.disabled)" attribute="background-image"/>
+    <Description>Sets the text color of the widget when it is clicked and the drop-down list is displayed</Description>
+  </StyleProperty>
+</StyleProperties>
+</Widget>
+</WidgetLibrary>

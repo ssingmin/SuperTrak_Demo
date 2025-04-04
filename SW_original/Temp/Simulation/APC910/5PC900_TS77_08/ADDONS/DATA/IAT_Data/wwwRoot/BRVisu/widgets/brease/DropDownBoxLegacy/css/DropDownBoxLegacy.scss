@@ -1,0 +1,176 @@
+@import '../../../../css/libs/variables.scss';
+@import '../../../../css/libs/mixins.scss';
+
+$border-outer-color: #333;
+$border-inner-color: #535353;
+
+$options-bg-color-1: #FFF;
+$options-bg-color-2: $active-color;
+
+$text-color-1: #535353;
+$text-color-2: #FFF;
+
+.breaseDropDownBoxLegacy {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+
+    > ul {
+        display:none;
+    }
+    
+}
+
+.breaseDropDownListWrapper {
+        display: none;
+        position: absolute;
+        @include box-sizing(border-box);
+       
+        z-index: 800;
+        padding: 0;
+
+		&.list-right {
+
+			margin: 0 0 0 8px;
+			top: -25px;
+			left: 100%;
+
+			.arrow {
+				content: ' ';
+				position: absolute;
+				top: 27px;
+				left: -8px;
+				width: 0;
+				height: 0;
+				border-top: 8px solid transparent;
+				border-right: 8px solid $border-outer-color;
+				border-bottom: 8px solid transparent;
+				z-index: 1001;
+			}
+
+		}
+
+		&.list-left {
+			
+			margin: 0 8px 0 0;
+			top: -25px;
+			right: 100%;
+
+			.arrow {
+				content: ' ';
+				position: absolute;
+				top: 27px;
+				right: -8px;
+				width: 0;
+				height: 0;
+				border-bottom: 8px solid transparent;
+				border-left: 8px solid $border-outer-color;
+				border-top: 8px solid transparent;
+				z-index: 1001;
+			}
+
+		}
+
+		&.list-top {
+			
+			margin: 0 0 8px 0;
+			bottom: 100%;
+
+			.arrow {
+				content: ' ';
+				position: absolute;
+				bottom: -8px;
+				margin-top: 5px;
+				left: 50%;
+				margin-left: -8px;
+				width: 0;
+				height: 0;
+				border-right: 8px solid transparent;
+				border-top: 8px solid $border-outer-color;
+				border-left: 8px solid transparent;
+				z-index: 1001;
+			}
+
+			.breaseListBoxLegacy {
+				position: absolute;
+				bottom: 0px;
+                left: 50%;
+                transform: translate(-50%)
+			}
+
+		}
+
+		&.list-bottom {
+			
+			margin: 8px 0 0 0;
+			top: 100%;
+
+			.arrow {
+				content: ' ';
+				position: absolute;
+				top: -8px;
+				left: 50%;
+				margin-left: -8px;
+				width: 0;
+				height: 0;
+				border-right: 8px solid transparent;
+				border-bottom: 8px solid $border-outer-color;
+				border-left: 8px solid transparent;
+				z-index: 1001;
+			}
+
+            .breaseListBoxLegacy {
+                left: 50%;
+                transform: translate(-50%)
+            }
+
+		}
+
+		&.list-center {			
+			margin: 0 0 0 0;
+
+			.arrow {
+				display: none;
+			}
+
+            .breaseListBoxLegacy {
+                left: 50%;
+                transform: translate(-50%)
+            }
+		}
+
+		&.list-middle {			
+			margin: 0 0 0 0;
+
+			.arrow {
+				display: none;
+			}
+
+            .breaseListBoxLegacy {
+                left: 50%;
+                transform: translate(-50%)
+            }
+		}
+
+        &.top0 {
+            top: 0px;
+            .arrow {
+                top: 10px;
+            }
+        }
+
+	    &.bottom0
+	    {
+		    bottom: 0px;
+
+		    .arrow
+		    {
+			    top: auto;
+			    bottom: 10px;
+		    }
+	    }
+
+    .breaseListBoxLegacy {
+        position: relative;
+    }
+}

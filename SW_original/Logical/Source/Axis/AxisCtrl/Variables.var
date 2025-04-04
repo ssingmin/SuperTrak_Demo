@@ -1,0 +1,4 @@
+VAR
+	Max_Velocity : REAL;
+	Max_Acceleration : REAL;
+END_VAR

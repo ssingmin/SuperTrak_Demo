@@ -1,0 +1,45 @@
+@import "mixins.scss";
+#ContentDocumentation_PDFViewer1 {	@include elemTop(30);
+}
+#ContentDocumentation_PDFViewer1 {	@include elemLeft(200);
+}
+#ContentDocumentation_PDFViewer1 {	@include elemWidth(860);
+}
+#ContentDocumentation_PDFViewer1 {	@include elemHeight(610);
+}
+#ContentDocumentation_PDFViewer1 {	z-index: 0;
+}
+#ContentDocumentation_GroupBox1 {	@include elemTop(260);
+}
+#ContentDocumentation_GroupBox1 {	@include elemLeft(300);
+}
+#ContentDocumentation_GroupBox1 {	@include elemWidth(680);
+}
+#ContentDocumentation_GroupBox1 {	@include elemHeight(160);
+}
+#ContentDocumentation_GroupBox1 {	z-index: 1;
+}
+#ContentDocumentation_btnOk {	@include elemTop(83);
+}
+#ContentDocumentation_btnOk {	@include elemLeft(299);
+}
+#ContentDocumentation_btnOk {	@include elemAutoWidth(100);
+}
+#ContentDocumentation_btnOk {	@include elemAutoHeight(30);
+}
+#ContentDocumentation_btnOk {	z-index: 0;
+}
+#ContentDocumentation_Label3 {	@include elemTop(23);
+}
+#ContentDocumentation_Label3 {	@include elemLeft(19);
+}
+#ContentDocumentation_Label3 {	@include elemAutoWidth(621);
+}
+#ContentDocumentation_Label3 {	@include elemAutoHeight(40);
+}
+#ContentDocumentation_Label3 {	z-index: 1;
+}
+#ContentDocumentation_Label3 {	& span {
+		color: rgba(255, 0, 0, 1);
+	}
+}

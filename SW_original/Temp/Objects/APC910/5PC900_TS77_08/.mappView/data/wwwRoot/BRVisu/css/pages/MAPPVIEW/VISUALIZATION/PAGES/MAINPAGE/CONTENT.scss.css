@@ -1,0 +1,597 @@
+#ContentMainPage_btnEnableSystem {
+  top: 40px;
+  position: absolute;
+}
+
+#ContentMainPage_btnEnableSystem {
+  left: 380px;
+  position: absolute;
+}
+
+#ContentMainPage_btnEnableSystem {
+  width: 200px;
+}
+
+#ContentMainPage_btnEnableSystem {
+  height: 40px;
+}
+
+#ContentMainPage_btnEnableSystem {
+  z-index: 0;
+}
+
+#ContentMainPage_btnEnableSystem:not(.disabled) {
+  background-color: lime;
+}
+
+#ContentMainPage_btnEnableSystem.disabled {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnEnableSystem.disabled.active {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnEnableSystem.disabled.checked {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnDisableSystem {
+  top: 40px;
+  position: absolute;
+}
+
+#ContentMainPage_btnDisableSystem {
+  left: 720px;
+  position: absolute;
+}
+
+#ContentMainPage_btnDisableSystem {
+  width: 200px;
+}
+
+#ContentMainPage_btnDisableSystem {
+  height: 40px;
+}
+
+#ContentMainPage_btnDisableSystem {
+  z-index: 1;
+}
+
+#ContentMainPage_btnDisableSystem:not(.disabled) {
+  background-color: red;
+}
+
+#ContentMainPage_btnDisableSystem.disabled {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnDisableSystem.disabled.active {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnDisableSystem.disabled.checked {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_RadioButtonGroup1 {
+  top: 140px;
+  position: absolute;
+}
+
+#ContentMainPage_RadioButtonGroup1 {
+  left: 120px;
+  position: absolute;
+}
+
+#ContentMainPage_RadioButtonGroup1 {
+  width: 1060px;
+}
+
+#ContentMainPage_RadioButtonGroup1 {
+  height: 60px;
+}
+
+#ContentMainPage_RadioButtonGroup1 {
+  z-index: 2;
+}
+
+#ContentMainPage_btnMode1 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentMainPage_btnMode1 {
+  left: 20px;
+  position: absolute;
+}
+
+#ContentMainPage_btnMode1 {
+  width: 150px;
+}
+
+#ContentMainPage_btnMode1 {
+  height: 30px;
+}
+
+#ContentMainPage_btnMode1 {
+  z-index: 0;
+}
+
+#ContentMainPage_btnMode1.disabled {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnMode1.disabled.checked {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnMode1.disabled.active {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnMode2 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentMainPage_btnMode2 {
+  left: 460px;
+  position: absolute;
+}
+
+#ContentMainPage_btnMode2 {
+  width: 150px;
+}
+
+#ContentMainPage_btnMode2 {
+  height: 30px;
+}
+
+#ContentMainPage_btnMode2 {
+  z-index: 1;
+}
+
+#ContentMainPage_btnMode2.disabled {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnMode2.disabled.checked {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnMode2.disabled.active {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnMode3 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentMainPage_btnMode3 {
+  left: 880px;
+  position: absolute;
+}
+
+#ContentMainPage_btnMode3 {
+  width: 150px;
+}
+
+#ContentMainPage_btnMode3 {
+  height: 30px;
+}
+
+#ContentMainPage_btnMode3 {
+  z-index: 2;
+}
+
+#ContentMainPage_btnMode3.disabled {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnMode3.disabled.checked {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnMode3.disabled.active {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnStart {
+  top: 260px;
+  position: absolute;
+}
+
+#ContentMainPage_btnStart {
+  left: 380px;
+  position: absolute;
+}
+
+#ContentMainPage_btnStart {
+  width: 200px;
+}
+
+#ContentMainPage_btnStart {
+  height: 40px;
+}
+
+#ContentMainPage_btnStart {
+  z-index: 3;
+}
+
+#ContentMainPage_btnStart:not(.disabled) {
+  background-color: lime;
+}
+
+#ContentMainPage_btnStart.disabled {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnStart.disabled.active {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnStart.disabled.checked {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnStop {
+  top: 260px;
+  position: absolute;
+}
+
+#ContentMainPage_btnStop {
+  left: 720px;
+  position: absolute;
+}
+
+#ContentMainPage_btnStop {
+  width: 200px;
+}
+
+#ContentMainPage_btnStop {
+  height: 40px;
+}
+
+#ContentMainPage_btnStop {
+  z-index: 4;
+}
+
+#ContentMainPage_btnStop:not(.disabled) {
+  background-color: red;
+}
+
+#ContentMainPage_btnStop.disabled {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnStop.disabled.active {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_btnStop.disabled.checked {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#ContentMainPage_BasicSlider1 {
+  top: 355px;
+  position: absolute;
+}
+
+#ContentMainPage_BasicSlider1 {
+  left: 380px;
+  position: absolute;
+}
+
+#ContentMainPage_BasicSlider1 {
+  width: 520px;
+}
+
+#ContentMainPage_BasicSlider1 {
+  height: 60px;
+}
+
+#ContentMainPage_BasicSlider1 {
+  z-index: 5;
+}
+
+#ContentMainPage_BasicSlider2 {
+  top: 460px;
+  position: absolute;
+}
+
+#ContentMainPage_BasicSlider2 {
+  left: 380px;
+  position: absolute;
+}
+
+#ContentMainPage_BasicSlider2 {
+  width: 520px;
+}
+
+#ContentMainPage_BasicSlider2 {
+  height: 60px;
+}
+
+#ContentMainPage_BasicSlider2 {
+  z-index: 6;
+}
+
+#ContentMainPage_Label1 {
+  top: 380px;
+  position: absolute;
+}
+
+#ContentMainPage_Label1 {
+  left: 220px;
+  position: absolute;
+}
+
+#ContentMainPage_Label1 {
+  width: 140px;
+}
+
+#ContentMainPage_Label1 {
+  height: 30px;
+}
+
+#ContentMainPage_Label1 {
+  z-index: 7;
+}
+
+#ContentMainPage_Label2 {
+  top: 473px;
+  position: absolute;
+}
+
+#ContentMainPage_Label2 {
+  left: 220px;
+  position: absolute;
+}
+
+#ContentMainPage_Label2 {
+  width: 140px;
+}
+
+#ContentMainPage_Label2 {
+  height: 55px;
+}
+
+#ContentMainPage_Label2 {
+  z-index: 8;
+}
+
+#ContentMainPage_NumericOutput1 {
+  top: 380px;
+  position: absolute;
+}
+
+#ContentMainPage_NumericOutput1 {
+  left: 940px;
+  position: absolute;
+}
+
+#ContentMainPage_NumericOutput1 {
+  width: 120px;
+}
+
+#ContentMainPage_NumericOutput1 {
+  height: 30px;
+}
+
+#ContentMainPage_NumericOutput1 {
+  z-index: 9;
+}
+
+#ContentMainPage_NumericOutput2 {
+  top: 485px;
+  position: absolute;
+}
+
+#ContentMainPage_NumericOutput2 {
+  left: 940px;
+  position: absolute;
+}
+
+#ContentMainPage_NumericOutput2 {
+  width: 120px;
+}
+
+#ContentMainPage_NumericOutput2 {
+  height: 30px;
+}
+
+#ContentMainPage_NumericOutput2 {
+  z-index: 10;
+}
+
+#ContentMainPage_GroupBox1 {
+  top: 240px;
+  position: absolute;
+}
+
+#ContentMainPage_GroupBox1 {
+  left: 320px;
+  position: absolute;
+}
+
+#ContentMainPage_GroupBox1 {
+  width: 680px;
+}
+
+#ContentMainPage_GroupBox1 {
+  height: 160px;
+}
+
+#ContentMainPage_GroupBox1 {
+  z-index: 12;
+}
+
+#ContentMainPage_btnOk {
+  top: 83px;
+  position: absolute;
+}
+
+#ContentMainPage_btnOk {
+  left: 299px;
+  position: absolute;
+}
+
+#ContentMainPage_btnOk {
+  width: 100px;
+}
+
+#ContentMainPage_btnOk {
+  height: 30px;
+}
+
+#ContentMainPage_btnOk {
+  z-index: 0;
+}
+
+#ContentMainPage_Label3 {
+  top: 23px;
+  position: absolute;
+}
+
+#ContentMainPage_Label3 {
+  left: 19px;
+  position: absolute;
+}
+
+#ContentMainPage_Label3 {
+  width: 621px;
+}
+
+#ContentMainPage_Label3 {
+  height: 40px;
+}
+
+#ContentMainPage_Label3 {
+  z-index: 1;
+}
+
+#ContentMainPage_Label3 {
+  color: red;
+}
+
+#ContentMainPage_GroupBox2 {
+  top: 240px;
+  position: absolute;
+}
+
+#ContentMainPage_GroupBox2 {
+  left: 320px;
+  position: absolute;
+}
+
+#ContentMainPage_GroupBox2 {
+  width: 680px;
+}
+
+#ContentMainPage_GroupBox2 {
+  height: 160px;
+}
+
+#ContentMainPage_GroupBox2 {
+  z-index: 13;
+}
+
+#ContentMainPage_btnOkHome {
+  top: 83px;
+  position: absolute;
+}
+
+#ContentMainPage_btnOkHome {
+  left: 299px;
+  position: absolute;
+}
+
+#ContentMainPage_btnOkHome {
+  width: 100px;
+}
+
+#ContentMainPage_btnOkHome {
+  height: 30px;
+}
+
+#ContentMainPage_btnOkHome {
+  z-index: 0;
+}
+
+#ContentMainPage_Label5 {
+  top: 23px;
+  position: absolute;
+}
+
+#ContentMainPage_Label5 {
+  left: 19px;
+  position: absolute;
+}
+
+#ContentMainPage_Label5 {
+  width: 621px;
+}
+
+#ContentMainPage_Label5 {
+  height: 40px;
+}
+
+#ContentMainPage_Label5 {
+  z-index: 1;
+}
+
+#ContentMainPage_Label5 {
+  color: red;
+}
+
+#ContentMainPage_TextOutput1 {
+  top: 580px;
+  position: absolute;
+}
+
+#ContentMainPage_TextOutput1 {
+  left: 380px;
+  position: absolute;
+}
+
+#ContentMainPage_TextOutput1 {
+  width: 540px;
+}
+
+#ContentMainPage_TextOutput1 {
+  height: 30px;
+}
+
+#ContentMainPage_TextOutput1 {
+  z-index: 11;
+}
+
+#ContentMainPage_TextOutput1 {
+  border-width: 1px;
+}
+
+#ContentMainPage_TextOutput1 {
+  border-style: solid;
+}
+
+#ContentMainPage_TextOutput1:before {
+  border-style: solid;
+}
+
+#ContentMainPage_TextOutput1:after {
+  border-style: solid;
+}
+
+#ContentMainPage_TextOutput1 {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}

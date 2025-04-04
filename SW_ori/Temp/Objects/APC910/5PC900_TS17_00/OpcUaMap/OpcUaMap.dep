@@ -1,0 +1,10 @@
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAxis/MpAxis.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAxis/MpAxis.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/Source/SOURCE.var
+$(AS_PROJECT_PATH)/Logical/Source/SuperTrak/ST_Logic/Variables.var
+$(AS_PROJECT_PATH)/Physical/APC910/5PC900_TS17_00/Cpu.sw
+$(AS_PROJECT_PATH)/Logical/Source/SuperTrak/ST_Logic/Types.typ
+$(AS_PROJECT_PATH)/Logical/Source/Axis/AxisCtrl/Variables.var
+$(AS_PROJECT_PATH)/Physical/APC910/5PC900_TS17_00/AccessAndSecurity/UserRoleSystem/Role.role
